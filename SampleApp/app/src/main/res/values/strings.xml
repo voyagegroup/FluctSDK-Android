@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SampleFluctSDKApp</string>
+    <string name="button_interstitial">Interstitial</string>
+</resources>

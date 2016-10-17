@@ -1,15 +1,38 @@
-# FluctSDK
+# fluct 広告配信 SDK for Android
 
-## Installation
-* [fluct広告配信SDK導入仕様書(Android).pdf](https://github.com/voyagegroup/FluctSDK-Android/blob/master/fluct%E5%BA%83%E5%91%8A%E9%85%8D%E4%BF%A1SDK%E5%B0%8E%E5%85%A5%E4%BB%95%E6%A7%98%E6%9B%B8(Android).pdf)をご確認下さい
+## 前提条件
+* Android Studio 1.0 以降
+* Android レベル 9 (Gingerbread) 以降
 
-# FluctSDK Release Note
+## 導入
+以下のいずれかを参照してください
+* [fluct 広告配信 SDK for Android 簡易導入ガイド](HOW-TO-SETUP.md)
+* [fluct 広告配信 SDK for Android 導入仕様書 (PDF)](fluct広告配信SDK導入仕様書.pdf)
 
-## v3.2.2 2016/01/15
-* GitHub上で公開
+## 旧バージョンからの移行
+* [旧バージョンからの移行ガイド](MIGRATION-GUIDE.md)
 
-## v3.2.2 以前の変更点について
-* [fluct広告配信SDK導入仕様書(Android).pdf](https://github.com/voyagegroup/FluctSDK-Android/blob/master/fluct%E5%BA%83%E5%91%8A%E9%85%8D%E4%BF%A1SDK%E5%B0%8E%E5%85%A5%E4%BB%95%E6%A7%98%E6%9B%B8(Android).pdf)をご確認下さい
+## 最新リリースノート
 
+### v4.0.0 - 2016/10/17
+
+#### 新規追加
+* FluctView コールバック
+
+#### 変更
+* 主開発環境を Android Studio
+* ライブラリファイル形式を Android Library (.AAR)
+* ライブラリ提供方式を リモート maven リポジトリ
+* FluctSDK クラスパス
+* FluctInterstitial コールバック
+
+## 以前の変更点について
+* [改版履歴](RELEASES.md)をご確認下さい。
+
+## JAR 提供について
+v4.0.0 より提供するライブラリファイル形式を変更させていただきました。<br/>
+もし .JAR ファイルにて fluct 広告配信 SDK for Android を提供して欲しい場合は、弊社営業担当までご連絡ください。
+
+---
 ## LICENSE
 Copyright fluct, Inc. All rights reserved.
