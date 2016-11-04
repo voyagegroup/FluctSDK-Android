@@ -21,8 +21,6 @@ android {
 
 dependencies {
     repositories {
-        mavenLocal()
-
         // FluctSDK maven repository
         maven {
             url 'https://raw.github.com/voyagegroup/FluctSDK-Android/master/m2/repository/'
