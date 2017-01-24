@@ -36,6 +36,10 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".BannerActivity" />
+        <activity android:name=".InterstitialActivity" />
+        <activity android:name=".InfeedActivity" />
+
     </application>
 
 </manifest>

@@ -5,6 +5,13 @@ FluctSDK-Androidの[Wiki](https://github.com/voyagegroup/FluctSDK-Android/wiki)�
 
 # FluctSDK Release Note
 
+## v4.2.0 2017/1/24
+
+### 変更
+* 対応OSバージョンをAndroid4.0.0以上に更新
+* サンプルプロジェクトにListViewへの対応方法を追加
+* 細かい不具合の修正
+
 ## v4.1.0 2016/12/13
 
 ### 変更
