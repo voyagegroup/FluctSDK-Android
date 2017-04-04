@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">KotlinSampleApp</string>
+    <string name="button_interstitial">Interstitial</string>
+
+    <string name="main_manu_banner">バナー広告</string>
+    <string name="main_manu_interstitial">インタースティシャル広告</string>
+    <string name="main_manu_infeed">インフィード広告</string>
+</resources>

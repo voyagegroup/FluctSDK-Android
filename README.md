@@ -5,6 +5,15 @@ FluctSDK-Androidの[Wiki](https://github.com/voyagegroup/FluctSDK-Android/wiki)�
 
 # FluctSDK Release Note
 
+## v4.3.0 2017/4/4
+
+### 新規追加
+* FluctAdBanner.ErrorTypeに、広告が取得できなかった場合の `NoAd` を追加
+* サンプルにKotlin言語プロジェクトを追加
+
+### 変更
+* 細かい不具合の修正
+
 ## v4.2.0 2017/1/24
 
 ### 変更
