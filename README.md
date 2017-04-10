@@ -5,6 +5,11 @@ FluctSDK-Androidの[Wiki](https://github.com/voyagegroup/FluctSDK-Android/wiki)�
 
 # FluctSDK Release Note
 
+## v4.3.1 2017/4/10
+
+### 変更
+* 広告表示前に画面を閉じるとクラッシュする不具合の対応
+
 ## v4.3.0 2017/4/4
 
 ### 新規追加
