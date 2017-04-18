@@ -5,6 +5,11 @@ FluctSDK-Androidの[Wiki](https://github.com/voyagegroup/FluctSDK-Android/wiki)�
 
 # FluctSDK Release Note
 
+## v4.3.2 2017/4/17
+
+### 変更
+* 細かい不具合の修正
+
 ## v4.3.1 2017/4/10
 
 ### 変更

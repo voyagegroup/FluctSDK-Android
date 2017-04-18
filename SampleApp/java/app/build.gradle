@@ -38,7 +38,7 @@ dependencies {
     testCompile 'junit:junit:4.12'
 
     // FluctSDK
-    compile 'jp.fluct:FluctSDK:4.3.1'
+    compile 'jp.fluct:FluctSDK:4.3.2'
 
     // Google play services - base
     compile 'com.google.android.gms:play-services-base:9.8.0'
