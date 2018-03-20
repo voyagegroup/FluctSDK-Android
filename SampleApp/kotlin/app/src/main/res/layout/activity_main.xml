@@ -55,5 +55,18 @@
             android:text="@string/main_manu_infeed"
             android:textColor="@color/menuText" />
 
+        <!-- 動画リワード広告 -->
+
+        <Button
+            android:id="@+id/btn_rewardedvideo"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:background="@color/menuBackground"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:text="動画リワード広告"
+            android:textColor="@color/menuText" />
+
     </LinearLayout>
 </ScrollView>

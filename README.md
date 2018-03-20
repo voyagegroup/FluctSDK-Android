@@ -5,6 +5,15 @@ FluctSDK-Androidの[Wiki](https://github.com/voyagegroup/FluctSDK-Android/wiki)�
 
 # FluctSDK Release Note
 
+## v4.4.0 2018/3/20
+
+### 新規追加
+* 動画リワード広告のサポートを追加
+* 動画リワード広告の導入・実装についてのドキュメントを追加
+
+### 変更
+* 対応OSバージョンを Android 4.1 Jelly Bean 以上に更新
+
 ## v4.3.2 2017/4/17
 
 ### 変更
@@ -27,7 +36,7 @@ FluctSDK-Androidの[Wiki](https://github.com/voyagegroup/FluctSDK-Android/wiki)�
 ## v4.2.0 2017/1/24
 
 ### 変更
-* 対応OSバージョンをAndroid4.0.0以上に更新
+* 対応OSバージョンを Android 4.0 Ice Cream Sandwich 以上に更新
 * サンプルプロジェクトにListViewへの対応方法を追加
 * 細かい不具合の修正
 

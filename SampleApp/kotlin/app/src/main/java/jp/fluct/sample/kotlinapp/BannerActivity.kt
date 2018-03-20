@@ -14,7 +14,7 @@ class BannerActivity : AppCompatActivity() {
     }
 
     private fun setupBanner() {
-        val banner = findViewById(R.id.banner) as FluctAdBanner
+        val banner = findViewById<FluctAdBanner>(R.id.banner)
         banner.setCallbacks(object : FluctAdBanner.Callbacks {
             override fun onDisplayDone() {
                 // 広告が表示されたときの処理を記述（任意）

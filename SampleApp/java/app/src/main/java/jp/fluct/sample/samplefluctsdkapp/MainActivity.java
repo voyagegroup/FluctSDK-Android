@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.btn_banner).setOnClickListener(this);
         findViewById(R.id.btn_interstitial).setOnClickListener(this);
         findViewById(R.id.btn_infeed).setOnClickListener(this);
+        findViewById(R.id.btn_rewardedvideo).setOnClickListener(this);
     }
 
     @Override
@@ -35,6 +36,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_infeed:
                 intent = new Intent(this, InfeedActivity.class);
+                break;
+            case R.id.btn_rewardedvideo:
+                intent = new Intent(this, RewardedVideoActivity.class);
                 break;
         }
 

@@ -22,6 +22,7 @@
         <activity android:name=".InfeedActivity" />
         <activity android:name=".BannerActivity" />
         <activity android:name=".InterstitialActivity" />
+        <activity android:name=".RewardedVideoActivity" />
 
         <!-- Required Activity definition for using FluctInterstitial -->
         <activity
@@ -29,6 +30,21 @@
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:launchMode="singleTask"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <!-- Required Activity definition for using maio sdk -->
+        <activity
+            android:name="jp.maio.sdk.android.AdFullscreenActivity"
+            android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize"
+            android:hardwareAccelerated="true"
+            android:label="maiosdk"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <data android:scheme="jp.maio.sdk.android"/>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+        </activity>
 
         <!-- Required Google play services definition for using FluctSDK -->
         <meta-data

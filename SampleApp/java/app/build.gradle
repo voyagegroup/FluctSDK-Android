@@ -1,12 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 24
-    buildToolsVersion "24.0.2"
+    compileSdkVersion 27
+    buildToolsVersion '27.0.3'
     defaultConfig {
         applicationId "jp.fluct.sample.samplefluctsdkapp"
         minSdkVersion 14
-        targetSdkVersion 24
+        targetSdkVersion 27
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -19,27 +19,43 @@ android {
     }
 }
 
-dependencies {
-    repositories {
-        // FluctSDK maven repository
-        maven {
-            url 'https://raw.github.com/voyagegroup/FluctSDK-Android/master/m2/repository/'
-        }
-
-        mavenLocal()
+repositories {
+    // FluctSDK maven repository
+    maven {
+        url 'https://raw.github.com/voyagegroup/FluctSDK-Android/master/m2/repository/'
     }
+}
 
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+dependencies {
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    compile 'com.android.support:support-v4:24.2.1'
-    compile 'com.android.support:appcompat-v7:24.2.1'
-    testCompile 'junit:junit:4.12'
+    implementation 'com.android.support:support-v4:27.0.2'
+    implementation 'com.android.support:appcompat-v7:27.0.2'
+    testImplementation 'junit:junit:4.12'
 
     // FluctSDK
-    compile 'jp.fluct:FluctSDK:4.3.2'
+    implementation 'jp.fluct:FluctSDK:4.4.0'
+    implementation 'jp.fluct.mediation:rewardedvideo-mediation-applovin:1.0.0'
+    implementation 'jp.fluct.mediation:rewardedvideo-mediation-maio:1.0.0'
+    implementation 'jp.fluct.mediation:rewardedvideo-mediation-nend:1.0.0'
+    implementation 'jp.fluct.mediation:rewardedvideo-mediation-unityads:1.0.0'
+
+    // AppLovin SDK
+    implementation 'com.applovin:applovin-sdk:7.8.5'
+
+    // maio SDK
+    implementation 'com.maio:android-sdk:1.0.7'
+
+    // nend SDK
+    implementation 'net.nend.android:nend-sdk:4.0.4'
+
+    // UnityAds SDK
+    implementation 'com.unity3d.ads:unity-ads:2.2.0'
 
     // Google play services - base
-    compile 'com.google.android.gms:play-services-base:9.8.0'
+    implementation 'com.google.android.gms:play-services-base:11.8.0'
 }

@@ -68,7 +68,7 @@ class InterstitialActivity : AppCompatActivity() {
             }
         })
 
-        val button = findViewById(R.id.interstitial) as Button
+        val button = findViewById<Button>(R.id.interstitial)
         button.setOnClickListener {
             interstitial?.showInterstitialAd()
         }

@@ -5,5 +5,6 @@
     <string name="main_manu_banner">バナー広告</string>
     <string name="main_manu_interstitial">インタースティシャル広告</string>
     <string name="main_manu_infeed">インフィード広告</string>
+    <string name="main_manu_rewardedvideo">動画リワード広告</string>
 
 </resources>

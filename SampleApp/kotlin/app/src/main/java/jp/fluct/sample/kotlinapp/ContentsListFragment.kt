@@ -15,9 +15,9 @@ class ContentsListFragment : Fragment() {
 
     private var contentsRecyclerView: RecyclerView? = null
 
-    override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?, savedInstanceState: Bundle?): View {
-        val layout = inflater!!.inflate(R.layout.fragment_contents_list, container, false)
-        contentsRecyclerView = layout.findViewById(R.id.content_list) as RecyclerView
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+        val layout = inflater.inflate(R.layout.fragment_contents_list, container, false)
+        contentsRecyclerView = layout.findViewById<RecyclerView>(R.id.content_list)
 
         return layout
     }
@@ -26,8 +26,8 @@ class ContentsListFragment : Fragment() {
         super.onActivityCreated(savedInstanceState)
 
         val listContents: MutableList<ListModel> = generateContents() as MutableList<ListModel>
-        val listView = view!!.findViewById(R.id.content_list) as RecyclerView
-        val adapter = ContentsListAdapter(activity.applicationContext, listContents)
+        val listView = view!!.findViewById<RecyclerView>(R.id.content_list)
+        val adapter = ContentsListAdapter(activity!!.applicationContext, listContents)
 
         // Fluct広告を入れる
         val sizeType = FluctAdBanner.SizeType.BANNER
@@ -120,7 +120,7 @@ class ContentsListFragment : Fragment() {
     class AdViewHolder(view: View) : BaseViewHolder(view)
 
     class ContentViewHolder(view: View) : BaseViewHolder(view) {
-        var index: TextView? = view.findViewById(R.id.list_index) as TextView
-        var name: TextView? = view.findViewById(R.id.list_name) as TextView
+        var index: TextView? = view.findViewById<TextView>(R.id.list_index)
+        var name: TextView? = view.findViewById<TextView>(R.id.list_name)
     }
 }
