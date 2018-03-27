@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    package="jp.fluct.sample.samplefluctsdkapp">
+          xmlns:tools="http://schemas.android.com/tools"
+          package="jp.fluct.sample.samplefluctsdkapp">
 
     <!-- FluctSDK using permission -->
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    
     <application
         android:allowBackup="true"
         android:fullBackupContent="false"
@@ -19,7 +20,7 @@
         <!-- Required Google play services definition for using FluctSDK -->
         <meta-data
             android:name="com.google.android.gms.version"
-            android:value="@integer/google_play_services_version" />
+            android:value="@integer/google_play_services_version"/>
 
         <!-- Required Activity definition for using FluctInterstitial -->
         <activity
@@ -29,14 +30,14 @@
             android:theme="@android:style/Theme.Translucent.NoTitleBar"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".BannerActivity" />
-        <activity android:name=".InterstitialActivity" />
-        <activity android:name=".InfeedActivity" />
+        <activity android:name=".BannerActivity"/>
+        <activity android:name=".InterstitialActivity"/>
+        <activity android:name=".InfeedActivity"/>
         <activity android:name=".RewardedVideoActivity"></activity>
 
         <!-- Required Activity definition for using maio sdk -->
@@ -45,12 +46,12 @@
             android:label="maiosdk"
             android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize"
             android:hardwareAccelerated="true"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
             <intent-filter>
                 <data android:scheme="jp.maio.sdk.android"/>
-                <action android:name="android.intent.action.VIEW" />
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.BROWSABLE" />
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
             </intent-filter>
         </activity>
     </application>

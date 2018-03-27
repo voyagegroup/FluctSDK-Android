@@ -23,8 +23,8 @@ class RewardedVideoActivity : AppCompatActivity() {
 
         stateTextView = findViewById<TextView>(R.id.state_textview)
 
-        val groupID = "YOUR_GROUP_ID"
-        val unitID = "YOUR_UNIT_ID"
+        val groupID = "1000090271"
+        val unitID = "1000135434"
 
         val settings = FluctRewardedVideoSettings.Builder()
                 .testMode(true)
@@ -32,7 +32,7 @@ class RewardedVideoActivity : AppCompatActivity() {
                 .build()
 
         rewardedVideo = FluctRewardedVideo.getInstance(groupID, unitID, this, settings)
-        rewardedVideo?.setListener(object: FluctRewardedVideo.Listener {
+        rewardedVideo?.setListener(object : FluctRewardedVideo.Listener {
             // 広告読み込み完了
             override fun onLoaded(groupId: String?, unitId: String?) {
                 showButton?.isEnabled = true

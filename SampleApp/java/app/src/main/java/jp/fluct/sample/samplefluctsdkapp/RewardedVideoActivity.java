@@ -23,8 +23,8 @@ public class RewardedVideoActivity extends AppCompatActivity {
 
         stateTextView = (TextView) findViewById(R.id.state_textview);
 
-        String groupID = "YOUR_GROUP_ID";
-        String unitID = "YOUR_UNIT_ID";
+        String groupID = "1000090271";
+        String unitID = "1000135434";
 
         FluctRewardedVideoSettings settings = new FluctRewardedVideoSettings.Builder()
                 .testMode(true)

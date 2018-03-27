@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="jp.fluct.sample.kotlinapp">
+          package="jp.fluct.sample.kotlinapp">
 
     <!-- FluctSDK using permission -->
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
     <application
         android:allowBackup="true"
@@ -14,22 +15,22 @@
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".InfeedActivity" />
-        <activity android:name=".BannerActivity" />
-        <activity android:name=".InterstitialActivity" />
-        <activity android:name=".RewardedVideoActivity" />
+        <activity android:name=".InfeedActivity"/>
+        <activity android:name=".BannerActivity"/>
+        <activity android:name=".InterstitialActivity"/>
+        <activity android:name=".RewardedVideoActivity"/>
 
         <!-- Required Activity definition for using FluctInterstitial -->
         <activity
             android:name="jp.fluct.fluctsdk.FluctInterstitialActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:launchMode="singleTask"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
 
         <!-- Required Activity definition for using maio sdk -->
         <activity
@@ -37,19 +38,19 @@
             android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize"
             android:hardwareAccelerated="true"
             android:label="maiosdk"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
             <intent-filter>
                 <data android:scheme="jp.maio.sdk.android"/>
-                <action android:name="android.intent.action.VIEW" />
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.BROWSABLE" />
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
             </intent-filter>
         </activity>
 
         <!-- Required Google play services definition for using FluctSDK -->
         <meta-data
             android:name="com.google.android.gms.version"
-            android:value="@integer/google_play_services_version" />
+            android:value="@integer/google_play_services_version"/>
     </application>
 
 </manifest>
