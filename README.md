@@ -5,6 +5,11 @@ FluctSDK-Androidの[Wiki](https://github.com/voyagegroup/FluctSDK-Android/wiki)�
 
 # FluctSDK Release Note
 
+## 2018/4/17
+### FluctSDK v4.5.0
+#### 新規追加
+* 動画リワード広告配信のターゲティングにユーザー属性を利用する機能を追加
+
 ## 2018/3/27
 ### FluctSDK v4.4.1
 #### 新規追加
