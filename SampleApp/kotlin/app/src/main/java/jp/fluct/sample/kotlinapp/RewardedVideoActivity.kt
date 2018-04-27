@@ -8,6 +8,7 @@ import jp.fluct.fluctsdk.FluctAdRequestTargeting
 import jp.fluct.fluctsdk.FluctErrorCode
 import jp.fluct.fluctsdk.FluctRewardedVideo
 import jp.fluct.fluctsdk.FluctRewardedVideoSettings
+import java.util.*
 
 /**
  * Created by t-sei on 2018/02/14.
@@ -77,6 +78,8 @@ class RewardedVideoActivity : AppCompatActivity() {
             val targeting = FluctAdRequestTargeting()
             val userID = "APP_USER_ID"
             targeting.setUserId(userID)
+            targeting.gender = FluctAdRequestTargeting.FluctGender.MALE
+            targeting.birthday = GregorianCalendar(1988, 1, 1).time
             rewardedVideo?.loadAd(targeting)
             updateStateTextView("Loading")
         }

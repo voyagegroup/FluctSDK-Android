@@ -38,7 +38,7 @@ dependencies {
     testImplementation 'junit:junit:4.12'
 
     // FluctSDK
-    implementation 'jp.fluct:FluctSDK:4.5.0'
+    implementation 'jp.fluct:FluctSDK:4.5.1'
     implementation 'jp.fluct.mediation:rewardedvideo-mediation-applovin:1.1.0'
     implementation 'jp.fluct.mediation:rewardedvideo-mediation-maio:1.1.0'
     implementation 'jp.fluct.mediation:rewardedvideo-mediation-nend:1.1.0'

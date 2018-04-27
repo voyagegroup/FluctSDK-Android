@@ -5,6 +5,11 @@ FluctSDK-Androidの[Wiki](https://github.com/voyagegroup/FluctSDK-Android/wiki)�
 
 # FluctSDK Release Note
 
+## 2018/4/27
+### FluctSDK v4.5.1
+#### 不具合修正
+* 広告配信のターゲティング情報を付与した場合、nendの動画リワード広告が配信出来ない不具合の対応
+
 ## 2018/4/17
 ### FluctSDK v4.5.0
 #### 新規追加

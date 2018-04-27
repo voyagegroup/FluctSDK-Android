@@ -6,6 +6,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import java.util.GregorianCalendar;
+
 import jp.fluct.fluctsdk.FluctAdRequestTargeting;
 import jp.fluct.fluctsdk.FluctErrorCode;
 import jp.fluct.fluctsdk.FluctRewardedVideo;
@@ -25,6 +27,7 @@ public class RewardedVideoActivity extends AppCompatActivity {
 
         String groupID = "1000090271";
         String unitID = "1000135434";
+
 
         FluctRewardedVideoSettings settings = new FluctRewardedVideoSettings.Builder()
                 .testMode(true)
@@ -97,6 +100,8 @@ public class RewardedVideoActivity extends AppCompatActivity {
                 FluctAdRequestTargeting targeting = new FluctAdRequestTargeting();
                 String userID = "APP_USER_ID";
                 targeting.setUserId(userID);
+                targeting.setGender(FluctAdRequestTargeting.FluctGender.MALE);
+                targeting.setBirthday(new GregorianCalendar(1988, 1, 1).getTime());
                 rewardedVideo.loadAd(targeting);
                 updateStateText("Loading");
             }
