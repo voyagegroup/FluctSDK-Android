@@ -5,6 +5,11 @@ FluctSDK-Androidの[Wiki](https://github.com/voyagegroup/FluctSDK-Android/wiki)�
 
 # FluctSDK Release Note
 
+## 2018/5/07
+### FluctSDK v4.5.2
+#### 不具合修正
+* FluctRewardedVideo.Listenerの `onClosed` の挙動を修正
+
 ## 2018/4/27
 ### FluctSDK v4.5.1
 #### 不具合修正
