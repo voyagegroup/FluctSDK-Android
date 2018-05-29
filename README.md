@@ -5,6 +5,11 @@ FluctSDK-Androidの[Wiki](https://github.com/voyagegroup/FluctSDK-Android/wiki)�
 
 # FluctSDK Release Note
 
+## 2018/5/29
+### 動画リワードメディエーションアダプター v1.1.1
+#### 不具合修正
+* UnityAdsに動画リワード広告キャンペーンが存在しない場合、タイムアウトまで待ってしまうバグの修正
+
 ## 2018/5/07
 ### FluctSDK v4.5.2
 #### 不具合修正
@@ -17,6 +22,10 @@ FluctSDK-Androidの[Wiki](https://github.com/voyagegroup/FluctSDK-Android/wiki)�
 
 ## 2018/4/17
 ### FluctSDK v4.5.0
+#### 新規追加
+* 動画リワード広告配信のターゲティングにユーザー属性を利用する機能を追加
+
+### 動画リワードメディエーションアダプター v1.1.0
 #### 新規追加
 * 動画リワード広告配信のターゲティングにユーザー属性を利用する機能を追加
 

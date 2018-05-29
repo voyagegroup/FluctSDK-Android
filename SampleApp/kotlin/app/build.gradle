@@ -38,10 +38,10 @@ dependencies {
 
     // FluctSDK
     implementation 'jp.fluct:FluctSDK:4.5.2'
-    implementation 'jp.fluct.mediation:rewardedvideo-mediation-applovin:1.1.0'
-    implementation 'jp.fluct.mediation:rewardedvideo-mediation-maio:1.1.0'
-    implementation 'jp.fluct.mediation:rewardedvideo-mediation-nend:1.1.0'
-    implementation 'jp.fluct.mediation:rewardedvideo-mediation-unityads:1.1.0'
+    implementation 'jp.fluct.mediation:rewardedvideo-mediation-applovin:1.1.1'
+    implementation 'jp.fluct.mediation:rewardedvideo-mediation-maio:1.1.1'
+    implementation 'jp.fluct.mediation:rewardedvideo-mediation-nend:1.1.1'
+    implementation 'jp.fluct.mediation:rewardedvideo-mediation-unityads:1.1.1'
 
     // AppLovin SDK
     implementation 'com.applovin:applovin-sdk:7.8.5'
