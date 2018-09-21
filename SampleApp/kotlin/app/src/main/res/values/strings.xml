@@ -5,4 +5,12 @@
     <string name="main_manu_banner">バナー広告</string>
     <string name="main_manu_interstitial">インタースティシャル広告</string>
     <string name="main_manu_infeed">インフィード広告</string>
+    <string name="main_menu_rewardedvideo">動画リワード広告</string>
+    <string name="main_menu_ncr">ネイティブ広告</string>
+    <string name="native_menu_simple">SimpleView</string>
+    <string name="native_menu_recycler">RecyclerView</string>
+
+    <string name="dummy_text_description">Description</string>
+    <string name="dummy_text_title">Title</string>
+    <string name="dummy_text_image">Image</string>
 </resources>

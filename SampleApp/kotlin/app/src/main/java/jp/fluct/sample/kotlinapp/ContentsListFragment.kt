@@ -17,7 +17,7 @@ class ContentsListFragment : Fragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         val layout = inflater.inflate(R.layout.fragment_contents_list, container, false)
-        contentsRecyclerView = layout.findViewById<RecyclerView>(R.id.content_list)
+        contentsRecyclerView = layout.findViewById(R.id.content_list)
 
         return layout
     }
@@ -64,28 +64,30 @@ class ContentsListFragment : Fragment() {
      */
     class Ad(val sizeType: FluctAdBanner.SizeType, val mediaId: String) : ListModel()
 
-    class ContentsListAdapter(val context: Context, val itemList: MutableList<ListModel>) : RecyclerView.Adapter<BaseViewHolder>() {
+    class ContentsListAdapter(
+            val context: Context,
+            private val itemList: MutableList<ListModel>
+    ) : RecyclerView.Adapter<BaseViewHolder>() {
 
         fun insertItem(content: ListModel, index: Int) {
             this.itemList.add(index, content)
         }
 
-        override fun onCreateViewHolder(parent: ViewGroup?, viewType: Int): BaseViewHolder {
-            when (viewType) {
+        override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): BaseViewHolder {
+            return when (viewType) {
                 ViewType.CONTENT.ordinal -> {
                     val view = LayoutInflater.from(context).inflate(R.layout.item_list_content, parent, false)
-                    val viewHolder = ContentViewHolder(view)
-                    return viewHolder
+                    ContentViewHolder(view)
                 }
                 ViewType.AD.ordinal -> {
                     val fluctAdBanner = FluctAdBanner(context)
-                    return AdViewHolder(fluctAdBanner)
+                    AdViewHolder(fluctAdBanner)
                 }
                 else -> throw IllegalStateException()
             }
         }
 
-        override fun onBindViewHolder(holder: BaseViewHolder?, position: Int) {
+        override fun onBindViewHolder(holder: BaseViewHolder, position: Int) {
             val item = itemList[position]
             when (item) {
                 is Content -> {
@@ -95,8 +97,8 @@ class ContentsListFragment : Fragment() {
                     contentVH.name?.text = item.name
                 }
                 is Ad -> {
-                    val bannerView = holder!!.itemView as FluctAdBanner
-                    bannerView.viewSettings.mediaId = item.mediaId;
+                    val bannerView = holder.itemView as FluctAdBanner
+                    bannerView.viewSettings.mediaId = item.mediaId
                 }
             }
         }
@@ -120,7 +122,7 @@ class ContentsListFragment : Fragment() {
     class AdViewHolder(view: View) : BaseViewHolder(view)
 
     class ContentViewHolder(view: View) : BaseViewHolder(view) {
-        var index: TextView? = view.findViewById<TextView>(R.id.list_index)
-        var name: TextView? = view.findViewById<TextView>(R.id.list_name)
+        var index: TextView? = view.findViewById(R.id.list_index)
+        var name: TextView? = view.findViewById(R.id.list_name)
     }
 }

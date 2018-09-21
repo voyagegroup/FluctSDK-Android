@@ -7,7 +7,7 @@ android {
 
     defaultConfig {
         applicationId "jp.fluct.sample.kotlin.sampleapp"
-        minSdkVersion 14
+        minSdkVersion 16
         targetSdkVersion 27
         versionCode 1
         versionName "1.0"
@@ -34,10 +34,10 @@ repositories {
 
 dependencies {
 
-    implementation 'com.android.support:multidex:1.0.1'
+    implementation 'com.android.support:multidex:1.0.3'
 
     // FluctSDK
-    implementation 'jp.fluct:FluctSDK:4.5.2'
+    implementation 'jp.fluct:FluctSDK:4.6.0'
     implementation 'jp.fluct.mediation:rewardedvideo-mediation-applovin:1.1.1'
     implementation 'jp.fluct.mediation:rewardedvideo-mediation-maio:1.1.1'
     implementation 'jp.fluct.mediation:rewardedvideo-mediation-nend:1.1.1'
@@ -57,12 +57,14 @@ dependencies {
 
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     //noinspection GradleCompatible
-    implementation 'com.android.support:appcompat-v7:27.0.2'
-    implementation 'com.android.support:recyclerview-v7:27.0.2'
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support:recyclerview-v7:27.1.1'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.2'
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
 
-    // Google play services - base
-    implementation 'com.google.android.gms:play-services-base:11.8.0'
+    // Google play services
+    implementation 'com.google.android.gms:play-services-base:15.0.1'
+    implementation 'com.google.android.gms:play-services-ads-identifier:15.0.1'
 }
 
 repositories {

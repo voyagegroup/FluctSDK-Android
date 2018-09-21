@@ -5,6 +5,14 @@ FluctSDK-Androidの[Wiki](https://github.com/voyagegroup/FluctSDK-Android/wiki)�
 
 # FluctSDK Release Note
 
+## 2018/9/21
+### FluctSDK v4.6.0
+#### 新規追加
+* ネイティブ広告のサポートを追加
+* ネイティブ広告のガイドライン・実装についてのドキュメントを追加
+* Google Play Servicesを更新
+* `play-services-ads-identifier` を依存関係に追加。
+
 ## 2018/5/29
 ### 動画リワードメディエーションアダプター v1.1.1
 #### 不具合修正
