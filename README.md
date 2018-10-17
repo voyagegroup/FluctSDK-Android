@@ -5,6 +5,22 @@ FluctSDK-Androidの[Wiki](https://github.com/voyagegroup/FluctSDK-Android/wiki)�
 
 # FluctSDK Release Note
 
+## 2018/10/17
+
+### FluctSDK v4.7.0
+#### 新規追加
+* 広告表示用JavaScriptタグを用いた広告実装についてドキュメントおよびサンプルを追加
+
+#### 変更
+* `targetSdkVersion` やSupport Library等のバージョンを `28` へ更新
+
+### 動画リワードメディエーションアダプター v1.1.2
+#### 変更
+* AppLovin SDKのバージョンを `8.1.4` へ更新
+* maio SDKのバージョンを `1.1.5` へ更新
+* nendSDKのバージョンを `5.0.2` へ更新
+* Unity Ads SDKのバージョンを `2.3.0` へ更新
+
 ## 2018/9/21
 ### FluctSDK v4.6.0
 #### 新規追加
