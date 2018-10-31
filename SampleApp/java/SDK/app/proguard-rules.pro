@@ -32,6 +32,19 @@
 }
 # endregion
 
+# region AdColony https://github.com/AdColony/AdColony-Android-SDK-3/wiki/Project-Setup#step-4-proguard-configuration
+# For communication with AdColony's WebView
+# -keepclassmembers class * {
+#     @android.webkit.JavascriptInterface <methods>;
+# }
+# Keep ADCNative class members unobfuscated
+-keepclassmembers class com.adcolony.sdk.ADCNative** {
+*;
+}
+# For removing warnings due to lack of Multi-Window support
+# -dontwarn android.app.Activity
+# endregion
+
 # region support-v4
 -keep class android.support.v4.** { *; }
 -keep interface android.support.v4.** { *; }

@@ -8,6 +8,11 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
+    <!-- region AdColony -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!-- endregion -->
+
+    <!-- NOTE: `usesCleartextTraffic` is required to take full advantage for AdColony. -->
     <application
         android:name=".App"
         android:allowBackup="true"
@@ -16,7 +21,8 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        tools:ignore="GoogleAppIndexingWarning">
+        tools:ignore="GoogleAppIndexingWarning"
+        android:usesCleartextTraffic="true">
 
         <!-- Required Google play services definition for using FluctSDK -->
         <meta-data
@@ -56,6 +62,17 @@
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
 
+        <!-- endregion -->
+
+        <!-- region AdColony -->
+        <activity
+            android:name="com.adcolony.sdk.AdColonyInterstitialActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:hardwareAccelerated="true" />
+        <activity
+            android:name="com.adcolony.sdk.AdColonyAdViewActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:hardwareAccelerated="true" />
         <!-- endregion -->
 
         <activity
