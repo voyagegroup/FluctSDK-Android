@@ -45,8 +45,29 @@
 # -dontwarn android.app.Activity
 # endregion
 
-# region support-v4
--keep class android.support.v4.** { *; }
--keep interface android.support.v4.** { *; }
--dontwarn android.support.v4.**
+# region Tapjoy https://dev.tapjoy.com/sdk-integration/android/getting-started-guide-publishers-android/#toc_add-app-permissions-and-activities
+-keep class com.tapjoy.** { *; }
+-keep class com.moat.** { *; }
+-keepattributes JavascriptInterface
+-keep class * extends java.util.ListResourceBundle {
+protected Object[][] getContents();
+}
+-keep public class com.google.android.gms.common.internal.safeparcel.SafeParcelable {
+public static final *** NULL;
+}
+-keepnames @com.google.android.gms.common.annotation.KeepName class *
+-keepclassmembernames class * {
+@com.google.android.gms.common.annotation.KeepName *;
+}
+-keepnames class * implements android.os.Parcelable {
+public static final ** CREATOR;
+}
+-keep class com.google.android.gms.ads.identifier.** { *; }
+-dontwarn com.tapjoy.**
+# endregion
+
+# region android support
+-keep class android.support.** { *; }
+-keep interface android.support.** { *; }
+-dontwarn android.support.**
 # endregion

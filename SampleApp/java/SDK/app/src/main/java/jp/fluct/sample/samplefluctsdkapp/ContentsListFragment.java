@@ -26,7 +26,8 @@ public class ContentsListFragment extends Fragment {
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+            Bundle savedInstanceState) {
         View layout = inflater.inflate(R.layout.fragment_contents_list, container, false);
         mContentListView = (ListView) layout.findViewById(R.id.list);
 
@@ -54,7 +55,7 @@ public class ContentsListFragment extends Fragment {
     }
 
     // リストコンテンツの作成
-    private List<Object> generateContents(){
+    private List<Object> generateContents() {
         List<Object> contents = new ArrayList<>();
         for (int i = 0; i < 100; i++) {
             Content content = new Content(i);
@@ -107,7 +108,8 @@ public class ContentsListFragment extends Fragment {
             ViewType viewType = ViewType.find(itemViewType);
             switch (viewType) {
                 case CONTENT:
-                    convertView = getViewForContent((Content) content, position, convertView, parent);
+                    convertView = getViewForContent((Content) content, position, convertView,
+                            parent);
                     break;
                 case AD:
                     convertView = getViewForFluctAd((Ad) content, position, convertView, parent);
@@ -117,7 +119,8 @@ public class ContentsListFragment extends Fragment {
             return convertView;
         }
 
-        private View getViewForContent(Content content, int position, View convertView, ViewGroup parent) {
+        private View getViewForContent(Content content, int position, View convertView,
+                ViewGroup parent) {
             ContentViewHolder holder;
             if (convertView == null) {
                 convertView = mInflater.inflate(R.layout.item_list_content, null);
@@ -195,8 +198,8 @@ public class ContentsListFragment extends Fragment {
             }
 
             static ViewType find(int id) {
-                for(ViewType vt: values()){
-                    if(vt.id == id){
+                for (ViewType vt : values()) {
+                    if (vt.id == id) {
                         return vt;
                     }
                 }

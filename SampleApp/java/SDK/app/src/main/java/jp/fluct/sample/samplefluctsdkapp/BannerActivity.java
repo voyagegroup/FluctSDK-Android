@@ -36,7 +36,7 @@ public class BannerActivity extends AppCompatActivity {
 
             @Override
             public void onError(FluctAdBanner.Error error) {
-                switch (error.getType()){
+                switch (error.getType()) {
                     case NetworkError:
                         // ネットワークエラー:通信状況を確認
                         break;

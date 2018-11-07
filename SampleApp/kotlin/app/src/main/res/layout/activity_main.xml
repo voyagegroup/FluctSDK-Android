@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_main"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/background"
-    tools:context=".MainActivity">
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/activity_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/background"
+            tools:context=".MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -27,7 +27,7 @@
             android:gravity="center_vertical"
             android:paddingLeft="@dimen/activity_horizontal_margin"
             android:text="@string/main_manu_banner"
-            android:textColor="@color/menuText" />
+            android:textColor="@color/menuText"/>
 
         <!-- インタースティシャル広告 -->
 
@@ -40,7 +40,7 @@
             android:gravity="center_vertical"
             android:paddingLeft="@dimen/activity_horizontal_margin"
             android:text="@string/main_manu_interstitial"
-            android:textColor="@color/menuText" />
+            android:textColor="@color/menuText"/>
 
         <!-- インフィード広告 -->
 
@@ -53,7 +53,7 @@
             android:gravity="center_vertical"
             android:paddingLeft="@dimen/activity_horizontal_margin"
             android:text="@string/main_manu_infeed"
-            android:textColor="@color/menuText" />
+            android:textColor="@color/menuText"/>
 
         <!-- 動画リワード広告 -->
 
@@ -66,7 +66,7 @@
             android:gravity="center_vertical"
             android:paddingLeft="@dimen/activity_horizontal_margin"
             android:text="@string/main_menu_rewardedvideo"
-            android:textColor="@color/menuText" />
+            android:textColor="@color/menuText"/>
 
         <!-- ネイティブ広告 -->
 

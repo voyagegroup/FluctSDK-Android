@@ -63,7 +63,7 @@ public class InterstitialActivity extends AppCompatActivity {
 
             @Override
             public void onError(FluctInterstitial.FluctInterstitialError fluctInterstitialError) {
-                switch (fluctInterstitialError.getType()){
+                switch (fluctInterstitialError.getType()) {
                     case NetworkError:
                         // ネットワークエラー:通信状況を確認
                         break;

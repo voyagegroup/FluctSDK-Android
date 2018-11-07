@@ -22,6 +22,7 @@ allprojects {
         maven { url 'http://fan-adn.github.io/nendSDK-Android-lib/library' }
         maven { url "https://imobile-maio.github.io/maven" }
         maven { url 'https://adcolony.bintray.com/AdColony' }
+        maven { url 'https://tapjoy.bintray.com/maven' }
         mavenCentral()
     }
 }

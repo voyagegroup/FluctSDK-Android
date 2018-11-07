@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
 
             if (info != null) {
                 adid = info.getId();
-                limitAdTracking = info.isLimitAdTrackingEnabled()? "1" : "0";
+                limitAdTracking = info.isLimitAdTrackingEnabled() ? "1" : "0";
             }
 
             showAd();
@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         @JavascriptInterface
-        public  String getPackage() {
+        public String getPackage() {
             Context context = mContext.get();
             if (context != null) {
                 return context.getPackageName();
