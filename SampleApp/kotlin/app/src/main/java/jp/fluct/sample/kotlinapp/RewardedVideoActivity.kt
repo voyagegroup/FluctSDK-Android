@@ -14,7 +14,9 @@ import java.util.*
  * Created by t-sei on 2018/02/14.
  */
 class RewardedVideoActivity : AppCompatActivity() {
-    private var rewardedVideo: FluctRewardedVideo? = null
+
+    private lateinit var rewardedVideo: FluctRewardedVideo
+
     private var stateTextView: TextView? = null
     private var showButton: Button? = null
 
@@ -33,7 +35,7 @@ class RewardedVideoActivity : AppCompatActivity() {
                 .build()
 
         rewardedVideo = FluctRewardedVideo.getInstance(groupID, unitID, this, settings)
-        rewardedVideo?.setListener(object : FluctRewardedVideo.Listener {
+        rewardedVideo.setListener(object : FluctRewardedVideo.Listener {
             // 広告読み込み完了
             override fun onLoaded(groupId: String?, unitId: String?) {
                 showButton?.isEnabled = true
@@ -70,8 +72,8 @@ class RewardedVideoActivity : AppCompatActivity() {
 
         showButton = findViewById<Button>(R.id.show_button)
         showButton?.setOnClickListener {
-            if (rewardedVideo?.isAdLoaded == true) {
-                rewardedVideo?.show()
+            if (rewardedVideo.isAdLoaded) {
+                rewardedVideo.show()
             }
         }
         findViewById<Button>(R.id.load_button).setOnClickListener {
@@ -79,7 +81,8 @@ class RewardedVideoActivity : AppCompatActivity() {
             val userID = "APP_USER_ID"
             targeting.setUserId(userID)
             targeting.gender = FluctAdRequestTargeting.FluctGender.MALE
-            targeting.birthday = GregorianCalendar(1988, 1, 1).time
+            targeting.birthday = GregorianCalendar(1988, Calendar.JANUARY, 1).time
+            rewardedVideo.loadAd(targeting)
             rewardedVideo?.loadAd(targeting)
             updateStateTextView("Loading")
         }

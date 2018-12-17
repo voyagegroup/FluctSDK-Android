@@ -30,6 +30,13 @@
 -keep class com.unity3d.ads.** {
    *;
 }
+
+# Keep all classes in Unity Services package
+-keep class com.unity3d.services.** {
+*;
+}
+
+-dontwarn com.google.ar.core.**
 # endregion
 
 # region AdColony https://github.com/AdColony/AdColony-Android-SDK-3/wiki/Project-Setup#step-4-proguard-configuration

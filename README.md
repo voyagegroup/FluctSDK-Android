@@ -5,6 +5,24 @@ FluctSDK-Androidの[Wiki](https://github.com/voyagegroup/FluctSDK-Android/wiki)�
 
 # FluctSDK Release Note
 
+## 2018/12/17
+
+### FluctSDK v5.0.0
+#### 変更
+* Play Services Baseのバージョンを `16.0.1` へ更新
+* Play Services Ads Identifierのバージョンを `16.0.0` へ更新
+* [配信オプション](https://github.com/voyagegroup/FluctSDK-Android/wiki/%E5%8B%95%E7%94%BB%E3%83%AA%E3%83%AF%E3%83%BC%E3%83%89%E5%BA%83%E5%91%8A%E5%AE%9F%E8%A3%85#%E9%85%8D%E4%BF%A1%E3%82%AA%E3%83%97%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%AE%E8%A8%AD%E5%AE%9A)としてアプリ内で複数の内容を設定した際に、例外が通知されるよう変更
+
+### 動画リワードメディエーションアダプター v2.0.0
+#### 変更
+* AppLovin SDKのバージョンを `9.1.0` へ更新
+* maio SDKのバージョンを `1.1.6` へ更新
+* nendSDKのバージョンを `5.0.3` へ更新
+* Unity Ads SDKのバージョンを `3.0.0` へ更新
+* AdColony SDKのバージョンを `3.3.7` へ更新
+* Tapjoy SDKのバージョンを `12.2.0` へ更新
+* Play Services Adsのバージョンを `17.1.2` へ更新
+
 ## 2018/11/7
 
 ### FluctSDK v4.9.0
