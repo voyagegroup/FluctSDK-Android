@@ -26,6 +26,7 @@ allprojects {
         maven { url "https://imobile-maio.github.io/maven" }
         maven { url 'https://adcolony.bintray.com/AdColony' }
         maven { url 'https://tapjoy.bintray.com/maven' }
+        maven { url 'https://github.com/glossom-dev/GlossomAds-Android/raw/master' }
         mavenCentral()
     }
 }

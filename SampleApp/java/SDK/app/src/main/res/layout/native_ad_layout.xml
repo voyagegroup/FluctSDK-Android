@@ -63,6 +63,7 @@
             android:layout_height="50dp"
             android:layout_gravity="center_vertical"
             android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
             android:text="今すぐインストール"
             android:textColor="@android:color/white"
             android:textSize="12sp"/>
