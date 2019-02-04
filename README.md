@@ -5,6 +5,12 @@ FluctSDK-Androidの[Wiki](https://github.com/voyagegroup/FluctSDK-Android/wiki)�
 
 # FluctSDK Release Note
 
+## 2018/2/4
+
+### FluctSDK v5.2.1
+#### 変更
+* ネイティブ広告表示時にRejectedExecutionExceptionが発生する不具合を修正。
+
 ## 2018/1/30
 
 ### FluctSDK v5.2.0
