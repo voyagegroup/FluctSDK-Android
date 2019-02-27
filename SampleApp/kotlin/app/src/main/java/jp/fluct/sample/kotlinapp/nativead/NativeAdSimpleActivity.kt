@@ -1,5 +1,6 @@
 package jp.fluct.sample.kotlinapp.nativead
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.util.Log
@@ -32,6 +33,7 @@ class NativeAdSimpleActivity : AppCompatActivity() {
 
         nativeAd.setListener(object : FluctNativeAd.Listener {
 
+            @SuppressLint("SetTextI18n")
             override fun onLoaded(nativeAdContent: FluctNativeAdContent) {
                 // 広告の読み込みが完了した時に呼ばれる
                 Log.i(TAG, "onLoaded")

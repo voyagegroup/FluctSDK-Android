@@ -5,6 +5,18 @@ FluctSDK-Androidの[Wiki](https://github.com/voyagegroup/FluctSDK-Android/wiki)�
 
 # FluctSDK Release Note
 
+## 2018/2/27
+
+### FluctSDK v5.3.1
+#### 変更
+* 動画リワードメディエーションアダプター v2.3.1をサポート
+* サンプルアプリの軽微な改善
+
+### 動画リワードメディエーションアダプター v2.3.1
+#### 変更
+* Tapjoy Limited Connectにおいて、意図せずパブリッシャ側のターゲティング情報が上書きされてしまう問題を修正
+* ほか内部処理の変更および改善
+
 ## 2018/2/14
 
 ### FluctSDK v5.3.0

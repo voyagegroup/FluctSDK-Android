@@ -1,5 +1,6 @@
 package jp.fluct.sample.samplefluctsdkapp;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -109,7 +110,9 @@ public class RewardedVideoActivity extends AppCompatActivity {
         });
     }
 
+    @SuppressLint("SetTextI18n")
     private void updateStateText(String s) {
         stateTextView.setText("State: " + s);
     }
+
 }

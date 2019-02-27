@@ -13,7 +13,8 @@
             android:id="@+id/icon"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:layout_marginLeft="20dp"/>
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"/>
 
         <TextView
             android:id="@+id/title"

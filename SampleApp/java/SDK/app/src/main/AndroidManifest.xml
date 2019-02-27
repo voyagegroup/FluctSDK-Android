@@ -19,13 +19,13 @@
     <!-- NOTE: `usesCleartextTraffic` is required to take full advantage for AdColony. -->
     <application
         android:name=".App"
-        android:allowBackup="true"
+        android:allowBackup="false"
         android:fullBackupContent="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        tools:ignore="GoogleAppIndexingWarning"
+        tools:ignore="GoogleAppIndexingWarning,UnusedAttribute"
         android:usesCleartextTraffic="true">
 
         <!-- Required Google play services definition for using FluctSDK -->

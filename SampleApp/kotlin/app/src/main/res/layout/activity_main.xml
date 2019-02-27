@@ -26,6 +26,7 @@
             android:background="@color/menuBackground"
             android:gravity="center_vertical"
             android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
             android:text="@string/main_manu_banner"
             android:textColor="@color/menuText"/>
 
@@ -39,6 +40,7 @@
             android:background="@color/menuBackground"
             android:gravity="center_vertical"
             android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
             android:text="@string/main_manu_interstitial"
             android:textColor="@color/menuText"/>
 
@@ -52,6 +54,7 @@
             android:background="@color/menuBackground"
             android:gravity="center_vertical"
             android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
             android:text="@string/main_manu_infeed"
             android:textColor="@color/menuText"/>
 
@@ -65,6 +68,7 @@
             android:background="@color/menuBackground"
             android:gravity="center_vertical"
             android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
             android:text="@string/main_menu_rewardedvideo"
             android:textColor="@color/menuText"/>
 

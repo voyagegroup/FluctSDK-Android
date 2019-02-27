@@ -1,5 +1,6 @@
 package jp.fluct.sample.kotlinapp
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.widget.Button
@@ -92,6 +93,7 @@ class RewardedVideoActivity : AppCompatActivity() {
         super.onDestroy()
     }
 
+    @SuppressLint("SetTextI18n")
     fun updateStateTextView(text: String) {
         stateTextView?.setText("State: " + text)
     }

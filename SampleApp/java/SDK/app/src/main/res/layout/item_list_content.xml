@@ -16,7 +16,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="index"
-        android:textColor="@color/infeedListText"/>
+        android:textColor="@color/infeedListText"
+        tools:ignore="HardcodedText"/>
 
     <TextView
         android:id="@+id/list_name"
@@ -26,12 +27,15 @@
         android:layout_marginRight="@dimen/activity_horizontal_margin"
         android:layout_weight="1"
         android:text="ContentsName"
-        android:textColor="@color/infeedListText"/>
+        android:textColor="@color/infeedListText"
+        tools:ignore="HardcodedText"/>
 
     <ImageView
         android:id="@+id/list_thumbnail"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:src="@mipmap/ic_launcher"/>
+        android:src="@mipmap/ic_launcher"
+        android:contentDescription="Thumbnail"
+        tools:ignore="HardcodedText"/>
 
 </LinearLayout>

@@ -1,5 +1,6 @@
 package jp.fluct.sample.samplefluctsdkapp.nativead;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -42,6 +43,8 @@ public class NativeAdSimpleActivity extends Activity {
         ViewGroup parent = findViewById(R.id.native_ad_simple);
 
         nativeAd.setListener(new FluctNativeAd.Listener() {
+
+            @SuppressLint("SetTextI18n")
             @Override
             public void onLoaded(@NonNull FluctNativeAdContent fluctNativeAdContent) {
                 // 広告の読み込みが完了した時に呼ばれる
