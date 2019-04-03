@@ -5,7 +5,19 @@ FluctSDK-Androidの[Wiki](https://github.com/voyagegroup/FluctSDK-Android/wiki)�
 
 # FluctSDK Release Note
 
-## 2018/2/27
+## 2019/4/3
+
+### FluctSDK v5.3.2
+#### 変更
+* 動画リワードメディエーションアダプター v2.3.2をサポート
+
+### 動画リワードメディエーションアダプター v2.3.2
+#### 変更
+* maio SDKのバージョンを `1.1.7` へ更新
+* nendSDKのバージョンを `5.1.0` へ更新
+* Tapjoy SDKのバージョンを `12.2.1` へ更新
+
+## 2019/2/27
 
 ### FluctSDK v5.3.1
 #### 変更
@@ -17,7 +29,7 @@ FluctSDK-Androidの[Wiki](https://github.com/voyagegroup/FluctSDK-Android/wiki)�
 * Tapjoy Limited Connectにおいて、意図せずパブリッシャ側のターゲティング情報が上書きされてしまう問題を修正
 * ほか内部処理の変更および改善
 
-## 2018/2/14
+## 2019/2/14
 
 ### FluctSDK v5.3.0
 #### 変更
@@ -28,13 +40,13 @@ FluctSDK-Androidの[Wiki](https://github.com/voyagegroup/FluctSDK-Android/wiki)�
 #### 変更
 * 内部処理の変更および改善
 
-## 2018/2/4
+## 2019/2/4
 
 ### FluctSDK v5.2.1
 #### 変更
 * ネイティブ広告表示時にRejectedExecutionExceptionが発生する不具合を修正。
 
-## 2018/1/30
+## 2019/1/30
 
 ### FluctSDK v5.2.0
 #### 変更
@@ -45,7 +57,7 @@ FluctSDK-Androidの[Wiki](https://github.com/voyagegroup/FluctSDK-Android/wiki)�
 #### 変更
 * TapjoyメディエーションのLimited Connectに対応
 
-## 2018/1/21
+## 2019/1/21
 
 ### FluctSDK v5.1.0
 #### 変更
