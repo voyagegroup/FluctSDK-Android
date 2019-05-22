@@ -257,7 +257,8 @@ public class NativeAdRecyclerActivity extends AppCompatActivity {
         enum ViewType {
             ITEM(0),
             AD(1),
-            NO_AD(2),;
+            NO_AD(2),
+            ;
 
             public final int id;
 

@@ -5,6 +5,16 @@ FluctSDK-Androidの[Wiki](https://github.com/voyagegroup/FluctSDK-Android/wiki)�
 
 # FluctSDK Release Note
 
+## 2019/5/22
+
+### FluctSDK v5.3.3
+#### 変更
+* 動画リワードメディエーションアダプター v2.3.3をサポート
+
+### 動画リワードメディエーションアダプター v2.3.3
+#### 変更
+* AdCorsaメディエーションで正常にリワードが付与されない問題を修正
+
 ## 2019/4/3
 
 ### FluctSDK v5.3.2
