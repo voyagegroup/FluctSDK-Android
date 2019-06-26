@@ -50,27 +50,27 @@ dependencies {
     implementation 'com.google.android.gms:play-services-ads-identifier:16.0.0'
 
     // FluctSDK
-    implementation 'jp.fluct:FluctSDK:5.3.4'
-    implementation 'jp.fluct.mediation:rewardedvideo-mediation-applovin:2.3.4'
-    implementation 'jp.fluct.mediation:rewardedvideo-mediation-maio:2.3.4'
-    implementation 'jp.fluct.mediation:rewardedvideo-mediation-nend:2.3.4'
-    implementation 'jp.fluct.mediation:rewardedvideo-mediation-unityads:2.3.4'
-    implementation 'jp.fluct.mediation:rewardedvideo-mediation-adcolony:2.3.4'
-    implementation 'jp.fluct.mediation:rewardedvideo-mediation-tapjoy:2.3.4'
-    implementation 'jp.fluct.mediation:rewardedvideo-mediation-adcorsa:2.3.4'
-    implementation 'jp.fluct.mediation:rewardedvideo-mediation-admob:2.3.4'
+    implementation 'jp.fluct:FluctSDK:5.4.0'
+    implementation 'jp.fluct.mediation:rewardedvideo-mediation-applovin:2.4.0'
+    implementation 'jp.fluct.mediation:rewardedvideo-mediation-maio:2.4.0'
+    implementation 'jp.fluct.mediation:rewardedvideo-mediation-nend:2.4.0'
+    implementation 'jp.fluct.mediation:rewardedvideo-mediation-unityads:2.4.0'
+    implementation 'jp.fluct.mediation:rewardedvideo-mediation-adcolony:2.4.0'
+    implementation 'jp.fluct.mediation:rewardedvideo-mediation-tapjoy:2.4.0'
+    implementation 'jp.fluct.mediation:rewardedvideo-mediation-adcorsa:2.4.0'
+    implementation 'jp.fluct.mediation:rewardedvideo-mediation-admob:2.4.0'
 
     // AppLovin SDK
     implementation 'com.applovin:applovin-sdk:9.1.0'
 
     // maio SDK
-    implementation 'com.maio:android-sdk:1.1.7'
+    implementation 'com.maio:android-sdk:1.1.8'
 
     // nend SDK
-    implementation 'net.nend.android:nend-sdk:5.1.0'
+    implementation 'net.nend.android:nend-sdk:5.1.1'
 
     // UnityAds SDK
-    implementation 'com.unity3d.ads:unity-ads:3.0.0'
+    implementation 'com.unity3d.ads:unity-ads:3.1.0'
 
     // AdColony SDK
     implementation 'com.adcolony:sdk:3.3.7'

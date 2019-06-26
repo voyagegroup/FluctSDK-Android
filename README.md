@@ -5,6 +5,27 @@ FluctSDK-Androidの[Wiki](https://github.com/voyagegroup/FluctSDK-Android/wiki)�
 
 # FluctSDK Release Note
 
+## 2019/6/26
+
+### FluctSDK v5.4.0
+#### 変更
+
+* Google Mobile Ads向けカスタムイベント v1.0.0をサポート
+
+### 動画リワードメディエーションアダプター v2.4.0
+#### 変更
+
+* Google Mobile Ads向けカスタムイベント v1.0.0をサポート
+* maio SDKのバージョンを `1.1.8` へ更新
+* nendSDKのバージョンを `5.1.1` へ更新
+* Unity Ads SDKのバージョンを `3.1.0` へ更新
+
+### Google Mobile Ads向けカスタムイベント v1.0.0
+#### 新規追加
+
+* インタースティシャル広告のカスタムイベントに対応
+
+
 ## 2019/5/29
 
 ### FluctSDK v5.3.4
