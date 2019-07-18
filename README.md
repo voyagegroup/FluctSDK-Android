@@ -5,6 +5,22 @@ FluctSDK-Androidの[Wiki](https://github.com/voyagegroup/FluctSDK-Android/wiki)�
 
 # FluctSDK Release Note
 
+## 2019/7/18
+
+### FluctSDK v5.6.0
+#### 変更
+
+* 動画リワードメディエーションアダプター v2.6.0をサポート
+
+### 動画リワードメディエーションアダプター v2.6.0
+
+* AppLovin SDKのバージョンを `9.7.2` へ更新
+* AppLovinのZone機能に対応
+
+### Google Mobile Ads向けカスタムイベント v1.2.0
+
+* 動画リワードメディエーションアダプター v2.6.0をサポート
+
 ## 2019/7/2
 
 ### FluctSDK v5.5.0
