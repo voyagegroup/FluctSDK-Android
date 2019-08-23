@@ -3,10 +3,10 @@
   <groupId>jp.fluct</groupId>
   <artifactId>FluctSDK</artifactId>
   <versioning>
-    <release>5.6.0</release>
+    <release>5.7.0</release>
     <versions>
-      <version>5.6.0</version>
+      <version>5.7.0</version>
     </versions>
-    <lastUpdated>20190718002926</lastUpdated>
+    <lastUpdated>20190823023547</lastUpdated>
   </versioning>
 </metadata>

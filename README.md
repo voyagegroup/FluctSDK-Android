@@ -5,6 +5,31 @@ FluctSDK-Androidの[Wiki](https://github.com/voyagegroup/FluctSDK-Android/wiki)�
 
 # FluctSDK Release Note
 
+## 2019/8/23
+
+### FluctSDK v5.7.0
+
+#### 新規追加
+
+* 子供向けの配慮に関する設定項目の追加
+* EEAにおける合意年齢に関する設定項目の追加
+* 詳細は [子供向けアプリの取り扱い](https://github.com/voyagegroup/FluctSDK-Android/wiki/%E5%AD%90%E4%BE%9B%E5%90%91%E3%81%91%E3%82%A2%E3%83%97%E3%83%AA%E3%81%AE%E5%8F%96%E3%82%8A%E6%89%B1%E3%81%84) を参照してください。
+
+### 動画リワードメディエーションアダプター v2.7.0
+
+#### 新規追加
+
+* 子供向けの配慮に関する設定項目への対応
+* EEAにおける合意年齢に関する設定項目への対応
+
+### Google Mobile Ads向けカスタムイベント v1.3.0
+
+#### 新規追加
+
+* 子供向けの配慮に関する設定項目への対応
+* EEAにおける合意年齢に関する設定項目への対応
+* 詳細は [Google Mobile Ads SDKのカスタムイベントクラスの導入方法](https://github.com/voyagegroup/FluctSDK-Android/wiki/Google-Mobile-Ads-SDK%E3%81%AE%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%A0%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%E3%82%AF%E3%83%A9%E3%82%B9%E3%81%AE%E5%B0%8E%E5%85%A5%E6%96%B9%E6%B3%95) を参照してください。
+
 ## 2019/7/18
 
 ### FluctSDK v5.6.0
