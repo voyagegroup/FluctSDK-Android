@@ -5,6 +5,28 @@ FluctSDK-Androidの[Wiki](https://github.com/voyagegroup/FluctSDK-Android/wiki)�
 
 # FluctSDK Release Note
 
+## 2019/9/10
+
+### FluctSDK v5.8.0
+
+#### 変更
+
+* ターゲティング年齢の内部処理を改善
+* SDK配布リポジトリURLを変更
+* 詳細は [SDKの導入方法](https://github.com/voyagegroup/FluctSDK-Android/wiki/SDKの導入方法) を参照してください
+
+### 動画リワードメディエーションアダプター v2.8.0
+
+#### 変更
+
+* SDK配布リポジトリURLを変更
+
+### Google Mobile Ads向けカスタムイベント v1.4.0
+
+#### 変更
+
+* SDK配布リポジトリURLを変更
+
 ## 2019/8/23
 
 ### FluctSDK v5.7.0
