@@ -52,33 +52,33 @@ dependencies {
     implementation 'com.google.android.gms:play-services-ads-identifier:16.0.0'
 
     // FluctSDK
-    implementation 'jp.fluct:FluctSDK:5.8.0'
-    implementation 'jp.fluct.mediation:rewardedvideo-mediation-applovin:2.8.0'
-    implementation 'jp.fluct.mediation:rewardedvideo-mediation-maio:2.8.0'
-    implementation 'jp.fluct.mediation:rewardedvideo-mediation-nend:2.8.0'
-    implementation 'jp.fluct.mediation:rewardedvideo-mediation-unityads:2.8.0'
-    implementation 'jp.fluct.mediation:rewardedvideo-mediation-adcolony:2.8.0'
-    implementation 'jp.fluct.mediation:rewardedvideo-mediation-tapjoy:2.8.0'
-    implementation 'jp.fluct.mediation:rewardedvideo-mediation-adcorsa:2.8.0'
-    implementation 'jp.fluct.mediation:rewardedvideo-mediation-admob:2.8.0'
+    implementation 'jp.fluct:FluctSDK:5.9.0'
+    implementation 'jp.fluct.mediation:rewardedvideo-mediation-applovin:2.9.0'
+    implementation 'jp.fluct.mediation:rewardedvideo-mediation-maio:2.9.0'
+    implementation 'jp.fluct.mediation:rewardedvideo-mediation-nend:2.9.0'
+    implementation 'jp.fluct.mediation:rewardedvideo-mediation-unityads:2.9.0'
+    implementation 'jp.fluct.mediation:rewardedvideo-mediation-adcolony:2.9.0'
+    implementation 'jp.fluct.mediation:rewardedvideo-mediation-tapjoy:2.9.0'
+    implementation 'jp.fluct.mediation:rewardedvideo-mediation-adcorsa:2.9.0'
+    implementation 'jp.fluct.mediation:rewardedvideo-mediation-admob:2.9.0'
 
     // AppLovin SDK
-    implementation 'com.applovin:applovin-sdk:9.7.2'
+    implementation 'com.applovin:applovin-sdk:9.8.4'
 
     // maio SDK
-    implementation 'com.maio:android-sdk:1.1.8'
+    implementation 'com.maio:android-sdk:1.1.10'
 
     // nend SDK
     implementation 'net.nend.android:nend-sdk:5.1.1'
 
     // UnityAds SDK
-    implementation 'com.unity3d.ads:unity-ads:3.1.0'
+    implementation 'com.unity3d.ads:unity-ads:3.2.0'
 
     // AdColony SDK
-    implementation 'com.adcolony:sdk:3.3.7'
+    implementation 'com.adcolony:sdk:3.3.11'
 
     // Tapjoy SDK
-    implementation 'com.tapjoy:tapjoy-android-sdk:12.2.1@aar'
+    implementation 'com.tapjoy:tapjoy-android-sdk:12.3.1@aar'
 
     // AdMob
     //noinspection GradleDependency
@@ -87,5 +87,5 @@ dependencies {
     }
 
     // AdCorsa SDK
-    implementation 'com.glossom:glossom-ads-android:1.9.2'
+    implementation 'com.glossom:glossom-ads-android:2.0.0'
 }
