@@ -84,7 +84,6 @@ class RewardedVideoActivity : AppCompatActivity() {
             targeting.gender = FluctAdRequestTargeting.FluctGender.MALE
             targeting.birthday = GregorianCalendar(1988, Calendar.JANUARY, 1).time
             rewardedVideo.loadAd(targeting)
-            rewardedVideo?.loadAd(targeting)
             updateStateTextView("Loading")
         }
     }
