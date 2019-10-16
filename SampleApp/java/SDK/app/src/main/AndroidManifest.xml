@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          xmlns:tools="http://schemas.android.com/tools"
-          package="jp.fluct.sample.samplefluctsdkapp">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="jp.fluct.sample.samplefluctsdkapp">
 
     <!-- FluctSDK using permission -->
     <uses-permission android:name="android.permission.INTERNET"/>
@@ -100,8 +100,7 @@
 
         <activity
             android:name=".nativead.NativeAdSimpleActivity"
-            android:label="@string/title_activity_native_ad_simple">
-        </activity>
+            android:label="@string/title_activity_native_ad_simple"></activity>
     </application>
 
 </manifest>

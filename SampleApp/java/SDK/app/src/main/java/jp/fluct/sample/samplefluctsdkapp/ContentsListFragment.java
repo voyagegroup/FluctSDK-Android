@@ -27,7 +27,7 @@ public class ContentsListFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
-            Bundle savedInstanceState) {
+                             Bundle savedInstanceState) {
         View layout = inflater.inflate(R.layout.fragment_contents_list, container, false);
         mContentListView = (ListView) layout.findViewById(R.id.list);
 
@@ -120,7 +120,7 @@ public class ContentsListFragment extends Fragment {
         }
 
         private View getViewForContent(Content content, int position, View convertView,
-                ViewGroup parent) {
+                                       ViewGroup parent) {
             ContentViewHolder holder;
             if (convertView == null) {
                 convertView = mInflater.inflate(R.layout.item_list_content, null);

@@ -5,6 +5,21 @@ FluctSDK-Androidの[Wiki](https://github.com/voyagegroup/FluctSDK-Android/wiki)�
 
 # FluctSDK Release Note
 
+## 2019/10/16
+
+### FluctSDK v5.9.2
+
+* 動画リワードメディエーションアダプター v2.9.2をサポート
+
+### 動画リワードメディエーションアダプター v2.9.2
+
+* Tapjoyメディエーション利用時、一部イベントが非メインスレッドから通知される問題を修正
+
+### Google Mobile Ads向けカスタムイベント v1.5.2
+
+* 動画リワードメディエーションアダプター v2.9.2をサポート
+* Tapjoyメディエーション利用時、通信が不安定な環境でまれにクラッシュする問題を修正
+
 ## 2019/10/3
 
 ### FluctSDK v5.9.1
