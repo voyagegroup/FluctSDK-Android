@@ -52,7 +52,7 @@ dependencies {
     implementation 'com.google.android.gms:play-services-ads-identifier:16.0.0'
 
     // FluctSDK
-    implementation 'jp.fluct:FluctSDK:5.10.0'
+    implementation 'jp.fluct:FluctSDK:5.11.0'
     implementation 'jp.fluct.mediation:rewardedvideo-mediation-applovin:2.10.0'
     implementation 'jp.fluct.mediation:rewardedvideo-mediation-maio:2.10.0'
     implementation 'jp.fluct.mediation:rewardedvideo-mediation-nend:2.10.0'

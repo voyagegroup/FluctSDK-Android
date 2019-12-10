@@ -5,6 +5,16 @@ FluctSDK-Androidの[Wiki](https://github.com/voyagegroup/FluctSDK-Android/wiki)�
 
 # FluctSDK Release Note
 
+## 2019/12/10
+
+### FluctSDK v5.11.0
+
+* MoPub向けカスタムイベントをサポート
+
+### MoPub向けカスタムイベント v1.0.0
+
+* リリース
+
 ## 2019/11/5
 
 ### FluctSDK v5.10.0
