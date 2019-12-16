@@ -3,10 +3,11 @@
   <groupId>jp.fluct.mediation.mopub</groupId>
   <artifactId>mopub-adapter</artifactId>
   <versioning>
-    <release>1.0.0</release>
+    <release>6.0.0</release>
     <versions>
       <version>1.0.0</version>
+      <version>6.0.0</version>
     </versions>
-    <lastUpdated>20191210053552</lastUpdated>
+    <lastUpdated>20191216075101</lastUpdated>
   </versioning>
 </metadata>
