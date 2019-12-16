@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <jp.fluct.fluctsdk.banner.FluctAdView
+        android:id="@+id/banner"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:adSize="@string/banner_test_ad_size"
+        app:groupId="@string/banner_test_group_id"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:unitId="@string/banner_test_unit_id"/>
+
+
+</android.support.constraint.ConstraintLayout>

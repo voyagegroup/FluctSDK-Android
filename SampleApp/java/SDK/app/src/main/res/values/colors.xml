@@ -7,7 +7,4 @@
     <color name="background">#FFFFFF</color>
     <color name="menuBackground">#EEEEEE</color>
     <color name="menuText">#222222</color>
-
-    <color name="infeedListBackground">#EEEEEE</color>
-    <color name="infeedListText">#222222</color>
 </resources>

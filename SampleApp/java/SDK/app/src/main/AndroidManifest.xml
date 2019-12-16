@@ -46,9 +46,6 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".BannerActivity"/>
-        <activity android:name=".InterstitialActivity"/>
-        <activity android:name=".InfeedActivity"/>
         <activity android:name=".RewardedVideoActivity"/>
         <activity android:name=".nativead.NativeAdSampleActivity"/>
         <activity android:name=".nativead.NativeAdRecyclerActivity"/>
@@ -101,6 +98,23 @@
         <activity
             android:name=".nativead.NativeAdSimpleActivity"
             android:label="@string/title_activity_native_ad_simple"></activity>
+
+        <!-- region Banner -->
+
+        <activity
+            android:name=".BannerActivity"
+            android:label="@string/banner_activity"/>
+
+        <activity
+            android:name=".banner.BannerRecyclerActivity"
+            android:label="@string/banner_activity"/>
+
+        <activity
+            android:name=".banner.BannerLayoutXmlActivity"
+            android:label="@string/banner_activity"/>
+
+        <!-- endregion -->
+
     </application>
 
 </manifest>

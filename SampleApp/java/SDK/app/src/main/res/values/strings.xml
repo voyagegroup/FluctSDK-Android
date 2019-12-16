@@ -1,10 +1,6 @@
 <resources>
     <string name="app_name">SampleFluctSDKApp</string>
-    <string name="button_interstitial">Interstitial</string>
 
-    <string name="main_menu_banner">バナー広告</string>
-    <string name="main_menu_interstitial">インタースティシャル広告</string>
-    <string name="main_menu_infeed">インフィード広告</string>
     <string name="main_menu_rewardedvideo">動画リワード広告</string>
     <string name="main_menu_ncr">ネイティブ広告</string>
     <string name="native_menu_simple">SimpleView</string>

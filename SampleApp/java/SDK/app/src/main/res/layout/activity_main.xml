@@ -30,34 +30,6 @@
             android:text="@string/main_menu_banner"
             android:textColor="@color/menuText"/>
 
-        <!-- インタースティシャル広告 -->
-
-        <Button
-            android:id="@+id/btn_interstitial"
-            android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:layout_marginBottom="@dimen/activity_vertical_margin"
-            android:background="@color/menuBackground"
-            android:gravity="center_vertical"
-            android:paddingLeft="@dimen/activity_horizontal_margin"
-            android:paddingRight="@dimen/activity_horizontal_margin"
-            android:text="@string/main_menu_interstitial"
-            android:textColor="@color/menuText"/>
-
-        <!-- インフィード広告 -->
-
-        <Button
-            android:id="@+id/btn_infeed"
-            android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:layout_marginBottom="@dimen/activity_vertical_margin"
-            android:background="@color/menuBackground"
-            android:gravity="center_vertical"
-            android:paddingLeft="@dimen/activity_horizontal_margin"
-            android:paddingRight="@dimen/activity_horizontal_margin"
-            android:text="@string/main_menu_infeed"
-            android:textColor="@color/menuText"/>
-
         <!-- 動画リワード広告 -->
 
         <Button

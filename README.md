@@ -5,6 +5,15 @@ FluctSDK-Androidの[Wiki](https://github.com/voyagegroup/FluctSDK-Android/wiki)�
 
 # FluctSDK Release Note
 
+## 2019/12/16
+
+### FluctSDK v6.0.0
+
+* バージョン規則を変更しました。本バージョン以降、全てのモジュールは同一のバージョン番号になります。
+* 新しいバナー広告用API (FluctAdView) およびモジュールを追加
+* 旧バナー広告用API (FluctAdBanner) を削除
+* 広告ID取得失敗時のエラーを`PLAY_SERVICES_UNAVAILABLE`から`ADVERTISING_ID_UNAVAILABLE`に変更
+
 ## 2019/12/10
 
 ### FluctSDK v5.11.0

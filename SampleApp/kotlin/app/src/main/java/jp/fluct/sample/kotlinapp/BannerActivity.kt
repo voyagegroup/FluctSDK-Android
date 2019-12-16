@@ -1,48 +1,28 @@
 package jp.fluct.sample.kotlinapp
 
+import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
-import jp.fluct.fluctsdk.FluctAdBanner
+import android.widget.Button
+import jp.fluct.sample.kotlinapp.banner.BannerLayoutXmlActivity
+import jp.fluct.sample.kotlinapp.banner.BannerRecyclerActivity
 
 class BannerActivity : AppCompatActivity() {
 
+    private val implOnXml by lazy { findViewById<Button>(R.id.impl_on_xml) }
+    private val implOnRecycler by lazy { findViewById<Button>(R.id.impl_on_recycler) }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_banner)
+        setContentView(R.layout.banner_activity)
 
-        setupBanner()
+        implOnXml.setOnClickListener {
+            startActivity(Intent(this, BannerLayoutXmlActivity::class.java))
+        }
+
+        implOnRecycler.setOnClickListener {
+            startActivity(Intent(this, BannerRecyclerActivity::class.java))
+        }
     }
 
-    private fun setupBanner() {
-        val banner = findViewById<FluctAdBanner>(R.id.banner)
-        banner.setCallbacks(object : FluctAdBanner.Callbacks {
-            override fun onDisplayDone() {
-                // 広告が表示されたときの処理を記述（任意）
-
-                // ...
-
-            }
-
-            override fun onTapped() {
-                // 広告がタップされたときの処理を記述（任意）
-
-                // ...
-
-            }
-
-            override fun onError(error: FluctAdBanner.Error) {
-                when (error.type) {
-                    FluctAdBanner.ErrorType.NetworkError -> {
-                        // ネットワークエラー:通信状況を確認
-                    }
-                    FluctAdBanner.ErrorType.InvalidRequest -> {
-                        // 不明な広告リクエスト:media_idを確認
-                    }
-                    else -> {
-                        // その他の不明なエラー:エラーログを確認
-                    }
-                }
-            }
-        })
-    }
 }

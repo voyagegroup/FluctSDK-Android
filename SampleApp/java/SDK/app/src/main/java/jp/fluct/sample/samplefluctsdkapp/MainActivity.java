@@ -15,10 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
         findViewById(R.id.btn_banner).setOnClickListener(v ->
                 startActivity(new Intent(this, BannerActivity.class)));
-        findViewById(R.id.btn_interstitial).setOnClickListener(v ->
-                startActivity(new Intent(this, InterstitialActivity.class)));
-        findViewById(R.id.btn_infeed).setOnClickListener(v ->
-                startActivity(new Intent(this, InfeedActivity.class)));
+
         findViewById(R.id.btn_rewardedvideo).setOnClickListener(v ->
                 startActivity(new Intent(this, RewardedVideoActivity.class)));
         findViewById(R.id.btn_native).setOnClickListener(v ->

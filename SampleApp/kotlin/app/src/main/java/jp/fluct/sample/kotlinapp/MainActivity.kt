@@ -16,12 +16,7 @@ class MainActivity : AppCompatActivity() {
         findViewById<Button>(R.id.btn_banner).setOnClickListener {
             startActivity(Intent(this, BannerActivity::class.java))
         }
-        findViewById<Button>(R.id.btn_interstitial).setOnClickListener {
-            startActivity(Intent(this, InterstitialActivity::class.java))
-        }
-        findViewById<Button>(R.id.btn_infeed).setOnClickListener {
-            startActivity(Intent(this, InfeedActivity::class.java))
-        }
+
         findViewById<Button>(R.id.btn_rewardedvideo).setOnClickListener {
             startActivity(Intent(this, RewardedVideoActivity::class.java))
         }

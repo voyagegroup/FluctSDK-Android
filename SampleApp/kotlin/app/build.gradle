@@ -1,6 +1,10 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 
+ext {
+    fluctSdkVersion = '6.0.0'
+}
+
 android {
     compileSdkVersion 28
     buildToolsVersion "28.0.3"
@@ -52,15 +56,16 @@ dependencies {
     implementation 'com.google.android.gms:play-services-ads-identifier:16.0.0'
 
     // FluctSDK
-    implementation 'jp.fluct:FluctSDK:5.11.0'
-    implementation 'jp.fluct.mediation:rewardedvideo-mediation-applovin:2.10.0'
-    implementation 'jp.fluct.mediation:rewardedvideo-mediation-maio:2.10.0'
-    implementation 'jp.fluct.mediation:rewardedvideo-mediation-nend:2.10.0'
-    implementation 'jp.fluct.mediation:rewardedvideo-mediation-unityads:2.10.0'
-    implementation 'jp.fluct.mediation:rewardedvideo-mediation-adcolony:2.10.0'
-    implementation 'jp.fluct.mediation:rewardedvideo-mediation-tapjoy:2.10.0'
-    implementation 'jp.fluct.mediation:rewardedvideo-mediation-adcorsa:2.10.0'
-    implementation 'jp.fluct.mediation:rewardedvideo-mediation-admob:2.10.0'
+    implementation "jp.fluct:FluctSDK:${fluctSdkVersion}"
+    implementation "jp.fluct.fluctsdk:banner:${fluctSdkVersion}"
+    implementation "jp.fluct.mediation:rewardedvideo-mediation-applovin:${fluctSdkVersion}"
+    implementation "jp.fluct.mediation:rewardedvideo-mediation-maio:${fluctSdkVersion}"
+    implementation "jp.fluct.mediation:rewardedvideo-mediation-nend:${fluctSdkVersion}"
+    implementation "jp.fluct.mediation:rewardedvideo-mediation-unityads:${fluctSdkVersion}"
+    implementation "jp.fluct.mediation:rewardedvideo-mediation-adcolony:${fluctSdkVersion}"
+    implementation "jp.fluct.mediation:rewardedvideo-mediation-tapjoy:${fluctSdkVersion}"
+    implementation "jp.fluct.mediation:rewardedvideo-mediation-adcorsa:${fluctSdkVersion}"
+    implementation "jp.fluct.mediation:rewardedvideo-mediation-admob:${fluctSdkVersion}"
 
     // AppLovin SDK
     implementation 'com.applovin:applovin-sdk:9.9.0'
