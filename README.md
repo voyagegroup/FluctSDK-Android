@@ -5,6 +5,21 @@ FluctSDK-Androidの[Wiki](https://github.com/voyagegroup/FluctSDK-Android/wiki)�
 
 # FluctSDK Release Note
 
+## 2019/12/18
+
+### FluctSDK v6.1.0
+
+* Google Mobile Ads向けカスタムイベント v6.1.0をサポート
+* MoPub向けカスタムイベント v6.1.0をサポート
+
+### Google Mobile Ads向けカスタムイベント v6.1.0
+
+* バナー広告用カスタムイベントの対応
+
+### MoPub向けカスタムイベント v6.1.0
+
+* バナー広告用カスタムイベントの対応
+
 ## 2019/12/16
 
 ### FluctSDK v6.0.0
