@@ -3,11 +3,12 @@
   <groupId>jp.fluct.fluctsdk</groupId>
   <artifactId>banner</artifactId>
   <versioning>
-    <release>6.1.0</release>
+    <release>6.1.1</release>
     <versions>
       <version>6.0.0</version>
       <version>6.1.0</version>
+      <version>6.1.1</version>
     </versions>
-    <lastUpdated>20191218025038</lastUpdated>
+    <lastUpdated>20191219012637</lastUpdated>
   </versioning>
 </metadata>
