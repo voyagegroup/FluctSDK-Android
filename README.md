@@ -5,6 +5,12 @@ FluctSDK-Androidの[Wiki](https://github.com/voyagegroup/FluctSDK-Android/wiki)�
 
 # FluctSDK Release Note
 
+## 2019/12/19
+
+### FluctSDK v6.1.1
+
+* 2階層以上ネストしたFragment内でバナー広告の表示を試みるとクラッシュする問題を修正
+
 ## 2019/12/18
 
 ### FluctSDK v6.1.0
@@ -12,11 +18,11 @@ FluctSDK-Androidの[Wiki](https://github.com/voyagegroup/FluctSDK-Android/wiki)�
 * Google Mobile Ads向けカスタムイベント v6.1.0をサポート
 * MoPub向けカスタムイベント v6.1.0をサポート
 
-### Google Mobile Ads向けカスタムイベント v6.1.0
+#### Google Mobile Ads向けカスタムイベント v6.1.0
 
 * バナー広告用カスタムイベントの対応
 
-### MoPub向けカスタムイベント v6.1.0
+#### MoPub向けカスタムイベント v6.1.0
 
 * バナー広告用カスタムイベントの対応
 
