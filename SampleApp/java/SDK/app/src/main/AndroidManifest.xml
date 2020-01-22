@@ -16,7 +16,6 @@
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
     <!-- endregion -->
 
-    <!-- NOTE: `usesCleartextTraffic` is required to take full advantage for AdColony. -->
     <application
         android:name=".App"
         android:allowBackup="false"
@@ -25,8 +24,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        tools:ignore="GoogleAppIndexingWarning,UnusedAttribute"
-        android:usesCleartextTraffic="true">
+        tools:ignore="GoogleAppIndexingWarning,UnusedAttribute">
 
         <!-- Required Google play services definition for using FluctSDK -->
         <meta-data
@@ -49,51 +47,6 @@
         <activity android:name=".RewardedVideoActivity"/>
         <activity android:name=".nativead.NativeAdSampleActivity"/>
         <activity android:name=".nativead.NativeAdRecyclerActivity"/>
-
-        <!-- region Required Activity definition for using maio sdk -->
-
-        <activity
-            android:name="jp.maio.sdk.android.AdFullscreenActivity"
-            android:configChanges="orientation|screenLayout|screenSize"
-            android:hardwareAccelerated="true"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
-
-        <activity
-            android:name="jp.maio.sdk.android.HtmlBasedAdActivity"
-            android:configChanges="keyboardHidden|orientation|screenSize"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
-
-        <!-- endregion -->
-
-        <!-- region AdColony -->
-        <activity
-            android:name="com.adcolony.sdk.AdColonyInterstitialActivity"
-            android:configChanges="keyboardHidden|orientation|screenSize"
-            android:hardwareAccelerated="true"/>
-        <activity
-            android:name="com.adcolony.sdk.AdColonyAdViewActivity"
-            android:configChanges="keyboardHidden|orientation|screenSize"
-            android:hardwareAccelerated="true"/>
-        <!-- endregion -->
-
-        <!-- region Tapjoy -->
-        <activity
-            android:name="com.tapjoy.TJAdUnitActivity"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:hardwareAccelerated="true"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
-        <activity
-            android:name="com.tapjoy.mraid.view.ActionHandler"
-            android:configChanges="orientation|keyboardHidden|screenSize"/>
-        <activity
-            android:name="com.tapjoy.mraid.view.Browser"
-            android:configChanges="orientation|keyboardHidden|screenSize"/>
-        <activity
-            android:name="com.tapjoy.TJContentActivity"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:hardwareAccelerated="true"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
-        <!-- endregion -->
 
         <activity
             android:name=".nativead.NativeAdSimpleActivity"

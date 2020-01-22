@@ -5,6 +5,13 @@ FluctSDK-Androidの[Wiki](https://github.com/voyagegroup/FluctSDK-Android/wiki)�
 
 # FluctSDK Release Note
 
+## 2020/1/22
+
+### FluctSDK v6.2.0
+
+* 動画リワード広告表示時のイベントをログ出力する機能を追加
+* ProGuardルールファイルをAARファイルに同梱
+
 ## 2019/12/19
 
 ### FluctSDK v6.1.1
