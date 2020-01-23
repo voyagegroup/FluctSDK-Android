@@ -5,6 +5,19 @@ FluctSDK-Androidの[Wiki](https://github.com/voyagegroup/FluctSDK-Android/wiki)�
 
 # FluctSDK Release Note
 
+## 2020/1/23
+
+### FluctSDK v7.0.0
+
+* 内部処理の改善
+
+#### Google Mobile Ads向けカスタムイベント v7.0.0
+
+* Google Mobile Adsの最低動作バージョンを17.2.0に変更
+	* アダプターを動画リワードの新しいAPIに対応するため
+	* Google Mobile Ads 17.0.0より、AndroidManifest.xmlにApp IDの記述が必要になりました。詳しくは[こちら](https://developers.google.com/admob/android/quick-start#update_your_androidmanifestxml)をご参照ください。
+* ターゲティング設定と配信オプション設定をサポート
+
 ## 2020/1/22
 
 ### FluctSDK v6.2.0
