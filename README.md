@@ -5,6 +5,12 @@ FluctSDK-Androidの[Wiki](https://github.com/voyagegroup/FluctSDK-Android/wiki)�
 
 # FluctSDK Release Note
 
+## 2020/1/28
+
+#### 動画リワードメディエーションアダプター v7.0.1
+
+* maioをAARファイルで導入した際に発生するコンパイルエラーを修正
+
 ## 2020/1/23
 
 ### FluctSDK v7.0.0
