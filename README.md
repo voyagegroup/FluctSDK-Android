@@ -5,6 +5,12 @@ FluctSDK-Androidの[Wiki](https://github.com/voyagegroup/FluctSDK-Android/wiki)�
 
 # FluctSDK Release Note
 
+## 2020/2/4
+
+### FluctSDK v7.1.1
+
+* AndroidX環境にてJavaコードからバナーの利用を試みるとコンパイルエラーが発生する問題を修正
+
 ## 2020/2/3
 
 ### 動画リワードメディエーションアダプター v7.1.0
