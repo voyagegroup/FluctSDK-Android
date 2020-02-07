@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 
 ext {
-    fluctSdkVersion = '7.1.1'
+    fluctSdkVersion = '7.1.2'
 }
 
 android {
@@ -81,7 +81,7 @@ dependencies {
     implementation 'com.adcolony:sdk:4.1.0'
 
     // Tapjoy SDK
-    implementation 'com.tapjoy:tapjoy-android-sdk:12.4.1@aar'
+    implementation 'com.tapjoy:tapjoy-android-sdk:12.4.2@aar'
 
     // AdMob
     //noinspection GradleDependency

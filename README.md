@@ -5,6 +5,12 @@ FluctSDK-Androidの[Wiki](https://github.com/voyagegroup/FluctSDK-Android/wiki)�
 
 # FluctSDK Release Note
 
+## 2020/2/7
+
+### 動画リワードメディエーションアダプター v7.1.2
+
+* Tapjoy SDKのバージョンを `12.4.2` へ更新
+
 ## 2020/2/4
 
 ### FluctSDK v7.1.1
