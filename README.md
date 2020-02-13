@@ -5,7 +5,7 @@ FluctSDK-Android„ÅÆ[Wiki](https://github.com/voyagegroup/FluctSDK-Android/wiki)„
 
 # FluctSDK Release Note
 
-## 2020/xx/xx
+## 2020/2/13
 
 ### FluctSDK v7.1.3
 
