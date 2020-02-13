@@ -5,6 +5,12 @@ FluctSDK-Androidの[Wiki](https://github.com/voyagegroup/FluctSDK-Android/wiki)�
 
 # FluctSDK Release Note
 
+## 2020/xx/xx
+
+### FluctSDK v7.1.3
+
+* 内部処理の改善
+
 ## 2020/2/7
 
 ### 動画リワードメディエーションアダプター v7.1.2
