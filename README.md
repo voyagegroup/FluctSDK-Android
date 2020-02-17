@@ -5,6 +5,12 @@ FluctSDK-Androidの[Wiki](https://github.com/voyagegroup/FluctSDK-Android/wiki)�
 
 # FluctSDK Release Note
 
+## 2020/2/17
+
+### FluctSDK v7.2.0
+
+* 320x100のバナー広告サイズの対応
+
 ## 2020/2/13
 
 ### FluctSDK v7.1.3
