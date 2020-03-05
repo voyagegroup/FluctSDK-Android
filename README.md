@@ -5,6 +5,12 @@ FluctSDK-Androidの[Wiki](https://github.com/voyagegroup/FluctSDK-Android/wiki)�
 
 # FluctSDK Release Note
 
+## 2020/03/05
+
+### FluctSDK v7.2.2
+
+* AdMobメディエーションにおいてまれに発生するエラーによりクラッシュする問題を修正
+
 ## 2020/2/25
 
 ### FluctSDK v7.2.1
