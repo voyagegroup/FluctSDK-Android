@@ -3,7 +3,7 @@
   <groupId>jp.fluct.mediation</groupId>
   <artifactId>rewardedvideo-mediation-applovin</artifactId>
   <versioning>
-    <release>7.2.3</release>
+    <release>7.3.0</release>
     <versions>
       <version>2.8.0</version>
       <version>2.9.0</version>
@@ -25,7 +25,8 @@
       <version>7.2.1</version>
       <version>7.2.2</version>
       <version>7.2.3</version>
+      <version>7.3.0</version>
     </versions>
-    <lastUpdated>20200309015833</lastUpdated>
+    <lastUpdated>20200316014504</lastUpdated>
   </versioning>
 </metadata>
