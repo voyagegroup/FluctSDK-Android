@@ -40,7 +40,7 @@ public class NativeAdSimpleActivity extends Activity {
                 .build();
 
         nativeAd = new FluctNativeAd(this, "1000098841", "1000149834", viewBinder);
-        ViewGroup parent = findViewById(R.id.native_ad_simple);
+        final ViewGroup parent = findViewById(R.id.native_ad_simple);
 
         nativeAd.setListener(new FluctNativeAd.Listener() {
 

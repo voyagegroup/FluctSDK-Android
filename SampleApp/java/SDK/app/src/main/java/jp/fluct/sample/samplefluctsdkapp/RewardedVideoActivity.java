@@ -3,6 +3,7 @@ package jp.fluct.sample.samplefluctsdkapp;
 import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -44,30 +45,32 @@ public class RewardedVideoActivity extends AppCompatActivity {
             public void onLoaded(String groupId, String unitId) {
                 updateStateText("Loaded");
                 showButton.setEnabled(true);
+                Log.d("RewardedVideoActivity", "onLoaded");
             }
 
             // 広告読み込み失敗
             @Override
             public void onFailedToLoad(String groupId, String unitId, FluctErrorCode errorCode) {
                 updateStateText("Failed to load");
+                Log.d("RewardedVideoActivity", "onFailedToLoad");
             }
 
             // 広告が表示した
             @Override
             public void onOpened(String groupId, String unitId) {
-
+                Log.d("RewardedVideoActivity", "onOpened");
             }
 
             // 動画が再生された
             @Override
             public void onStarted(String groupId, String unitId) {
-
+                Log.d("RewardedVideoActivity", "onStarted");
             }
 
             // リワード付与通知
             @Override
             public void onShouldReward(String groupId, String unitId) {
-
+                Log.d("RewardedVideoActivity", "onShouldReward");
             }
 
             // 広告が閉じられた
@@ -75,12 +78,14 @@ public class RewardedVideoActivity extends AppCompatActivity {
             public void onClosed(String groupId, String unitId) {
                 updateStateText("Complete");
                 showButton.setEnabled(false);
+                Log.d("RewardedVideoActivity", "onClosed");
             }
 
             // 広告の再生が失敗した
             @Override
             public void onFailedToPlay(String groupId, String unitId, FluctErrorCode errorCode) {
                 updateStateText("Failed to play");
+                Log.d("RewardedVideoActivity", "onFailedToPlay");
             }
         });
 

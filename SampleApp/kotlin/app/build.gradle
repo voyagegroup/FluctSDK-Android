@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 
 ext {
-    fluctSdkVersion = '7.2.3'
+    fluctSdkVersion = '7.3.0'
 }
 
 android {
@@ -24,6 +24,10 @@ android {
             shrinkResources true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
     }
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
@@ -58,6 +62,7 @@ dependencies {
     // FluctSDK
     implementation "jp.fluct:FluctSDK:${fluctSdkVersion}"
     implementation "jp.fluct.fluctsdk:banner:${fluctSdkVersion}"
+    implementation "jp.fluct.fluctsdk:fullscreen-ads:${fluctSdkVersion}"
     implementation "jp.fluct.mediation:rewardedvideo-mediation-applovin:${fluctSdkVersion}"
     implementation "jp.fluct.mediation:rewardedvideo-mediation-maio:${fluctSdkVersion}"
     implementation "jp.fluct.mediation:rewardedvideo-mediation-nend:${fluctSdkVersion}"

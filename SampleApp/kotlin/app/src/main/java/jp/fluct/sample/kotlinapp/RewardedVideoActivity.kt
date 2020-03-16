@@ -3,6 +3,7 @@ package jp.fluct.sample.kotlinapp
 import android.annotation.SuppressLint
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
+import android.util.Log
 import android.widget.Button
 import android.widget.TextView
 import jp.fluct.fluctsdk.FluctAdRequestTargeting
@@ -41,33 +42,40 @@ class RewardedVideoActivity : AppCompatActivity() {
             override fun onLoaded(groupId: String?, unitId: String?) {
                 showButton?.isEnabled = true
                 updateStateTextView("Loaded")
+                Log.d("RewardedVideoActivity", "onLoaded")
             }
 
             // 広告読み込み失敗
             override fun onFailedToLoad(groupId: String?, unitId: String?, errorCode: FluctErrorCode?) {
                 updateStateTextView("Failed to load")
+                Log.d("RewardedVideoActivity", "onFailedToLoad")
             }
 
             // 広告が表示した
             override fun onOpened(groupId: String?, unitId: String?) {
+                Log.d("RewardedVideoActivity", "onOpened")
             }
 
             // 動画が再生された
             override fun onStarted(groupId: String?, unitId: String?) {
+                Log.d("RewardedVideoActivity", "onStarted")
             }
 
             // リワード付与通知
             override fun onShouldReward(groupId: String?, unitId: String?) {
+                Log.d("RewardedVideoActivity", "onShouldReward")
             }
 
             // 広告が閉じられた
             override fun onClosed(groupId: String?, unitId: String?) {
                 showButton?.isEnabled = false
                 updateStateTextView("Complete")
+                Log.d("RewardedVideoActivity", "onClosed")
             }
 
             // 広告の再生が失敗した
             override fun onFailedToPlay(groupId: String?, unitId: String?, errorCode: FluctErrorCode?) {
+                Log.d("RewardedVideoActivity", "onFailedToPlay")
             }
         })
 

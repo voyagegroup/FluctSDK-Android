@@ -5,6 +5,13 @@ FluctSDK-Androidの[Wiki](https://github.com/voyagegroup/FluctSDK-Android/wiki)�
 
 # FluctSDK Release Note
 
+## 2020/3/16
+
+### FluctSDK v7.3.0
+
+* 動画リワード広告のRTB対応
+	* 利用する際は[こちら](https://github.com/voyagegroup/FluctSDK-Android/wiki/%E3%82%A2%E3%83%97%E3%83%AA%E3%81%AB%E5%8B%95%E7%94%BB%E5%BA%83%E5%91%8ASDK%E3%82%92%E8%BF%BD%E5%8A%A0%E3%81%99%E3%82%8B)のモジュールを追加してください。 
+
 ## 2020/3/09
 
 ### FluctSDK v7.2.3
