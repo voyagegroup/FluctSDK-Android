@@ -5,6 +5,12 @@ FluctSDK-Androidの[Wiki](https://github.com/voyagegroup/FluctSDK-Android/wiki)�
 
 # FluctSDK Release Note
 
+## 2020/3/18
+
+### FluctSDK v7.3.1
+
+* 内部処理の改善
+
 ## 2020/3/16
 
 ### FluctSDK v7.3.0
