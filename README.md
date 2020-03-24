@@ -5,6 +5,13 @@ FluctSDK-Androidの[Wiki](https://github.com/voyagegroup/FluctSDK-Android/wiki)�
 
 # FluctSDK Release Note
 
+## 2020/3/24
+
+### FluctSDK v7.3.2
+
+* Proguard設定の改善
+* AppLovin SDKバージョンを `9.11.6` へ更新
+
 ## 2020/3/18
 
 ### FluctSDK v7.3.1

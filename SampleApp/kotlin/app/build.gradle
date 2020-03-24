@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 
 ext {
-    fluctSdkVersion = '7.3.1'
+    fluctSdkVersion = '7.3.2'
 }
 
 android {
@@ -73,7 +73,7 @@ dependencies {
     implementation "jp.fluct.mediation:rewardedvideo-mediation-admob:${fluctSdkVersion}"
 
     // AppLovin SDK
-    implementation 'com.applovin:applovin-sdk:9.9.0'
+    implementation 'com.applovin:applovin-sdk:9.11.6'
 
     // maio SDK
     implementation 'com.maio:android-sdk:1.1.10'
