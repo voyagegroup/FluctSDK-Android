@@ -5,6 +5,13 @@ FluctSDK-Androidの[Wiki](https://github.com/voyagegroup/FluctSDK-Android/wiki)�
 
 # FluctSDK Release Note
 
+## 2020/3/25
+
+### FluctSDK v7.3.3
+
+* Android 7以降かつ古いWebView実装のインストールされた環境でバナー広告が正常に動作しない問題を修正
+* Android 7以降かつ古いWebView実装のインストールされた環境で動画リワード広告のエンドカードが正常に動作しない問題を修正
+
 ## 2020/3/24
 
 ### FluctSDK v7.3.2
