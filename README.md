@@ -5,6 +5,14 @@ FluctSDK-Androidの[Wiki](https://github.com/voyagegroup/FluctSDK-Android/wiki)�
 
 # FluctSDK Release Note
 
+## 2020/3/26
+
+### FluctSDK v7.3.4
+
+* maio SDKバージョンを `1.1.11` へ更新
+* Unity Ads SDKバージョンを `3.4.2` へ更新
+* AdColony SDKバージョンを `4.1.4` へ更新
+
 ## 2020/3/25
 
 ### FluctSDK v7.3.3

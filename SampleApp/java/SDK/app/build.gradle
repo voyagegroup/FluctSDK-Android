@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 
 ext {
-    fluctSdkVersion = '7.3.3'
+    fluctSdkVersion = '7.3.4'
 }
 
 android {
@@ -70,16 +70,16 @@ dependencies {
     implementation 'com.applovin:applovin-sdk:9.11.6'
 
     // maio SDK
-    implementation 'com.maio:android-sdk:1.1.10'
+    implementation 'com.maio:android-sdk:1.1.11'
 
     // nend SDK
     implementation 'net.nend.android:nend-sdk:5.1.1'
 
     // UnityAds SDK
-    implementation 'com.unity3d.ads:unity-ads:3.3.0'
+    implementation 'com.unity3d.ads:unity-ads:3.4.2'
 
     // AdColony SDK
-    implementation 'com.adcolony:sdk:4.1.0'
+    implementation 'com.adcolony:sdk:4.1.4'
 
     // Tapjoy SDK
     implementation 'com.tapjoy:tapjoy-android-sdk:12.4.2@aar'
