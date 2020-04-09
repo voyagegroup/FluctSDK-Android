@@ -1,9 +1,16 @@
 # FluctSDK
 
-## APIドキュメント
-FluctSDK-Androidの[Wiki](https://github.com/voyagegroup/FluctSDK-Android/wiki)を参照してください
+## ドキュメント
+[こちら](https://voyagegroup.github.io/FluctSDK-Doc/#/)を参照してください
 
 # FluctSDK Release Note
+
+## 2020/4/9
+
+### FluctSDK v7.4.0
+
+* InputMethodServiceからのバナー広告表示機能を追加
+* `FluctAdRequestTargeting`の`setUserId`をdeprecate
 
 ## 2020/3/26
 
@@ -572,9 +579,6 @@ FluctSDK-Androidの[Wiki](https://github.com/voyagegroup/FluctSDK-Android/wiki)�
 * ライブラリ提供方式を リモート maven リポジトリ
 * FluctSDK クラスパス
 * FluctInterstitial コールバック
-
-## v3.2.2 以前の変更点について
-* [改版履歴](https://github.com/voyagegroup/FluctSDK-Android/wiki/%E6%94%B9%E7%89%88%E5%B1%A5%E6%AD%B4)をご確認下さい
 
 ---
 ## LICENSE
