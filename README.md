@@ -5,6 +5,12 @@
 
 # FluctSDK Release Note
 
+## 2020/4/22
+
+### FluctSDK v7.4.3
+
+* 動画リワード広告において不正なTracking URLをもつVASTを再生しようとしたときに動画再生が失敗する問題を修正
+
 ## 2020/4/15
 
 ### FluctSDK v7.4.2
