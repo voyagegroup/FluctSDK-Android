@@ -5,6 +5,12 @@
 
 # FluctSDK Release Note
 
+## 2020/4/28
+
+### FluctSDK v7.5.0
+
+* 動画インタースティシャル広告表示機能の追加
+
 ## 2020/4/22
 
 ### FluctSDK v7.4.3

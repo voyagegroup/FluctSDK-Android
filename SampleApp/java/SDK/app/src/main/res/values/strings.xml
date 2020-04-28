@@ -2,6 +2,7 @@
     <string name="app_name">SampleFluctSDKApp</string>
 
     <string name="main_menu_rewardedvideo">動画リワード広告</string>
+    <string name="main_menu_videointerstitial">動画インタースティシャル広告</string>
     <string name="main_menu_ncr">ネイティブ広告</string>
     <string name="native_menu_simple">SimpleView</string>
     <string name="native_menu_recycler">RecyclerView</string>

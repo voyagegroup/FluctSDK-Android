@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context=".VideoInterstitialActivity">
+
+    <TextView
+        android:id="@+id/state_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="State: Not loaded"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        tools:ignore="HardcodedText"/>
+
+    <Button
+        android:id="@+id/load_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="load"
+        tools:ignore="HardcodedText"/>
+
+    <Button
+        android:id="@+id/show_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:text="Show"
+        tools:ignore="HardcodedText"/>
+</LinearLayout>

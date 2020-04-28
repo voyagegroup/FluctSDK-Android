@@ -2,7 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="jp.fluct.sample.kotlinapp">
-
     <!-- FluctSDK using permission -->
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
@@ -11,10 +10,8 @@
     <!-- region AdColony -->
     <uses-permission android:name="android.permission.VIBRATE"/>
     <!-- endregion -->
-
     <!-- region Tapjoy -->
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
-    <!-- endregion -->
 
     <application
         android:name=".App"
@@ -24,14 +21,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="UnusedAttribute">
-
-        <!-- Required Activity definition for using FluctInterstitial -->
-        <activity
-            android:name="jp.fluct.fluctsdk.FluctInterstitialActivity"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:launchMode="singleTask"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
-
+        <activity android:name=".VideoInterstitialActivity"></activity>
         <!-- Required Google play services definition for using FluctSDK -->
         <meta-data
             android:name="com.google.android.gms.version"
@@ -42,22 +32,18 @@
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
+
                 <action android:name="android.intent.action.VIEW"/>
             </intent-filter>
         </activity>
-        <activity android:name=".InfeedActivity"/>
-        <activity android:name=".InterstitialActivity"/>
         <activity android:name=".RewardedVideoActivity"/>
         <activity android:name=".nativead.NativeAdSampleActivity"/>
         <activity android:name=".nativead.NativeAdRecyclerActivity"/>
         <activity android:name=".nativead.NativeAdSimpleActivity"/>
-
         <!-- region Banner -->
         <activity android:name=".BannerActivity"/>
         <activity android:name=".banner.BannerLayoutXmlActivity"/>
         <activity android:name=".banner.BannerRecyclerActivity"/>
-        <!-- endregion -->
-
     </application>
 
 </manifest>

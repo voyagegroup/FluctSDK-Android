@@ -13,33 +13,32 @@ import java.util.GregorianCalendar;
 
 import jp.fluct.fluctsdk.FluctAdRequestTargeting;
 import jp.fluct.fluctsdk.FluctErrorCode;
-import jp.fluct.fluctsdk.FluctRewardedVideo;
-import jp.fluct.fluctsdk.FluctRewardedVideoSettings;
+import jp.fluct.fluctsdk.FluctVideoInterstitial;
+import jp.fluct.fluctsdk.FluctVideoInterstitialSettings;
 
-public class RewardedVideoActivity extends AppCompatActivity {
-    private FluctRewardedVideo rewardedVideo;
+public class VideoInterstitialActivity extends AppCompatActivity {
+    private FluctVideoInterstitial rewardedVideo;
     private Button showButton;
     private TextView stateTextView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_rewarded_video);
+        setContentView(R.layout.activity_video_interstitial);
 
         stateTextView = (TextView) findViewById(R.id.state_textview);
 
-        String groupID = "1000090271";
-        String unitID = "1000135434";
+        String groupID = "1000120112";
+        String unitID = "1000207345";
 
-
-        FluctRewardedVideoSettings settings = new FluctRewardedVideoSettings.Builder()
+        FluctVideoInterstitialSettings settings = new FluctVideoInterstitialSettings.Builder()
                 .testMode(true)
                 .debugMode(true)
                 .build();
 
-        rewardedVideo = FluctRewardedVideo.getInstance(groupID, unitID, this, settings);
+        rewardedVideo = FluctVideoInterstitial.getInstance(groupID, unitID, this, settings);
 
-        rewardedVideo.setListener(new FluctRewardedVideo.Listener() {
+        rewardedVideo.setListener(new FluctVideoInterstitial.Listener() {
             // 広告読み込み完了
             @Override
             public void onLoaded(String groupId, String unitId) {
@@ -65,12 +64,6 @@ public class RewardedVideoActivity extends AppCompatActivity {
             @Override
             public void onStarted(String groupId, String unitId) {
                 Log.d("RewardedVideoActivity", "onStarted");
-            }
-
-            // リワード付与通知
-            @Override
-            public void onShouldReward(String groupId, String unitId) {
-                Log.d("RewardedVideoActivity", "onShouldReward");
             }
 
             // 広告が閉じられた

@@ -8,13 +8,13 @@ import android.widget.Button
 import android.widget.TextView
 import jp.fluct.fluctsdk.FluctAdRequestTargeting
 import jp.fluct.fluctsdk.FluctErrorCode
-import jp.fluct.fluctsdk.FluctRewardedVideo
-import jp.fluct.fluctsdk.FluctRewardedVideoSettings
+import jp.fluct.fluctsdk.FluctVideoInterstitial
+import jp.fluct.fluctsdk.FluctVideoInterstitialSettings
 import java.util.*
 
-class RewardedVideoActivity : AppCompatActivity() {
+class VideoInterstitialActivity : AppCompatActivity() {
 
-    private lateinit var rewardedVideo: FluctRewardedVideo
+    private lateinit var rewardedVideo: FluctVideoInterstitial
 
     private var stateTextView: TextView? = null
     private var showButton: Button? = null
@@ -25,16 +25,16 @@ class RewardedVideoActivity : AppCompatActivity() {
 
         stateTextView = findViewById<TextView>(R.id.state_textview)
 
-        val groupID = "1000090271"
-        val unitID = "1000135434"
+        val groupID = "1000120112"
+        val unitID = "1000207345"
 
-        val settings = FluctRewardedVideoSettings.Builder()
+        val settings = FluctVideoInterstitialSettings.Builder()
                 .testMode(true)
                 .debugMode(true)
                 .build()
 
-        rewardedVideo = FluctRewardedVideo.getInstance(groupID, unitID, this, settings)
-        rewardedVideo.setListener(object : FluctRewardedVideo.Listener {
+        rewardedVideo = FluctVideoInterstitial.getInstance(groupID, unitID, this, settings)
+        rewardedVideo.setListener(object : FluctVideoInterstitial.Listener {
             // 広告読み込み完了
             override fun onLoaded(groupId: String?, unitId: String?) {
                 showButton?.isEnabled = true
@@ -56,11 +56,6 @@ class RewardedVideoActivity : AppCompatActivity() {
             // 動画が再生された
             override fun onStarted(groupId: String?, unitId: String?) {
                 Log.d("RewardedVideoActivity", "onStarted")
-            }
-
-            // リワード付与通知
-            override fun onShouldReward(groupId: String?, unitId: String?) {
-                Log.d("RewardedVideoActivity", "onShouldReward")
             }
 
             // 広告が閉じられた

@@ -20,6 +20,11 @@ class MainActivity : AppCompatActivity() {
         findViewById<Button>(R.id.btn_rewardedvideo).setOnClickListener {
             startActivity(Intent(this, RewardedVideoActivity::class.java))
         }
+
+        findViewById<Button>(R.id.btn_videointerstitial).setOnClickListener {
+            startActivity(Intent(this, VideoInterstitialActivity::class.java))
+        }
+
         findViewById<Button>(R.id.btn_native).setOnClickListener {
             startActivity(Intent(this, NativeAdSampleActivity::class.java))
         }
