@@ -5,6 +5,12 @@
 
 # FluctSDK Release Note
 
+## 2020/5/25
+
+### FluctSDK v7.7.0
+
+* Fiveメディエーション機能を追加
+
 ## 2020/5/14
 
 ### Google Mobile Ads向けカスタムイベント v7.6.0
