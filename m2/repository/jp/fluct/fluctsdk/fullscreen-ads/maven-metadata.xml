@@ -3,7 +3,7 @@
   <groupId>jp.fluct.fluctsdk</groupId>
   <artifactId>fullscreen-ads</artifactId>
   <versioning>
-    <release>7.6.0</release>
+    <release>7.7.0</release>
     <versions>
       <version>7.3.0</version>
       <version>7.3.1</version>
@@ -17,7 +17,8 @@
       <version>7.5.0</version>
       <version>7.5.1</version>
       <version>7.6.0</version>
+      <version>7.7.0</version>
     </versions>
-    <lastUpdated>20200514061255</lastUpdated>
+    <lastUpdated>20200525062946</lastUpdated>
   </versioning>
 </metadata>
