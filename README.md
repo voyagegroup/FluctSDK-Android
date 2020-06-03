@@ -5,6 +5,12 @@
 
 # FluctSDK Release Note
 
+## 2020/6/3
+
+### FluctSDK v7.7.2
+
+* 軽微な内部処理の改善
+
 ## 2020/5/28
 
 ### FluctSDK v7.7.1
