@@ -5,6 +5,12 @@
 
 # FluctSDK Release Note
 
+## 2020/6/10
+
+### v7.9.0
+
+* MoPub向けBid Lift動画リワード広告表示機能を追加
+
 ## 2020/6/9
 
 ### v7.8.1
