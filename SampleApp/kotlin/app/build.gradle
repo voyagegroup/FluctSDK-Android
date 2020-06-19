@@ -3,7 +3,7 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
 ext {
-    fluctSdkVersion = '7.9.0'
+    fluctSdkVersion = '7.10.0'
 }
 
 android {
