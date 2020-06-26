@@ -5,6 +5,14 @@
 
 # FluctSDK Release Note
 
+## 2020/6/26
+
+### v7.11.0
+
+* FluctNativeAdと関連クラスをdeprecatedに変更
+* MoPub SDKとGoogle Mobile Ads SDKの最低動作versionを指定する記述を追加
+* 内部処理の改善
+
 ## 2020/6/19
 
 ### v7.10.0
