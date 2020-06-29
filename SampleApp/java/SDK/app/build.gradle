@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 
 ext {
-    fluctSdkVersion = '7.11.0'
+    fluctSdkVersion = '8.0.0'
 }
 
 android {
@@ -58,7 +58,6 @@ dependencies {
 
     // FluctSDK
     implementation "jp.fluct:FluctSDK:${fluctSdkVersion}"
-    implementation "jp.fluct.fluctsdk:banner:${fluctSdkVersion}"
     implementation "jp.fluct.fluctsdk:fullscreen-ads:${fluctSdkVersion}"
     implementation "jp.fluct.mediation:rewardedvideo-mediation-applovin:${fluctSdkVersion}"
     implementation "jp.fluct.mediation:rewardedvideo-mediation-maio:${fluctSdkVersion}"

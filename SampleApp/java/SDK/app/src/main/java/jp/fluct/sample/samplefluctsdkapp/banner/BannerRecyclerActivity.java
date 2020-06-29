@@ -1,7 +1,6 @@
 package jp.fluct.sample.samplefluctsdkapp.banner;
 
 import android.annotation.SuppressLint;
-import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -15,9 +14,8 @@ import android.widget.FrameLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import jp.fluct.fluctsdk.FluctAdView;
 import jp.fluct.fluctsdk.FluctErrorCode;
-import jp.fluct.fluctsdk.banner.FluctAdSize;
-import jp.fluct.fluctsdk.banner.FluctAdView;
 import jp.fluct.sample.samplefluctsdkapp.R;
 
 public class BannerRecyclerActivity extends AppCompatActivity {

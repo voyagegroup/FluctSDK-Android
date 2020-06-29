@@ -5,6 +5,16 @@
 
 # FluctSDK Release Note
 
+## 2020/6/29
+
+### v8.0.0
+
+* バナー広告用APIをSDKモジュール内へ移動
+  * バナー広告用APIのモジュールを削除しましたので、ご使用の際はSDKモジュールのみを依存関係に追加してください。
+  * FluctSDKを直接ご利用の方は[こちら](https://voyagegroup.github.io/FluctSDK-Doc/#/fluctsdk-android/start?id=%e3%82%a2%e3%83%97%e3%83%aa%e3%81%abfluctsdk%e3%82%92%e8%bf%bd%e5%8a%a0%e3%81%99%e3%82%8b)をご参照ください。
+  * AdMob Mediationをご利用の方は[こちら](https://voyagegroup.github.io/FluctSDK-Doc/#/admob-mediation-android/start?id=%e3%82%a2%e3%83%97%e3%83%aa%e3%81%abfluctsdk%e3%82%92%e8%bf%bd%e5%8a%a0%e3%81%99%e3%82%8b)をご参照ください。
+  * MoPub Mediationをご利用の方は[こちら](https://voyagegroup.github.io/FluctSDK-Doc/#/mopub-mediation-android/start?id=mopub%e3%81%aesdk%e3%81%a8%e3%82%a2%e3%83%80%e3%83%97%e3%82%bf%e3%83%bc%e3%82%92%e8%bf%bd%e5%8a%a0%e3%81%99%e3%82%8b)をご参照ください。
+
 ## 2020/6/26
 
 ### v7.11.0

@@ -2,7 +2,7 @@ package jp.fluct.sample.kotlinapp.banner
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
-import jp.fluct.fluctsdk.banner.FluctAdView
+import jp.fluct.fluctsdk.FluctAdView
 import jp.fluct.sample.kotlinapp.R
 
 class BannerLayoutXmlActivity : AppCompatActivity() {

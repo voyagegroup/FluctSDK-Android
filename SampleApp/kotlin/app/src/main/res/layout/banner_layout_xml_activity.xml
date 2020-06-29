@@ -4,15 +4,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <jp.fluct.fluctsdk.banner.FluctAdView
+    <jp.fluct.fluctsdk.FluctAdView
         android:id="@+id/adView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        app:groupId="@string/banner_test_group_id"
-        app:unitId="@string/banner_test_unit_id"
         app:adSize="@string/banner_test_ad_size"
+        app:groupId="@string/banner_test_group_id"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:unitId="@string/banner_test_unit_id"/>
 
 </android.support.constraint.ConstraintLayout>

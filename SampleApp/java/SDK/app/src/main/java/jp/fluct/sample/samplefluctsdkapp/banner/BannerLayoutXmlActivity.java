@@ -4,7 +4,7 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 
-import jp.fluct.fluctsdk.banner.FluctAdView;
+import jp.fluct.fluctsdk.FluctAdView;
 import jp.fluct.sample.samplefluctsdkapp.R;
 
 public class BannerLayoutXmlActivity extends AppCompatActivity {

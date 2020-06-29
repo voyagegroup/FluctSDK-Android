@@ -10,10 +10,9 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import android.widget.Toast
+import jp.fluct.fluctsdk.FluctAdView
 import jp.fluct.fluctsdk.FluctErrorCode
-import jp.fluct.fluctsdk.banner.FluctAdView
 import jp.fluct.sample.kotlinapp.R
-import java.lang.IllegalArgumentException
 import java.lang.IllegalStateException
 
 class BannerRecyclerActivity : AppCompatActivity() {
