@@ -5,6 +5,12 @@
 
 # FluctSDK Release Note
 
+## 2020/7/2
+
+### v8.1.0
+
+* AdMob向けBid Liftバナー広告表示機能を追加
+
 ## 2020/6/29
 
 ### v8.0.0
