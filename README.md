@@ -5,6 +5,14 @@
 
 # FluctSDK Release Note
 
+## 2020/7/8
+
+### v8.2.0
+
+* MoPub向けBid Liftバナー広告表示機能を追加
+* 動画リワード/動画インタースティシャル広告の再生失敗時にFluctRewardedVideo.Listener.onFailedToLoadがコールされる不具合を修正
+* 動画リワード/動画インタースティシャル広告の再生時においてActivityが再生成された場合に例外が発生する不具合を修正
+
 ## 2020/7/2
 
 ### v8.1.0
