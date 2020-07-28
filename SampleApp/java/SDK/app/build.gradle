@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 
 ext {
-    fluctSdkVersion = '8.4.0'
+    fluctSdkVersion = '8.4.1'
 }
 
 android {
