@@ -5,6 +5,15 @@
 
 # FluctSDK Release Note
 
+## 2020/7/31
+
+### v8.5.0
+
+* MoPub v5.13.0未満向けBidLift動画リワードアダプターを作成
+	* 詳しくは[こちら](https://voyagegroup.github.io/FluctSDK-Doc/#/bidlift-mopub-android/start?id=_2-%e4%be%9d%e5%ad%98%e9%96%a2%e4%bf%82%e3%82%92%e8%bf%bd%e5%8a%a0%e3%81%99%e3%82%8b)をご参照ください。
+* MoPub v5.13.0未満向け動画リワードメディエーションアダプターを作成
+	* 詳しくは[こちら](https://voyagegroup.github.io/FluctSDK-Doc/#/mopub-mediation-android/start?id=%e3%82%a2%e3%83%80%e3%83%97%e3%82%bf%e3%83%bc%e3%81%ae%e3%82%a4%e3%83%b3%e3%82%b9%e3%83%88%e3%83%bc%e3%83%ab)をご参照ください。
+
 ## 2020/7/28
 
 ### v8.4.1
