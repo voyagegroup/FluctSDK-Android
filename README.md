@@ -5,6 +5,12 @@
 
 # FluctSDK Release Note
 
+## 2020/8/7
+
+### v8.6.1
+
+* SDK Mediation内のタイムアウト秒数を調整しました
+
 ## 2020/8/3
 
 ### v8.6.0
