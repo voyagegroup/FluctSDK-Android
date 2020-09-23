@@ -5,11 +5,18 @@
 
 # FluctSDK Release Note
 
+## 2020/9/23
+
+### v8.6.5
+
+* MoPub AdapterにおけるVideoPlaybackErrorの通知の修正
+* FiveAd SDKのバージョンアップ
+
 ## 2020/8/31
 
 ### v8.6.4
 
-* MoPub向けBid Liftバナー広告で、MoPubViewにApplicatin Contextが渡され場合に広告が表示されない問題を修正
+* MoPub向けBid Liftバナー広告で、MoPubViewにApplicatin Contextが渡された場合に広告が表示されない問題を修正
 * 軽微な内部処理の改善
 
 ## 2020/8/25
