@@ -3,8 +3,8 @@
   <groupId>jp.fluct.mediation.mopub-legacy</groupId>
   <artifactId>mopub-adapter</artifactId>
   <versioning>
-    <latest>8.7.5</latest>
-    <release>8.7.5</release>
+    <latest>8.7.6</latest>
+    <release>8.7.6</release>
     <versions>
       <version>8.5.0</version>
       <version>8.6.0</version>
@@ -19,7 +19,8 @@
       <version>8.7.3</version>
       <version>8.7.4</version>
       <version>8.7.5</version>
+      <version>8.7.6</version>
     </versions>
-    <lastUpdated>20201126054154</lastUpdated>
+    <lastUpdated>20201208022934</lastUpdated>
   </versioning>
 </metadata>
