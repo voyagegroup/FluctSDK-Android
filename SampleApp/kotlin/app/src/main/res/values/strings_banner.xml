@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="main_menu_banner">バナー広告</string>
-    <string name="impl_on_xml">Layout XML上での実装</string>
-    <string name="impl_on_recycler">RecyclerViewでの表示</string>
+    <string name="main_menu_banner">Banner Ads</string>
 
-    <string name="banner_test_group_id">1000111981</string>
-    <string name="banner_test_unit_id">1000177336</string>
-    <string name="banner_test_ad_size">320x50</string>
+    <string name="impl_on_xml">Implement on Layout XML</string>
+    <string name="impl_on_recycler">Implement w/ RecyclerView</string>
+
+    <string name="banner_test_group_id" translatable="false">1000111981</string>
+    <string name="banner_test_unit_id" translatable="false">1000177336</string>
+    <string name="banner_test_ad_size" translatable="false">320x50</string>
 
 </resources>

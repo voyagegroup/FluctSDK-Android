@@ -1,11 +1,5 @@
 <resources>
 
-    <string name="app_name">KotlinSampleApp</string>
-
-    <string name="main_menu_rewardedvideo">動画リワード広告</string>
-    <string name="main_menu_videointerstitial">動画インタースティシャル</string>
-    <string name="main_menu_ncr">ネイティブ広告</string>
-    <string name="native_menu_simple">SimpleView</string>
-    <string name="native_menu_recycler">RecyclerView</string>
+    <string name="app_name" translatable="false">FluctSDK Sample App (Kotlin)</string>
 
 </resources>

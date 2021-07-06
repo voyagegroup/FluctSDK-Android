@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="main_menu_ncr">Native Ads</string>
+
+    <string name="native_menu_simple" translatable="false">SimpleView</string>
+    <string name="native_menu_recycler" translatable="false">RecyclerView</string>
+
+</resources>

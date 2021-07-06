@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="main_menu_banner">バナー広告</string>
+
+    <string name="impl_on_xml">Layout XML上での実装</string>
+    <string name="impl_on_recycler">RecyclerViewでの表示</string>
+
+</resources>
