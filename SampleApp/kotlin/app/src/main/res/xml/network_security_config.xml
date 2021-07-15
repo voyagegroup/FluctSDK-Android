@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+    for debug:
+    - Allows user installed CA(s) always
+    - Allows cleartext (non-secure) traffic always
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="user"/>
+            <certificates src="system"/>
+        </trust-anchors>
+    </base-config>
+</network-security-config>

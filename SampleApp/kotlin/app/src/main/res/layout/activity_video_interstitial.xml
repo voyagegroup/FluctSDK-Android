@@ -24,7 +24,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="load"
-            tools:ignore="HardcodedText"/>
+            tools:ignore="HardcodedText"
+            android:layout_margin="8dp"/>
 
         <Button
             android:id="@+id/show_button"
@@ -32,7 +33,8 @@
             android:layout_height="wrap_content"
             android:enabled="false"
             android:text="Show"
-            tools:ignore="HardcodedText"/>
+            tools:ignore="HardcodedText"
+            android:layout_margin="8dp"/>
 
     </LinearLayout>
 

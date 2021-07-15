@@ -4,7 +4,7 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/background"
+    android:fillViewport="true"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -14,63 +14,47 @@
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin"
         android:paddingRight="@dimen/activity_horizontal_margin"
-        android:paddingBottom="@dimen/activity_vertical_margin">
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:clipToPadding="false">
 
         <!-- バナー広告 -->
 
         <Button
             android:id="@+id/btn_banner"
             android:layout_width="match_parent"
-            android:layout_height="80dp"
+            android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/activity_vertical_margin"
-            android:background="@color/menuBackground"
-            android:gravity="center_vertical"
-            android:paddingLeft="@dimen/activity_horizontal_margin"
-            android:paddingRight="@dimen/activity_horizontal_margin"
             android:text="@string/main_menu_banner"
-            android:textColor="@color/menuText"/>
+            style="@style/Widget.App.LargeButton"/>
 
         <!-- 動画リワード広告 -->
 
         <Button
             android:id="@+id/btn_rewardedvideo"
             android:layout_width="match_parent"
-            android:layout_height="80dp"
+            android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/activity_vertical_margin"
-            android:background="@color/menuBackground"
-            android:gravity="center_vertical"
-            android:paddingLeft="@dimen/activity_horizontal_margin"
-            android:paddingRight="@dimen/activity_horizontal_margin"
             android:text="@string/main_menu_rewardedvideo"
-            android:textColor="@color/menuText"/>
+            style="@style/Widget.App.LargeButton"/>
 
         <!-- 動画インタースティシャル広告 -->
 
         <Button
             android:id="@+id/btn_videointerstitial"
             android:layout_width="match_parent"
-            android:layout_height="80dp"
+            android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/activity_vertical_margin"
-            android:background="@color/menuBackground"
-            android:gravity="center_vertical"
-            android:paddingLeft="@dimen/activity_horizontal_margin"
-            android:paddingRight="@dimen/activity_horizontal_margin"
             android:text="@string/main_menu_videointerstitial"
-            android:textColor="@color/menuText"/>
+            style="@style/Widget.App.LargeButton"/>
 
         <!-- ネイティブ広告 -->
 
         <Button
             android:id="@+id/btn_native"
             android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:layout_marginBottom="@dimen/activity_vertical_margin"
-            android:background="@color/menuBackground"
-            android:gravity="center_vertical"
-            android:paddingLeft="@dimen/activity_horizontal_margin"
-            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:layout_height="wrap_content"
             android:text="@string/main_menu_ncr"
-            android:textColor="@color/menuText"/>
+            style="@style/Widget.App.LargeButton"/>
 
     </LinearLayout>
 </ScrollView>
