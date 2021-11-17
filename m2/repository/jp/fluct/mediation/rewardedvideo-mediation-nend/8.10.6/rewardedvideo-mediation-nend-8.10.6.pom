@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>jp.fluct.mediation</groupId>
+  <artifactId>rewardedvideo-mediation-nend</artifactId>
+  <version>8.10.6</version>
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>jp.fluct</groupId>
+      <artifactId>FluctSDK</artifactId>
+      <version>[8.10.6]</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.nend.android</groupId>
+      <artifactId>nend-sdk</artifactId>
+      <version>5.1.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>28.0.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>
