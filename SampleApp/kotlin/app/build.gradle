@@ -3,7 +3,7 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
 ext {
-    fluctSdkVersion = '8.10.6'
+    fluctSdkVersion = '8.10.7'
 }
 
 android {
@@ -102,5 +102,5 @@ dependencies {
     implementation 'com.glossom:glossom-ads-android:2.0.0'
 
     // FIVE SDK
-    implementation 'jp.fluct.thirdparty:five-ad:20200423'
+    implementation 'com.linecorp.adsnetwork:fivead:2.4.20211029'
 }

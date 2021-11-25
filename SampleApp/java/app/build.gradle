@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 
 ext {
-    fluctSdkVersion = '8.10.6'
+    fluctSdkVersion = '8.10.7'
 }
 
 android {
@@ -95,7 +95,7 @@ dependencies {
     implementation 'com.glossom:glossom-ads-android:2.0.0'
 
     // FIVE SDK
-    implementation 'jp.fluct.thirdparty:five-ad:20200423'
+    implementation 'com.linecorp.adsnetwork:fivead:2.4.20211029'
 
     androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
