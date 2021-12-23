@@ -3,8 +3,8 @@
   <groupId>jp.fluct.mediation</groupId>
   <artifactId>videointerstitial-mediation-unityads</artifactId>
   <versioning>
-    <latest>8.11.0</latest>
-    <release>8.11.0</release>
+    <latest>8.12.0</latest>
+    <release>8.12.0</release>
     <versions>
       <version>7.5.1</version>
       <version>7.6.0</version>
@@ -62,7 +62,8 @@
       <version>8.10.7</version>
       <version>8.10.8</version>
       <version>8.11.0</version>
+      <version>8.12.0</version>
     </versions>
-    <lastUpdated>20211213064751</lastUpdated>
+    <lastUpdated>20211223072441</lastUpdated>
   </versioning>
 </metadata>
