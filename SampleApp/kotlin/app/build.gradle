@@ -3,7 +3,7 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
 ext {
-    fluctSdkVersion = '8.11.0'
+    fluctSdkVersion = '8.12.0'
 }
 
 android {
@@ -72,7 +72,6 @@ dependencies {
     implementation "jp.fluct.mediation:rewardedvideo-mediation-unityads:${fluctSdkVersion}"
     implementation "jp.fluct.mediation:rewardedvideo-mediation-adcolony:${fluctSdkVersion}"
     implementation "jp.fluct.mediation:rewardedvideo-mediation-tapjoy:${fluctSdkVersion}"
-    implementation "jp.fluct.mediation:rewardedvideo-mediation-adcorsa:${fluctSdkVersion}"
     implementation "jp.fluct.mediation:rewardedvideo-mediation-five:${fluctSdkVersion}"
 
     implementation "jp.fluct.mediation:videointerstitial-mediation-maio:${fluctSdkVersion}"
@@ -97,9 +96,6 @@ dependencies {
 
     // Tapjoy SDK
     implementation 'com.tapjoy:tapjoy-android-sdk:12.4.2@aar'
-
-    // AdCorsa SDK
-    implementation 'com.glossom:glossom-ads-android:2.0.0'
 
     // FIVE SDK
     implementation 'com.linecorp.adsnetwork:fivead:2.4.20211029'

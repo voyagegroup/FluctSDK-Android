@@ -27,7 +27,6 @@ allprojects {
         maven { url 'http://fan-adn.github.io/nendSDK-Android-lib/library' }
         maven { url "https://imobile-maio.github.io/maven" }
         maven { url 'https://sdk.tapjoy.com' }
-        maven { url 'https://github.com/glossom-dev/GlossomAds-Android/raw/master' }
         jcenter()
     }
 }
