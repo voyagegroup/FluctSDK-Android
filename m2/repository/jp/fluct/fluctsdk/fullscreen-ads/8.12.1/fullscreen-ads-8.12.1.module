@@ -1,0 +1,126 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.fluct.fluctsdk",
+    "module": "fullscreen-ads",
+    "version": "8.12.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "z6x2lwp5p5h5vnzcutltme4sie"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "jp.fluct",
+          "module": "FluctSDK",
+          "version": {
+            "requires": "[8.12.1]"
+          }
+        },
+        {
+          "group": "com.android.support",
+          "module": "support-annotations",
+          "version": {
+            "requires": "28.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fullscreen-ads-8.12.1.aar",
+          "url": "fullscreen-ads-8.12.1.aar",
+          "size": 116998,
+          "sha512": "c34d622885ebfe687b09172ec241c05b07a4ebc4468b11b0324bd26a1f807c8a1dc3f947b330f90558eb021788626c5dbb52cda2bbefac55132accd9f9a0383a",
+          "sha256": "4a9b9d8ca5336138933bad0563e85f67c4f6b084bcf204297aea3c4459c453a0",
+          "sha1": "0d66bbd599dd47a5c3556fa4e48c6d3baa9682c7",
+          "md5": "be0745b5645d60043671c2c0d18d0142"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "jp.fluct",
+          "module": "FluctSDK",
+          "version": {
+            "requires": "[8.12.1]"
+          }
+        },
+        {
+          "group": "com.android.support",
+          "module": "support-annotations",
+          "version": {
+            "requires": "28.0.0"
+          }
+        },
+        {
+          "group": "com.iab.omid.library",
+          "module": "fluctjp",
+          "version": {
+            "requires": "1.3.19"
+          }
+        },
+        {
+          "group": "com.android.support",
+          "module": "appcompat-v7",
+          "version": {
+            "requires": "28.0.0"
+          }
+        },
+        {
+          "group": "com.android.support",
+          "module": "support-v4",
+          "version": {
+            "requires": "28.0.0"
+          }
+        },
+        {
+          "group": "com.google.android.exoplayer",
+          "module": "exoplayer-core",
+          "version": {
+            "requires": "2.8.4"
+          }
+        },
+        {
+          "group": "com.google.android.exoplayer",
+          "module": "exoplayer-ui",
+          "version": {
+            "requires": "2.8.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fullscreen-ads-8.12.1.aar",
+          "url": "fullscreen-ads-8.12.1.aar",
+          "size": 116998,
+          "sha512": "c34d622885ebfe687b09172ec241c05b07a4ebc4468b11b0324bd26a1f807c8a1dc3f947b330f90558eb021788626c5dbb52cda2bbefac55132accd9f9a0383a",
+          "sha256": "4a9b9d8ca5336138933bad0563e85f67c4f6b084bcf204297aea3c4459c453a0",
+          "sha1": "0d66bbd599dd47a5c3556fa4e48c6d3baa9682c7",
+          "md5": "be0745b5645d60043671c2c0d18d0142"
+        }
+      ]
+    }
+  ]
+}

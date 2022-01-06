@@ -1,0 +1,91 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.fluct.mediation",
+    "module": "rewardedvideo-mediation-pangle",
+    "version": "8.12.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "r43q3fh46zfdfj27dfw3pm6mqa"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "jp.fluct",
+          "module": "FluctSDK",
+          "version": {
+            "requires": "[8.12.1]"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rewardedvideo-mediation-pangle-8.12.1.aar",
+          "url": "rewardedvideo-mediation-pangle-8.12.1.aar",
+          "size": 30528,
+          "sha512": "c36fa562e2683d5e0d6aef589ac6e7bb769612f9aa85b9fad819f19b2c9fc11a085bb5bd8be7ec8135668e666b18da89a2fdaf7f04f879ebcfc696f0b698cef1",
+          "sha256": "ccec3cdacc0ab437bd8c92a9550a58afe6a42122dfda5035aea9627650009eb2",
+          "sha1": "790d6cdd5be9211aa5a4f57f2e7a2e662caf66c1",
+          "md5": "050a90d841c629a6ce4c8077ae97ff23"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "jp.fluct",
+          "module": "FluctSDK",
+          "version": {
+            "requires": "[8.12.1]"
+          }
+        },
+        {
+          "group": "com.android.support",
+          "module": "support-annotations",
+          "version": {
+            "requires": "28.0.0"
+          }
+        },
+        {
+          "group": "com.pangle.global",
+          "module": "ads-sdk",
+          "version": {
+            "requires": "4.1.1.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rewardedvideo-mediation-pangle-8.12.1.aar",
+          "url": "rewardedvideo-mediation-pangle-8.12.1.aar",
+          "size": 30528,
+          "sha512": "c36fa562e2683d5e0d6aef589ac6e7bb769612f9aa85b9fad819f19b2c9fc11a085bb5bd8be7ec8135668e666b18da89a2fdaf7f04f879ebcfc696f0b698cef1",
+          "sha256": "ccec3cdacc0ab437bd8c92a9550a58afe6a42122dfda5035aea9627650009eb2",
+          "sha1": "790d6cdd5be9211aa5a4f57f2e7a2e662caf66c1",
+          "md5": "050a90d841c629a6ce4c8077ae97ff23"
+        }
+      ]
+    }
+  ]
+}

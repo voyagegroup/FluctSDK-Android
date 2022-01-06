@@ -1,0 +1,141 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.fluct.mediation.mopub",
+    "module": "mopub-adapter",
+    "version": "8.12.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "u7oamksg4fgepmmtwpmqqipi2u"
+    }
+  },
+  "variants": [
+    {
+      "name": "runtime",
+      "attributes": {
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "jp.fluct",
+          "module": "FluctSDK",
+          "version": {
+            "requires": "[8.12.1]"
+          }
+        },
+        {
+          "group": "jp.fluct.fluctsdk",
+          "module": "fullscreen-ads",
+          "version": {
+            "requires": "[8.12.1]"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "com.mopub",
+          "module": "mopub-sdk",
+          "version": {
+            "requires": "5.13.1"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "mopub-sdk",
+              "type": "aar",
+              "extension": "aar"
+            }
+          }
+        },
+        {
+          "group": "com.mopub",
+          "module": "mopub-sdk-banner",
+          "version": {
+            "requires": "5.13.1"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "mopub-sdk-banner",
+              "type": "aar",
+              "extension": "aar"
+            }
+          }
+        },
+        {
+          "group": "com.mopub",
+          "module": "mopub-sdk-fullscreen",
+          "version": {
+            "requires": "5.13.1"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "mopub-sdk-fullscreen",
+              "type": "aar",
+              "extension": "aar"
+            }
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mopub-adapter-8.12.1.aar",
+          "url": "mopub-adapter-8.12.1.aar",
+          "size": 59753,
+          "sha512": "1e7fd0e057b6f05d950d1b1f6a5d4a47c36f9c0696c8149a27cda7928d7577f5688ef994b3b7eee92000fd3d905e6fa3d99976562f501816178a544d8d243502",
+          "sha256": "554631d254bd51bf43946885a4aa002e995f7cbf94deb5dc4f0009e303740a34",
+          "sha1": "00f91fb4bddf7c8b6d57296647917c03016222c0",
+          "md5": "fc061a2e6ed09de30d4bb0d7cdac89d9"
+        }
+      ]
+    },
+    {
+      "name": "api",
+      "attributes": {
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "jp.fluct",
+          "module": "FluctSDK",
+          "version": {
+            "requires": "[8.12.1]"
+          }
+        },
+        {
+          "group": "jp.fluct.fluctsdk",
+          "module": "fullscreen-ads",
+          "version": {
+            "requires": "[8.12.1]"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mopub-adapter-8.12.1.aar",
+          "url": "mopub-adapter-8.12.1.aar",
+          "size": 59753,
+          "sha512": "1e7fd0e057b6f05d950d1b1f6a5d4a47c36f9c0696c8149a27cda7928d7577f5688ef994b3b7eee92000fd3d905e6fa3d99976562f501816178a544d8d243502",
+          "sha256": "554631d254bd51bf43946885a4aa002e995f7cbf94deb5dc4f0009e303740a34",
+          "sha1": "00f91fb4bddf7c8b6d57296647917c03016222c0",
+          "md5": "fc061a2e6ed09de30d4bb0d7cdac89d9"
+        }
+      ]
+    }
+  ]
+}
