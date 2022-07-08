@@ -1,0 +1,91 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.fluct.mediation",
+    "module": "rewardedvideo-mediation-maio",
+    "version": "8.14.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "oesbbyembbaqjm7ialje3agq6e"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "jp.fluct",
+          "module": "FluctSDK",
+          "version": {
+            "requires": "[8.14.2]"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rewardedvideo-mediation-maio-8.14.2.aar",
+          "url": "rewardedvideo-mediation-maio-8.14.2.aar",
+          "size": 22901,
+          "sha512": "e4928b6ce2e39c80f764b9640eb4a22305d5a92714597157dcc8a52da303588bac8ed48ff0464ad245819d66439d17328493ac7524dc9eeab1f165d1f6d6e45b",
+          "sha256": "ecf9624d9332c84bf3c7ad6151ebdba6f8afffd74d007b96580457e8e9d63b29",
+          "sha1": "be316563e2453b55dc1bc0edf031882250510601",
+          "md5": "ddd387b44a29d3bba1d00dae039234fd"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "jp.fluct",
+          "module": "FluctSDK",
+          "version": {
+            "requires": "[8.14.2]"
+          }
+        },
+        {
+          "group": "com.maio",
+          "module": "android-sdk",
+          "version": {
+            "requires": "1.1.16"
+          }
+        },
+        {
+          "group": "com.android.support",
+          "module": "support-annotations",
+          "version": {
+            "requires": "28.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rewardedvideo-mediation-maio-8.14.2.aar",
+          "url": "rewardedvideo-mediation-maio-8.14.2.aar",
+          "size": 22901,
+          "sha512": "e4928b6ce2e39c80f764b9640eb4a22305d5a92714597157dcc8a52da303588bac8ed48ff0464ad245819d66439d17328493ac7524dc9eeab1f165d1f6d6e45b",
+          "sha256": "ecf9624d9332c84bf3c7ad6151ebdba6f8afffd74d007b96580457e8e9d63b29",
+          "sha1": "be316563e2453b55dc1bc0edf031882250510601",
+          "md5": "ddd387b44a29d3bba1d00dae039234fd"
+        }
+      ]
+    }
+  ]
+}

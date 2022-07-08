@@ -1,0 +1,91 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.fluct.mediation",
+    "module": "rewardedvideo-mediation-nend",
+    "version": "8.14.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "oesbbyembbaqjm7ialje3agq6e"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "jp.fluct",
+          "module": "FluctSDK",
+          "version": {
+            "requires": "[8.14.2]"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rewardedvideo-mediation-nend-8.14.2.aar",
+          "url": "rewardedvideo-mediation-nend-8.14.2.aar",
+          "size": 20994,
+          "sha512": "7760edaa661d1d772fd7655e2bc234ea4d7cefdc57034c8ac815abc00d2f8fb5906ef69abd6967a6ec0337db9ff3b8fc59e581ac15b1707bd170fc986f23cee5",
+          "sha256": "2ec682062e55501f89100bca215a171a6a4d47e70fbefe3ae2291946d694776c",
+          "sha1": "7f6ad60700ce72479c1513d57a1f97f4c4633304",
+          "md5": "bbed7860704cec13c6883f165a26b01f"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "jp.fluct",
+          "module": "FluctSDK",
+          "version": {
+            "requires": "[8.14.2]"
+          }
+        },
+        {
+          "group": "net.nend.android",
+          "module": "nend-sdk",
+          "version": {
+            "requires": "5.1.1"
+          }
+        },
+        {
+          "group": "com.android.support",
+          "module": "support-v4",
+          "version": {
+            "requires": "28.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rewardedvideo-mediation-nend-8.14.2.aar",
+          "url": "rewardedvideo-mediation-nend-8.14.2.aar",
+          "size": 20994,
+          "sha512": "7760edaa661d1d772fd7655e2bc234ea4d7cefdc57034c8ac815abc00d2f8fb5906ef69abd6967a6ec0337db9ff3b8fc59e581ac15b1707bd170fc986f23cee5",
+          "sha256": "2ec682062e55501f89100bca215a171a6a4d47e70fbefe3ae2291946d694776c",
+          "sha1": "7f6ad60700ce72479c1513d57a1f97f4c4633304",
+          "md5": "bbed7860704cec13c6883f165a26b01f"
+        }
+      ]
+    }
+  ]
+}
