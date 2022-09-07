@@ -36,11 +36,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".RewardedVideoActivity"/>
-        <activity android:name=".nativead.NativeAdSampleActivity"/>
-        <activity android:name=".nativead.NativeAdRecyclerActivity"/>
-        <activity
-            android:name=".nativead.NativeAdSimpleActivity"
-            android:label="@string/title_activity_native_ad_simple"/>
         <!-- region Banner -->
         <activity
             android:name=".BannerActivity"

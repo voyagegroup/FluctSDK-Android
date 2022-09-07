@@ -49,12 +49,5 @@
 
         <!-- ネイティブ広告 -->
 
-        <Button
-            android:id="@+id/btn_native"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/main_menu_ncr"
-            style="@style/Widget.App.LargeButton"/>
-
     </LinearLayout>
 </ScrollView>

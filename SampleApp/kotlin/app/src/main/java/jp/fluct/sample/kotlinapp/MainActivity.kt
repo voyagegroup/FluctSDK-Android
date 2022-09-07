@@ -4,8 +4,6 @@ import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.widget.Button
-import jp.fluct.sample.kotlinapp.nativead.NativeAdSampleActivity
-
 
 class MainActivity : AppCompatActivity() {
 
@@ -23,10 +21,6 @@ class MainActivity : AppCompatActivity() {
 
         findViewById<Button>(R.id.btn_videointerstitial).setOnClickListener {
             startActivity(Intent(this, VideoInterstitialActivity::class.java))
-        }
-
-        findViewById<Button>(R.id.btn_native).setOnClickListener {
-            startActivity(Intent(this, NativeAdSampleActivity::class.java))
         }
     }
 }
