@@ -1,8 +1,9 @@
 package jp.fluct.sample.samplefluctsdkapp.banner;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
+
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 
 import jp.fluct.fluctsdk.FluctAdView;
 import jp.fluct.sample.samplefluctsdkapp.R;

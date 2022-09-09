@@ -2,10 +2,10 @@ package jp.fluct.sample.kotlinapp
 
 import android.annotation.SuppressLint
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
 import android.util.Log
 import android.widget.Button
 import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 import jp.fluct.fluctsdk.FluctAdRequestTargeting
 import jp.fluct.fluctsdk.FluctErrorCode
 import jp.fluct.fluctsdk.FluctVideoInterstitial

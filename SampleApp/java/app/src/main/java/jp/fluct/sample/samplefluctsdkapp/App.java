@@ -1,6 +1,6 @@
 package jp.fluct.sample.samplefluctsdkapp;
 
-import android.support.multidex.MultiDexApplication;
+import androidx.multidex.MultiDexApplication;
 
 public class App extends MultiDexApplication {
 }
