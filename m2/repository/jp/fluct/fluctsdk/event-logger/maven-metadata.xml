@@ -3,8 +3,8 @@
   <groupId>jp.fluct.fluctsdk</groupId>
   <artifactId>event-logger</artifactId>
   <versioning>
-    <latest>9.0.0</latest>
-    <release>9.0.0</release>
+    <latest>9.0.1</latest>
+    <release>9.0.1</release>
     <versions>
       <version>8.10.7</version>
       <version>8.10.8</version>
@@ -21,7 +21,8 @@
       <version>8.14.2</version>
       <version>8.15.0</version>
       <version>9.0.0</version>
+      <version>9.0.1</version>
     </versions>
-    <lastUpdated>20220909064739</lastUpdated>
+    <lastUpdated>20220921020057</lastUpdated>
   </versioning>
 </metadata>
