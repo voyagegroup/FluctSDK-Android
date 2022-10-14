@@ -1,0 +1,84 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.fluct.mediation",
+    "module": "videointerstitial-mediation-maio",
+    "version": "9.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "tgofm6nyjrhw5mldxsltyteiea"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "jp.fluct",
+          "module": "FluctSDK",
+          "version": {
+            "requires": "[9.0.2]"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "videointerstitial-mediation-maio-9.0.2.aar",
+          "url": "videointerstitial-mediation-maio-9.0.2.aar",
+          "size": 14410,
+          "sha512": "2b8ed5b04266bcb77ea394a581f0a8d91c150299d1dc5e1537ed7cb8207a970420d0743b19027a6e8aae5389f252b0455492b2caf7223a5e116c99cb2921722f",
+          "sha256": "1235ccab581057ff47f8f1b82c2adb7a42ca53bf4053570add7afb96d572c894",
+          "sha1": "71b6a12446161abb925ac1edec379064d5f74808",
+          "md5": "10ccf35494aa16d14c42863351ec7fb0"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "jp.fluct",
+          "module": "FluctSDK",
+          "version": {
+            "requires": "[9.0.2]"
+          }
+        },
+        {
+          "group": "jp.fluct.mediation",
+          "module": "rewardedvideo-mediation-maio",
+          "version": {
+            "requires": "9.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "videointerstitial-mediation-maio-9.0.2.aar",
+          "url": "videointerstitial-mediation-maio-9.0.2.aar",
+          "size": 14410,
+          "sha512": "2b8ed5b04266bcb77ea394a581f0a8d91c150299d1dc5e1537ed7cb8207a970420d0743b19027a6e8aae5389f252b0455492b2caf7223a5e116c99cb2921722f",
+          "sha256": "1235ccab581057ff47f8f1b82c2adb7a42ca53bf4053570add7afb96d572c894",
+          "sha1": "71b6a12446161abb925ac1edec379064d5f74808",
+          "md5": "10ccf35494aa16d14c42863351ec7fb0"
+        }
+      ]
+    }
+  ]
+}
