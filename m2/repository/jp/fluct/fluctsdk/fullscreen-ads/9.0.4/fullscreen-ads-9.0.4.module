@@ -1,0 +1,152 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.fluct.fluctsdk",
+    "module": "fullscreen-ads",
+    "version": "9.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "ez4xlcir5zhtladzk5ke7e5f4i"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "jp.fluct",
+          "module": "FluctSDK",
+          "version": {
+            "requires": "[9.0.4]"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "strictly": "[1.5.0,)",
+            "requires": "[1.5.0,)",
+            "prefers": "1.8.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "strictly": "[1.3.1,)",
+            "requires": "[1.3.1,)",
+            "prefers": "1.4.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fullscreen-ads-9.0.4.aar",
+          "url": "fullscreen-ads-9.0.4.aar",
+          "size": 119998,
+          "sha512": "cdeba3cb6aa0a32e89bd702c4ed8a2fc5bc2f67c5383dc53c78fc04fda0dc2d9b378d83508c37167d2cbd7e090aff4c421d1cca70146c41a0341b1c4814b15d9",
+          "sha256": "872b4ccdf263250bbe116d010780c853a8af55bd365da88b05aef7eb0fa76692",
+          "sha1": "ffbe7f61a868c3c36ac51aab4317ebdbbad3592e",
+          "md5": "1b6e6279a72efcd115f57a87f8358636"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "jp.fluct",
+          "module": "FluctSDK",
+          "version": {
+            "requires": "[9.0.4]"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "strictly": "[1.5.0,)",
+            "requires": "[1.5.0,)",
+            "prefers": "1.8.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "strictly": "[1.3.1,)",
+            "requires": "[1.3.1,)",
+            "prefers": "1.4.2"
+          }
+        },
+        {
+          "group": "com.iab.omid.library",
+          "module": "fluctjp",
+          "version": {
+            "requires": "1.3.19"
+          }
+        },
+        {
+          "group": "com.google.android.exoplayer",
+          "module": "exoplayer-core",
+          "version": {
+            "strictly": "[2.15.0,)",
+            "requires": "[2.15.0,)",
+            "prefers": "2.18.1"
+          }
+        },
+        {
+          "group": "com.google.android.exoplayer",
+          "module": "exoplayer-ui",
+          "version": {
+            "strictly": "[2.15.0,)",
+            "requires": "[2.15.0,)",
+            "prefers": "2.18.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fullscreen-ads-9.0.4.aar",
+          "url": "fullscreen-ads-9.0.4.aar",
+          "size": 119998,
+          "sha512": "cdeba3cb6aa0a32e89bd702c4ed8a2fc5bc2f67c5383dc53c78fc04fda0dc2d9b378d83508c37167d2cbd7e090aff4c421d1cca70146c41a0341b1c4814b15d9",
+          "sha256": "872b4ccdf263250bbe116d010780c853a8af55bd365da88b05aef7eb0fa76692",
+          "sha1": "ffbe7f61a868c3c36ac51aab4317ebdbbad3592e",
+          "md5": "1b6e6279a72efcd115f57a87f8358636"
+        }
+      ]
+    }
+  ]
+}
