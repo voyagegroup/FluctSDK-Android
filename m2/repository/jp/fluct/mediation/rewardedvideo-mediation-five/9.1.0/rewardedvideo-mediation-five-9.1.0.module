@@ -1,0 +1,98 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.fluct.mediation",
+    "module": "rewardedvideo-mediation-five",
+    "version": "9.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "h7lmccdztjcu5hdgxthmimx72m"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "jp.fluct",
+          "module": "FluctSDK",
+          "version": {
+            "requires": "[9.1.0]"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rewardedvideo-mediation-five-9.1.0.aar",
+          "url": "rewardedvideo-mediation-five-9.1.0.aar",
+          "size": 20989,
+          "sha512": "da3cc3cff79a66352b8fc46ca305776cf3e2062cca2c9f93ab5a9541591512acdffdfe616f3001e06f00655209ca7f976e35944ff94cad7d834951e63e376564",
+          "sha256": "492c0fd61e23bdb87d56075b9d6a40095d5cabe060bd9713ba1e2c4808dda7a7",
+          "sha1": "1f3409716dcd13f0e1284a38c217bc73d7461a06",
+          "md5": "50e15c6c11b3ee7b2f784a141e1e2eab"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "jp.fluct",
+          "module": "FluctSDK",
+          "version": {
+            "requires": "[9.1.0]"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "com.linecorp.adsnetwork",
+          "module": "fivead",
+          "version": {
+            "requires": "2.4.20211029"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rewardedvideo-mediation-five-9.1.0.aar",
+          "url": "rewardedvideo-mediation-five-9.1.0.aar",
+          "size": 20989,
+          "sha512": "da3cc3cff79a66352b8fc46ca305776cf3e2062cca2c9f93ab5a9541591512acdffdfe616f3001e06f00655209ca7f976e35944ff94cad7d834951e63e376564",
+          "sha256": "492c0fd61e23bdb87d56075b9d6a40095d5cabe060bd9713ba1e2c4808dda7a7",
+          "sha1": "1f3409716dcd13f0e1284a38c217bc73d7461a06",
+          "md5": "50e15c6c11b3ee7b2f784a141e1e2eab"
+        }
+      ]
+    }
+  ]
+}

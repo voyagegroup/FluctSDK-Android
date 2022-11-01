@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.fluct.fluctsdk",
+    "module": "event-logger",
+    "version": "9.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "anpbtg2vq5gqrhqvkhc2gcka7u"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "event-logger-9.1.0.aar",
+          "url": "event-logger-9.1.0.aar",
+          "size": 13292,
+          "sha512": "b2eb9bf16ec26c5c8db83cff44b4aaa9a63761c91498395357efb6b3dd98a584fcd341c7526a3f933d8f2f8a76b0b94c1a0ae76eb82bd96b2e6cf58add1a7d5c",
+          "sha256": "e26675895a952e2205a2146de6fb66bb67d0e16926bf74e1dfb069069033e9ae",
+          "sha1": "c6603a8274fc63ffd195f0b6ab5272acf6413a4c",
+          "md5": "39d195af6cda473b7c19c121811ebc18"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "event-logger-9.1.0.aar",
+          "url": "event-logger-9.1.0.aar",
+          "size": 13292,
+          "sha512": "b2eb9bf16ec26c5c8db83cff44b4aaa9a63761c91498395357efb6b3dd98a584fcd341c7526a3f933d8f2f8a76b0b94c1a0ae76eb82bd96b2e6cf58add1a7d5c",
+          "sha256": "e26675895a952e2205a2146de6fb66bb67d0e16926bf74e1dfb069069033e9ae",
+          "sha1": "c6603a8274fc63ffd195f0b6ab5272acf6413a4c",
+          "md5": "39d195af6cda473b7c19c121811ebc18"
+        }
+      ]
+    }
+  ]
+}
