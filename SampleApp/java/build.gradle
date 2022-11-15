@@ -8,7 +8,6 @@ buildscript {
     repositories {
         google()
         mavenCentral()
-        jcenter()
     }
     dependencies {
         //noinspection GradleDependency
@@ -27,7 +26,6 @@ allprojects {
         maven { url 'http://fan-adn.github.io/nendSDK-Android-lib/library' }
         maven { url "https://imobile-maio.github.io/maven" }
         maven { url 'https://sdk.tapjoy.com' }
-        jcenter()
     }
 }
 

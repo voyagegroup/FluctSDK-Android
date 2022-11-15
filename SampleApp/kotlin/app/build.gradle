@@ -3,7 +3,7 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
 ext {
-    fluctSdkVersion = '9.1.0'
+    fluctSdkVersion = '9.1.1'
 }
 
 android {
@@ -83,31 +83,4 @@ dependencies {
     implementation "jp.fluct.mediation:videointerstitial-mediation-unityads:${fluctSdkVersion}"
     implementation "jp.fluct.mediation:videointerstitial-mediation-adcolony:${fluctSdkVersion}"
     implementation "jp.fluct.mediation:videointerstitial-mediation-tapjoy:${fluctSdkVersion}"
-
-    // AppLovin SDK
-    //noinspection GradleDependency
-    implementation 'com.applovin:applovin-sdk:9.11.6'
-
-    // maio SDK
-    //noinspection GradleDependency
-    implementation 'com.maio:android-sdk:1.1.11'
-
-    // nend SDK
-    //noinspection GradleDependency
-    implementation 'net.nend.android:nend-sdk:5.1.1'
-
-    // UnityAds SDK
-    //noinspection GradleDependency
-    implementation 'com.unity3d.ads:unity-ads:3.4.2'
-
-    // AdColony SDK
-    //noinspection GradleDependency
-    implementation 'com.adcolony:sdk:4.1.4'
-
-    // Tapjoy SDK
-    //noinspection GradleDependency
-    implementation 'com.tapjoy:tapjoy-android-sdk:12.4.2@aar'
-
-    // FIVE SDK
-    implementation 'com.linecorp.adsnetwork:fivead:2.4.20211029'
 }
