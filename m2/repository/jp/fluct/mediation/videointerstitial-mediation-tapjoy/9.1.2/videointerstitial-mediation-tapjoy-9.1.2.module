@@ -1,0 +1,84 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.fluct.mediation",
+    "module": "videointerstitial-mediation-tapjoy",
+    "version": "9.1.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "l57hddvifbgl5bzamcuou2sj3y"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "jp.fluct",
+          "module": "FluctSDK",
+          "version": {
+            "requires": "[9.1.2]"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "videointerstitial-mediation-tapjoy-9.1.2.aar",
+          "url": "videointerstitial-mediation-tapjoy-9.1.2.aar",
+          "size": 14959,
+          "sha512": "7682ac84d37077a45204e27dc0a6c1f177b1cdb639d456864570057e4d4079f2103dd8329dbdd8b299277b0819a694d5ea58d742d723bb50f4bb6faf98135af6",
+          "sha256": "3ef1dc979c3ebf5a5856c96de6300d48280429300652fbfb64cf0d4235b3c24a",
+          "sha1": "225cc20390983f33152415d6e96666bae82283ee",
+          "md5": "f7e13b5ac99af61597dee52f3c1e31dc"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "jp.fluct",
+          "module": "FluctSDK",
+          "version": {
+            "requires": "[9.1.2]"
+          }
+        },
+        {
+          "group": "jp.fluct.mediation",
+          "module": "rewardedvideo-mediation-tapjoy",
+          "version": {
+            "requires": "9.1.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "videointerstitial-mediation-tapjoy-9.1.2.aar",
+          "url": "videointerstitial-mediation-tapjoy-9.1.2.aar",
+          "size": 14959,
+          "sha512": "7682ac84d37077a45204e27dc0a6c1f177b1cdb639d456864570057e4d4079f2103dd8329dbdd8b299277b0819a694d5ea58d742d723bb50f4bb6faf98135af6",
+          "sha256": "3ef1dc979c3ebf5a5856c96de6300d48280429300652fbfb64cf0d4235b3c24a",
+          "sha1": "225cc20390983f33152415d6e96666bae82283ee",
+          "md5": "f7e13b5ac99af61597dee52f3c1e31dc"
+        }
+      ]
+    }
+  ]
+}
