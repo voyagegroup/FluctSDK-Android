@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.fluct.mediation",
+    "module": "rewardedvideo-mediation-adcolony",
+    "version": "9.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "jp.fluct",
+          "module": "FluctSDK",
+          "version": {
+            "requires": "[9.2.0]"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rewardedvideo-mediation-adcolony-9.2.0.aar",
+          "url": "rewardedvideo-mediation-adcolony-9.2.0.aar",
+          "size": 34553,
+          "sha512": "2b5faa283e28e31d07ca3ea3530a13c5831e8df9872867aba3b2ec92dec0c91d7e72830753f1eb14d7959178c2deba42cf09cdb3aff02297aa6e4926727b69c1",
+          "sha256": "6e3213eb43647fcda115c10f20581ac46b32cb98a37a5793e691b03aee38d186",
+          "sha1": "fe0abca9485096487d5c0e77039573e9124f56d3",
+          "md5": "bc36b9469e5b7bfea3d017dc114a334f"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "jp.fluct",
+          "module": "FluctSDK",
+          "version": {
+            "requires": "[9.2.0]"
+          }
+        },
+        {
+          "group": "com.adcolony",
+          "module": "sdk",
+          "version": {
+            "requires": "4.4.1"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rewardedvideo-mediation-adcolony-9.2.0.aar",
+          "url": "rewardedvideo-mediation-adcolony-9.2.0.aar",
+          "size": 34553,
+          "sha512": "2b5faa283e28e31d07ca3ea3530a13c5831e8df9872867aba3b2ec92dec0c91d7e72830753f1eb14d7959178c2deba42cf09cdb3aff02297aa6e4926727b69c1",
+          "sha256": "6e3213eb43647fcda115c10f20581ac46b32cb98a37a5793e691b03aee38d186",
+          "sha1": "fe0abca9485096487d5c0e77039573e9124f56d3",
+          "md5": "bc36b9469e5b7bfea3d017dc114a334f"
+        }
+      ]
+    }
+  ]
+}
