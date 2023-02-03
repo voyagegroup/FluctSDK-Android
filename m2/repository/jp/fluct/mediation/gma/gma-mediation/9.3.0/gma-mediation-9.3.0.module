@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.fluct.mediation.gma",
+    "module": "gma-mediation",
+    "version": "9.3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "jp.fluct",
+          "module": "FluctSDK",
+          "version": {
+            "requires": "[9.3.0]"
+          }
+        },
+        {
+          "group": "jp.fluct.fluctsdk",
+          "module": "fullscreen-ads",
+          "version": {
+            "requires": "[9.3.0]"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gma-mediation-9.3.0.aar",
+          "url": "gma-mediation-9.3.0.aar",
+          "size": 49271,
+          "sha512": "29111da14e39f150efd68c6ce126c8d28ad7c08eef33e52d06b73781d108fb722d28193d7ff67c709b4c053e95026a337c16b630205ac93c041aa2bf174126b3",
+          "sha256": "9fee6cbe92179f110d02091959bef33f40a5e8e5725d02dcfe6a9a0cb9e6893b",
+          "sha1": "a0ff41164b36ee0db422a25dce3ad5dadc1dd042",
+          "md5": "2b806fb879de4805afcc74bfe39f2c7a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-ads",
+          "version": {
+            "requires": "17.2.0"
+          }
+        },
+        {
+          "group": "jp.fluct",
+          "module": "FluctSDK",
+          "version": {
+            "requires": "[9.3.0]"
+          }
+        },
+        {
+          "group": "jp.fluct.fluctsdk",
+          "module": "fullscreen-ads",
+          "version": {
+            "requires": "[9.3.0]"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gma-mediation-9.3.0.aar",
+          "url": "gma-mediation-9.3.0.aar",
+          "size": 49271,
+          "sha512": "29111da14e39f150efd68c6ce126c8d28ad7c08eef33e52d06b73781d108fb722d28193d7ff67c709b4c053e95026a337c16b630205ac93c041aa2bf174126b3",
+          "sha256": "9fee6cbe92179f110d02091959bef33f40a5e8e5725d02dcfe6a9a0cb9e6893b",
+          "sha1": "a0ff41164b36ee0db422a25dce3ad5dadc1dd042",
+          "md5": "2b806fb879de4805afcc74bfe39f2c7a"
+        }
+      ]
+    }
+  ]
+}
