@@ -3,14 +3,15 @@
   <groupId>jp.fluct.mediation</groupId>
   <artifactId>rewardedvideo-mediation-amoad</artifactId>
   <versioning>
-    <latest>9.4.1</latest>
-    <release>9.4.1</release>
+    <latest>9.4.2</latest>
+    <release>9.4.2</release>
     <versions>
       <version>9.3.0</version>
       <version>9.3.1</version>
       <version>9.4.0</version>
       <version>9.4.1</version>
+      <version>9.4.2</version>
     </versions>
-    <lastUpdated>20230302013410</lastUpdated>
+    <lastUpdated>20230310081647</lastUpdated>
   </versioning>
 </metadata>
