@@ -3,8 +3,8 @@
   <groupId>jp.fluct.mediation</groupId>
   <artifactId>videointerstitial-mediation-tapjoy</artifactId>
   <versioning>
-    <latest>9.4.4</latest>
-    <release>9.4.4</release>
+    <latest>9.4.5</latest>
+    <release>9.4.5</release>
     <versions>
       <version>7.5.1</version>
       <version>7.6.0</version>
@@ -89,7 +89,8 @@
       <version>9.4.2</version>
       <version>9.4.3</version>
       <version>9.4.4</version>
+      <version>9.4.5</version>
     </versions>
-    <lastUpdated>20230403064403</lastUpdated>
+    <lastUpdated>20230410011942</lastUpdated>
   </versioning>
 </metadata>
