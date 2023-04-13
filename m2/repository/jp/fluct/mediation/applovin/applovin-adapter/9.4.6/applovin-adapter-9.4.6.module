@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.fluct.mediation.applovin",
+    "module": "applovin-adapter",
+    "version": "9.4.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.applovin",
+          "module": "applovin-sdk",
+          "version": {
+            "requires": "11.5.1"
+          }
+        },
+        {
+          "group": "jp.fluct",
+          "module": "FluctSDK",
+          "version": {
+            "requires": "[9.4.6]"
+          }
+        },
+        {
+          "group": "jp.fluct.fluctsdk",
+          "module": "fullscreen-ads",
+          "version": {
+            "requires": "9.4.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "applovin-adapter-9.4.6.aar",
+          "url": "applovin-adapter-9.4.6.aar",
+          "size": 13163,
+          "sha512": "2f64f04466827693f764c80a5d854c1bf8bc13c876e0cb866e44d4b5b6e7bac12d7de5bcfea59c7a7ca47f6389fd386ab3dbea8b0d2355cf2ff7f236e6c1edef",
+          "sha256": "33bc6b2b7eaa127d2058762827444efae858ceaebc6c783343079cb67456091f",
+          "sha1": "9eac4f2673cac81249c96891ca67a5328fa305df",
+          "md5": "4d33d604eb6122bad0478fee846bb600"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.applovin",
+          "module": "applovin-sdk",
+          "version": {
+            "requires": "11.5.1"
+          }
+        },
+        {
+          "group": "jp.fluct",
+          "module": "FluctSDK",
+          "version": {
+            "requires": "[9.4.6]"
+          }
+        },
+        {
+          "group": "jp.fluct.fluctsdk",
+          "module": "fullscreen-ads",
+          "version": {
+            "requires": "9.4.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "applovin-adapter-9.4.6.aar",
+          "url": "applovin-adapter-9.4.6.aar",
+          "size": 13163,
+          "sha512": "2f64f04466827693f764c80a5d854c1bf8bc13c876e0cb866e44d4b5b6e7bac12d7de5bcfea59c7a7ca47f6389fd386ab3dbea8b0d2355cf2ff7f236e6c1edef",
+          "sha256": "33bc6b2b7eaa127d2058762827444efae858ceaebc6c783343079cb67456091f",
+          "sha1": "9eac4f2673cac81249c96891ca67a5328fa305df",
+          "md5": "4d33d604eb6122bad0478fee846bb600"
+        }
+      ]
+    }
+  ]
+}

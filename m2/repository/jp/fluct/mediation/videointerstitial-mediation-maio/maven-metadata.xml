@@ -3,8 +3,8 @@
   <groupId>jp.fluct.mediation</groupId>
   <artifactId>videointerstitial-mediation-maio</artifactId>
   <versioning>
-    <latest>9.4.5</latest>
-    <release>9.4.5</release>
+    <latest>9.4.6</latest>
+    <release>9.4.6</release>
     <versions>
       <version>7.5.1</version>
       <version>7.6.0</version>
@@ -90,7 +90,8 @@
       <version>9.4.3</version>
       <version>9.4.4</version>
       <version>9.4.5</version>
+      <version>9.4.6</version>
     </versions>
-    <lastUpdated>20230410011938</lastUpdated>
+    <lastUpdated>20230413012718</lastUpdated>
   </versioning>
 </metadata>
