@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.fluct.mediation",
+    "module": "rewardedvideo-mediation-applovin",
+    "version": "9.4.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "jp.fluct",
+          "module": "FluctSDK",
+          "version": {
+            "requires": "[9.4.8]"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rewardedvideo-mediation-applovin-9.4.8.aar",
+          "url": "rewardedvideo-mediation-applovin-9.4.8.aar",
+          "size": 26830,
+          "sha512": "61174bae6b4d8c2e9161365f0c5c51920411fce806c2b213dcb4a23ca62cb8cc65ae59745454b2d248dc48277c54148f4a1d803bff70cdd121c1ac3a728befca",
+          "sha256": "d27b6ebff8205bc391e4d47ac025e07f7e084ba35ef3aadc4d49dad8b7e13946",
+          "sha1": "74e1834a2ea584cb03f1f9075ad39e39f8886c10",
+          "md5": "b4f5406f951cd57dfd3fd5457825c8a1"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "jp.fluct",
+          "module": "FluctSDK",
+          "version": {
+            "requires": "[9.4.8]"
+          }
+        },
+        {
+          "group": "com.applovin",
+          "module": "applovin-sdk",
+          "version": {
+            "requires": "11.5.1"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rewardedvideo-mediation-applovin-9.4.8.aar",
+          "url": "rewardedvideo-mediation-applovin-9.4.8.aar",
+          "size": 26830,
+          "sha512": "61174bae6b4d8c2e9161365f0c5c51920411fce806c2b213dcb4a23ca62cb8cc65ae59745454b2d248dc48277c54148f4a1d803bff70cdd121c1ac3a728befca",
+          "sha256": "d27b6ebff8205bc391e4d47ac025e07f7e084ba35ef3aadc4d49dad8b7e13946",
+          "sha1": "74e1834a2ea584cb03f1f9075ad39e39f8886c10",
+          "md5": "b4f5406f951cd57dfd3fd5457825c8a1"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.fluct.mediation",
+    "module": "rewardedvideo-mediation-amoad",
+    "version": "9.4.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "jp.fluct",
+          "module": "FluctSDK",
+          "version": {
+            "requires": "[9.4.8]"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rewardedvideo-mediation-amoad-9.4.8.aar",
+          "url": "rewardedvideo-mediation-amoad-9.4.8.aar",
+          "size": 29032,
+          "sha512": "693789af4a879420e5531ec5915c9df1688752dd1eb628c4a5965738fc2198b8de73f6b7a143f03012e4e7161406de48b72e8c033a20b4e5400a50bba3c1779d",
+          "sha256": "8c87173377f4b4194737565afbe61602be10db2aee923d760567c8b9b1ed2ca6",
+          "sha1": "9e7882adaf3bc1c52e592638addf51e4bab4dd75",
+          "md5": "1a6981a594c1ef550e75cc9097fb430d"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "jp.fluct",
+          "module": "FluctSDK",
+          "version": {
+            "requires": "[9.4.8]"
+          }
+        },
+        {
+          "group": "com.amoad",
+          "module": "amoad-sdk",
+          "version": {
+            "requires": "5.2.21"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "androidx.recyclerview",
+          "module": "recyclerview",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.localbroadcastmanager",
+          "module": "localbroadcastmanager",
+          "version": {
+            "requires": "1.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rewardedvideo-mediation-amoad-9.4.8.aar",
+          "url": "rewardedvideo-mediation-amoad-9.4.8.aar",
+          "size": 29032,
+          "sha512": "693789af4a879420e5531ec5915c9df1688752dd1eb628c4a5965738fc2198b8de73f6b7a143f03012e4e7161406de48b72e8c033a20b4e5400a50bba3c1779d",
+          "sha256": "8c87173377f4b4194737565afbe61602be10db2aee923d760567c8b9b1ed2ca6",
+          "sha1": "9e7882adaf3bc1c52e592638addf51e4bab4dd75",
+          "md5": "1a6981a594c1ef550e75cc9097fb430d"
+        }
+      ]
+    }
+  ]
+}

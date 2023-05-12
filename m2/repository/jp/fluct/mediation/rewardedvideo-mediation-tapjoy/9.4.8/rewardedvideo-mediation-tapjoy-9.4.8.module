@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.fluct.mediation",
+    "module": "rewardedvideo-mediation-tapjoy",
+    "version": "9.4.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "jp.fluct",
+          "module": "FluctSDK",
+          "version": {
+            "requires": "[9.4.8]"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rewardedvideo-mediation-tapjoy-9.4.8.aar",
+          "url": "rewardedvideo-mediation-tapjoy-9.4.8.aar",
+          "size": 34467,
+          "sha512": "0d7f15c74c1c7d5cbac040a0a52845ca2c0da04362e6525dfaa80af5c80a47a3598d59173f90921c870ef3a3b9ee64d85e8bf699cd5e6c7757b6c98088b13ae7",
+          "sha256": "685ce39db1dc949df2602ee3685c3eed99dde9f5095c4febae7a80858c5dd11e",
+          "sha1": "b589957d10270757362465bbfba8a44d66278b6c",
+          "md5": "fc01dd781e815420dfda9a6a7bd0adfe"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "jp.fluct",
+          "module": "FluctSDK",
+          "version": {
+            "requires": "[9.4.8]"
+          }
+        },
+        {
+          "group": "com.tapjoy",
+          "module": "tapjoy-android-sdk",
+          "version": {
+            "requires": "12.10.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ],
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "tapjoy-android-sdk",
+              "type": "aar",
+              "extension": "aar"
+            }
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rewardedvideo-mediation-tapjoy-9.4.8.aar",
+          "url": "rewardedvideo-mediation-tapjoy-9.4.8.aar",
+          "size": 34467,
+          "sha512": "0d7f15c74c1c7d5cbac040a0a52845ca2c0da04362e6525dfaa80af5c80a47a3598d59173f90921c870ef3a3b9ee64d85e8bf699cd5e6c7757b6c98088b13ae7",
+          "sha256": "685ce39db1dc949df2602ee3685c3eed99dde9f5095c4febae7a80858c5dd11e",
+          "sha1": "b589957d10270757362465bbfba8a44d66278b6c",
+          "md5": "fc01dd781e815420dfda9a6a7bd0adfe"
+        }
+      ]
+    }
+  ]
+}
