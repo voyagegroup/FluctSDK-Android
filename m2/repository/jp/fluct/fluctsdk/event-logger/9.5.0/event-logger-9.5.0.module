@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.fluct.fluctsdk",
+    "module": "event-logger",
+    "version": "9.5.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "event-logger-9.5.0.aar",
+          "url": "event-logger-9.5.0.aar",
+          "size": 12970,
+          "sha512": "c23620cf2541c141402e0abadfb59906929eb5dfd31104a0b2fc8a0f482272d99c169cf76b816cf792ae99f3106c63ecf42c530582e817d902462edf0ac35903",
+          "sha256": "1924052ad7a72126af695993eddeaeaeec9150fb8a5bcc7276a7112df8a7bd43",
+          "sha1": "83cdf86c1f563a4e575722790a514a1ec1380bbc",
+          "md5": "2099efd0df840d1d26fdeee834be7413"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "event-logger-9.5.0.aar",
+          "url": "event-logger-9.5.0.aar",
+          "size": 12970,
+          "sha512": "c23620cf2541c141402e0abadfb59906929eb5dfd31104a0b2fc8a0f482272d99c169cf76b816cf792ae99f3106c63ecf42c530582e817d902462edf0ac35903",
+          "sha256": "1924052ad7a72126af695993eddeaeaeec9150fb8a5bcc7276a7112df8a7bd43",
+          "sha1": "83cdf86c1f563a4e575722790a514a1ec1380bbc",
+          "md5": "2099efd0df840d1d26fdeee834be7413"
+        }
+      ]
+    }
+  ]
+}
