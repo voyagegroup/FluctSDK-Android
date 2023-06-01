@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.fluct.mediation",
+    "module": "videointerstitial-mediation-adcolony",
+    "version": "9.6.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "jp.fluct",
+          "module": "FluctSDK",
+          "version": {
+            "requires": "[9.6.0]"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "videointerstitial-mediation-adcolony-9.6.0.aar",
+          "url": "videointerstitial-mediation-adcolony-9.6.0.aar",
+          "size": 16752,
+          "sha512": "0b1f0a7642d5e9eabeab6bea5e80197b5815d4f44521ca7ac07763f84c8e4fc49bc118a47fadbb4194b889543603b87c922db693abdd9845c62e97c9f62c3641",
+          "sha256": "3d8cd333b1eb8ee961e54497deead544d8f7396cd85c219a02ccceb08fe72555",
+          "sha1": "bc4d1762d7706ac4c8288cc572c2de2d5c5dfd93",
+          "md5": "2e390f45bb516753864160d4138bb5b3"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "jp.fluct",
+          "module": "FluctSDK",
+          "version": {
+            "requires": "[9.6.0]"
+          }
+        },
+        {
+          "group": "jp.fluct.mediation",
+          "module": "rewardedvideo-mediation-adcolony",
+          "version": {
+            "requires": "9.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "videointerstitial-mediation-adcolony-9.6.0.aar",
+          "url": "videointerstitial-mediation-adcolony-9.6.0.aar",
+          "size": 16752,
+          "sha512": "0b1f0a7642d5e9eabeab6bea5e80197b5815d4f44521ca7ac07763f84c8e4fc49bc118a47fadbb4194b889543603b87c922db693abdd9845c62e97c9f62c3641",
+          "sha256": "3d8cd333b1eb8ee961e54497deead544d8f7396cd85c219a02ccceb08fe72555",
+          "sha1": "bc4d1762d7706ac4c8288cc572c2de2d5c5dfd93",
+          "md5": "2e390f45bb516753864160d4138bb5b3"
+        }
+      ]
+    }
+  ]
+}

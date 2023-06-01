@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.fluct.mediation",
+    "module": "rewardedvideo-mediation-nend",
+    "version": "9.6.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "jp.fluct",
+          "module": "FluctSDK",
+          "version": {
+            "requires": "[9.6.0]"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rewardedvideo-mediation-nend-9.6.0.aar",
+          "url": "rewardedvideo-mediation-nend-9.6.0.aar",
+          "size": 31556,
+          "sha512": "1fd3709076cefce8687c006c664d8d1476747c6c295abf963c3e34d492ad531583737b42a0804e683ff16ed9ff84b21951500d8180144574f06d07ec5be7919b",
+          "sha256": "26f7db190474d51d1f4a583a833d307cf6297093f8ea37718b66390dcc4fc9d4",
+          "sha1": "71cb3fc7139b73d61ba22e95992a9ea9a77aa811",
+          "md5": "b63a2b00da31369872dc3d21d8659dc5"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "jp.fluct",
+          "module": "FluctSDK",
+          "version": {
+            "requires": "[9.6.0]"
+          }
+        },
+        {
+          "group": "net.nend.android",
+          "module": "nend-sdk",
+          "version": {
+            "requires": "9.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rewardedvideo-mediation-nend-9.6.0.aar",
+          "url": "rewardedvideo-mediation-nend-9.6.0.aar",
+          "size": 31556,
+          "sha512": "1fd3709076cefce8687c006c664d8d1476747c6c295abf963c3e34d492ad531583737b42a0804e683ff16ed9ff84b21951500d8180144574f06d07ec5be7919b",
+          "sha256": "26f7db190474d51d1f4a583a833d307cf6297093f8ea37718b66390dcc4fc9d4",
+          "sha1": "71cb3fc7139b73d61ba22e95992a9ea9a77aa811",
+          "md5": "b63a2b00da31369872dc3d21d8659dc5"
+        }
+      ]
+    }
+  ]
+}
