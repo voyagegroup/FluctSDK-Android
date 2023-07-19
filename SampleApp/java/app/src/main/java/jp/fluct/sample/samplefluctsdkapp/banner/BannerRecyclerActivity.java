@@ -8,13 +8,11 @@ import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
 import jp.fluct.fluctsdk.FluctAdView;
 import jp.fluct.fluctsdk.FluctErrorCode;
 import jp.fluct.sample.samplefluctsdkapp.R;
@@ -31,16 +29,18 @@ public class BannerRecyclerActivity extends AppCompatActivity {
 
         recycler = findViewById(R.id.recycler);
         recycler.setAdapter(new MyAdapter());
-        recycler.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));
+        recycler.setLayoutManager(
+            new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
+        );
 
-        adView = new FluctAdView(
+        adView =
+            new FluctAdView(
                 this,
                 getString(R.string.banner_test_group_id),
                 getString(R.string.banner_test_unit_id),
                 getString(R.string.banner_test_ad_size),
                 null,
                 new FluctAdView.Listener() {
-
                     @Override
                     public void onLoaded() {
                         toast("onLoaded");
@@ -60,9 +60,8 @@ public class BannerRecyclerActivity extends AppCompatActivity {
                     public void onUnloaded() {
                         toast("onUnloaded");
                     }
-
                 }
-        );
+            );
 
         adView.loadAd();
     }
@@ -95,21 +94,23 @@ public class BannerRecyclerActivity extends AppCompatActivity {
         @Override
         public void onBindViewHolder(@NonNull RecyclerView.ViewHolder org, int position) {
             switch (getItemViewType(position)) {
-                case 0: {
-                    MyTextItemVH vh = (MyTextItemVH) org;
-                    vh.text.setText("Position: " + vh.getAdapterPosition());
-                    break;
-                }
-                case 1: {
-                    MyAdItemVH vh = (MyAdItemVH) org;
-
-                    if (vh.container.getChildCount() > 0) {
-                        vh.container.removeAllViews();
+                case 0:
+                    {
+                        MyTextItemVH vh = (MyTextItemVH) org;
+                        vh.text.setText("Position: " + vh.getAdapterPosition());
+                        break;
                     }
+                case 1:
+                    {
+                        MyAdItemVH vh = (MyAdItemVH) org;
 
-                    vh.container.addView(adView);
-                    break;
-                }
+                        if (vh.container.getChildCount() > 0) {
+                            vh.container.removeAllViews();
+                        }
+
+                        vh.container.addView(adView);
+                        break;
+                    }
                 default:
                     throw new IllegalArgumentException("Not implemented!");
             }
@@ -119,23 +120,24 @@ public class BannerRecyclerActivity extends AppCompatActivity {
         public int getItemCount() {
             return 1000;
         }
-
     }
-
 
     private class MyTextItemVH extends RecyclerView.ViewHolder {
 
         public final TextView text;
 
         public MyTextItemVH(@NonNull ViewGroup parent) {
-            this(LayoutInflater.from(parent.getContext()).inflate(R.layout.banner_recycler_text_item_layout, parent, false));
+            this(
+                LayoutInflater
+                    .from(parent.getContext())
+                    .inflate(R.layout.banner_recycler_text_item_layout, parent, false)
+            );
         }
 
         public MyTextItemVH(@NonNull View itemView) {
             super(itemView);
             this.text = itemView.findViewById(R.id.text);
         }
-
     }
 
     private class MyAdItemVH extends RecyclerView.ViewHolder {
@@ -143,14 +145,16 @@ public class BannerRecyclerActivity extends AppCompatActivity {
         public final FrameLayout container;
 
         public MyAdItemVH(@NonNull ViewGroup parent) {
-            this(LayoutInflater.from(parent.getContext()).inflate(R.layout.banner_recycler_ad_item_layout, parent, false));
+            this(
+                LayoutInflater
+                    .from(parent.getContext())
+                    .inflate(R.layout.banner_recycler_ad_item_layout, parent, false)
+            );
         }
 
         public MyAdItemVH(@NonNull View itemView) {
             super(itemView);
             this.container = itemView.findViewById(R.id.container);
         }
-
     }
-
 }

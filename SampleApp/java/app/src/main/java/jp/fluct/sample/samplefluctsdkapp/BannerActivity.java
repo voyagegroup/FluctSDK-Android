@@ -4,10 +4,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-
 import jp.fluct.sample.samplefluctsdkapp.banner.BannerLayoutXmlActivity;
 import jp.fluct.sample.samplefluctsdkapp.banner.BannerRecyclerActivity;
 
@@ -18,26 +16,28 @@ public class BannerActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.banner_activity);
 
-        this.<Button>findViewById(R.id.impl_on_xml).setOnClickListener(new View.OnClickListener() {
+        this.<Button>findViewById(R.id.impl_on_xml)
+            .setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        startActivity(
+                            new Intent(BannerActivity.this, BannerLayoutXmlActivity.class)
+                        );
+                    }
+                }
+            );
 
-            @Override
-            public void onClick(View v) {
-                startActivity(
-                        new Intent(BannerActivity.this, BannerLayoutXmlActivity.class)
-                );
-            }
-
-        });
-
-        this.<Button>findViewById(R.id.recycler).setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View v) {
-                startActivity(
-                        new Intent(BannerActivity.this, BannerRecyclerActivity.class)
-                );
-            }
-
-        });
+        this.<Button>findViewById(R.id.recycler)
+            .setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        startActivity(
+                            new Intent(BannerActivity.this, BannerRecyclerActivity.class)
+                        );
+                    }
+                }
+            );
     }
 }

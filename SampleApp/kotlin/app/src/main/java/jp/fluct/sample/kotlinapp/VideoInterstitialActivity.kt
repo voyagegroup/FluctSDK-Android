@@ -29,9 +29,9 @@ class VideoInterstitialActivity : AppCompatActivity() {
         val unitID = "1000207345"
 
         val settings = FluctVideoInterstitialSettings.Builder()
-                .testMode(true)
-                .debugMode(true)
-                .build()
+            .testMode(true)
+            .debugMode(true)
+            .build()
 
         rewardedVideo = FluctVideoInterstitial.getInstance(groupID, unitID, this, settings)
         rewardedVideo.setListener(object : FluctVideoInterstitial.Listener {

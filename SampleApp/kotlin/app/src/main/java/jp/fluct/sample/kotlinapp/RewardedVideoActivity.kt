@@ -29,9 +29,9 @@ class RewardedVideoActivity : AppCompatActivity() {
         val unitID = "1000135434"
 
         val settings = FluctRewardedVideoSettings.Builder()
-                .testMode(true)
-                .debugMode(true)
-                .build()
+            .testMode(true)
+            .debugMode(true)
+            .build()
 
         rewardedVideo = FluctRewardedVideo.getInstance(groupID, unitID, this, settings)
         rewardedVideo.setListener(object : FluctRewardedVideo.Listener {

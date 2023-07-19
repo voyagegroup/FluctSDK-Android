@@ -13,7 +13,6 @@ import androidx.recyclerview.widget.RecyclerView
 import jp.fluct.fluctsdk.FluctAdView
 import jp.fluct.fluctsdk.FluctErrorCode
 import jp.fluct.sample.kotlinapp.R
-import java.lang.IllegalStateException
 
 class BannerRecyclerActivity : AppCompatActivity() {
 
@@ -26,36 +25,36 @@ class BannerRecyclerActivity : AppCompatActivity() {
 
         recycler.adapter = MyAdapter()
         recycler.layoutManager = LinearLayoutManager(
-                this,
-                LinearLayoutManager.VERTICAL,
-                false
+            this,
+            LinearLayoutManager.VERTICAL,
+            false
         )
 
         adView = FluctAdView(
-                this,
-                getString(R.string.banner_test_group_id),
-                getString(R.string.banner_test_unit_id),
-                getString(R.string.banner_test_ad_size),
-                null,
-                object : FluctAdView.Listener {
+            this,
+            getString(R.string.banner_test_group_id),
+            getString(R.string.banner_test_unit_id),
+            getString(R.string.banner_test_ad_size),
+            null,
+            object : FluctAdView.Listener {
 
-                    override fun onUnloaded() {
-                        toast("onUnloaded")
-                    }
-
-                    override fun onLeftApplication() {
-                        toast("onLeftApplication")
-                    }
-
-                    override fun onLoaded() {
-                        toast("onLoaded")
-                    }
-
-                    override fun onFailedToLoad(p0: FluctErrorCode) {
-                        toast("onFailedToLoad")
-                    }
-
+                override fun onUnloaded() {
+                    toast("onUnloaded")
                 }
+
+                override fun onLeftApplication() {
+                    toast("onLeftApplication")
+                }
+
+                override fun onLoaded() {
+                    toast("onLoaded")
+                }
+
+                override fun onFailedToLoad(p0: FluctErrorCode) {
+                    toast("onFailedToLoad")
+                }
+
+            }
         )
 
         adView.loadAd()
@@ -105,8 +104,8 @@ class BannerRecyclerActivity : AppCompatActivity() {
 private sealed class MyVH(itemView: View) : RecyclerView.ViewHolder(itemView)
 
 private class MyAdVH(parent: ViewGroup) : MyVH(
-        LayoutInflater.from(parent.context)
-                .inflate(R.layout.banner_recycler_ad_item_layout, parent, false)
+    LayoutInflater.from(parent.context)
+        .inflate(R.layout.banner_recycler_ad_item_layout, parent, false)
 ) {
 
     val container by lazy { itemView.findViewById<ViewGroup>(R.id.container) }
@@ -114,8 +113,8 @@ private class MyAdVH(parent: ViewGroup) : MyVH(
 }
 
 private class MyTextVH(parent: ViewGroup) : MyVH(
-        LayoutInflater.from(parent.context)
-                .inflate(R.layout.banner_recycler_text_item_layout, parent, false)
+    LayoutInflater.from(parent.context)
+        .inflate(R.layout.banner_recycler_text_item_layout, parent, false)
 ) {
 
     val text by lazy { itemView.findViewById<TextView>(R.id.text) }
