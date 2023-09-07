@@ -79,8 +79,6 @@ class VideoInterstitialActivity : AppCompatActivity() {
         }
         findViewById<Button>(R.id.load_button).setOnClickListener {
             val targeting = FluctAdRequestTargeting()
-            val userID = "APP_USER_ID"
-            targeting.setUserId(userID)
             targeting.gender = FluctAdRequestTargeting.FluctGender.MALE
             targeting.birthday = GregorianCalendar(1988, Calendar.JANUARY, 1).time
             rewardedVideo.loadAd(targeting)

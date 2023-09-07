@@ -3,7 +3,7 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
 ext {
-    fluctSdkVersion = '9.6.3'
+    fluctSdkVersion = '9.7.0'
 }
 
 android {
@@ -76,11 +76,9 @@ dependencies {
     implementation "jp.fluct.mediation:rewardedvideo-mediation-nend:${fluctSdkVersion}"
     implementation "jp.fluct.mediation:rewardedvideo-mediation-unityads:${fluctSdkVersion}"
     implementation "jp.fluct.mediation:rewardedvideo-mediation-adcolony:${fluctSdkVersion}"
-    implementation "jp.fluct.mediation:rewardedvideo-mediation-tapjoy:${fluctSdkVersion}"
     implementation "jp.fluct.mediation:rewardedvideo-mediation-five:${fluctSdkVersion}"
 
     implementation "jp.fluct.mediation:videointerstitial-mediation-maio:${fluctSdkVersion}"
     implementation "jp.fluct.mediation:videointerstitial-mediation-unityads:${fluctSdkVersion}"
     implementation "jp.fluct.mediation:videointerstitial-mediation-adcolony:${fluctSdkVersion}"
-    implementation "jp.fluct.mediation:videointerstitial-mediation-tapjoy:${fluctSdkVersion}"
 }

@@ -10,8 +10,6 @@
     <!-- region AdColony -->
     <uses-permission android:name="android.permission.VIBRATE"/>
     <!-- endregion -->
-    <!-- region Tapjoy -->
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
 
     <application
         android:name=".App"

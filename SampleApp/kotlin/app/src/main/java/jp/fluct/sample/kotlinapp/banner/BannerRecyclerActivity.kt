@@ -89,7 +89,6 @@ class BannerRecyclerActivity : AppCompatActivity() {
                     vh.container.addView(adView)
                 }
                 is MyTextVH -> vh.text.text = "Position: $position"
-                else -> throw IllegalStateException()
             }
         }
 

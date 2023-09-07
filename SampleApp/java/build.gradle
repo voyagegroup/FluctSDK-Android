@@ -11,7 +11,7 @@ buildscript {
     }
     dependencies {
         //noinspection GradleDependency
-        classpath 'com.android.tools.build:gradle:4.2.2'
+        classpath 'com.android.tools.build:gradle:7.2.1'
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
@@ -23,9 +23,8 @@ allprojects {
         mavenLocal()
         google()
         mavenCentral()
-        maven { url 'http://fan-adn.github.io/nendSDK-Android-lib/library' }
+        maven { url 'https://fan-adn.github.io/nendSDK-Android-lib/library' }
         maven { url "https://imobile-maio.github.io/maven" }
-        maven { url 'https://sdk.tapjoy.com' }
     }
 }
 
