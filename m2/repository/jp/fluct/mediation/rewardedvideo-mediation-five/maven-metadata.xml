@@ -3,8 +3,8 @@
   <groupId>jp.fluct.mediation</groupId>
   <artifactId>rewardedvideo-mediation-five</artifactId>
   <versioning>
-    <latest>9.8.3</latest>
-    <release>9.8.3</release>
+    <latest>9.8.4</latest>
+    <release>9.8.4</release>
     <versions>
       <version>7.7.0</version>
       <version>7.7.1</version>
@@ -101,7 +101,8 @@
       <version>9.8.1</version>
       <version>9.8.2</version>
       <version>9.8.3</version>
+      <version>9.8.4</version>
     </versions>
-    <lastUpdated>20231027041504</lastUpdated>
+    <lastUpdated>20231120084902</lastUpdated>
   </versioning>
 </metadata>
