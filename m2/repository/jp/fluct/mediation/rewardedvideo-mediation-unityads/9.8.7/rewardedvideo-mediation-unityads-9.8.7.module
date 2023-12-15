@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.fluct.mediation",
+    "module": "rewardedvideo-mediation-unityads",
+    "version": "9.8.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "jp.fluct",
+          "module": "FluctSDK",
+          "version": {
+            "requires": "[9.8.7]"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rewardedvideo-mediation-unityads-9.8.7.aar",
+          "url": "rewardedvideo-mediation-unityads-9.8.7.aar",
+          "size": 28462,
+          "sha512": "0508560f8a88b83ed6b1a3db9e6d04ac19fe2754c617a946db99fcec78b459e42391d1c16a80b5a51ee6fa159756c9457257988350e69bc76daf578850414cc7",
+          "sha256": "2c635af0a2bfc73639992b972a1a62432e6322a4e132727a5b81dad366be889d",
+          "sha1": "20a0e1c0078b875d3a509a36d84f1c5184e4a810",
+          "md5": "e20697c50b5d1f8c2ec43238ba527675"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.unity3d.ads",
+          "module": "unity-ads",
+          "version": {
+            "requires": "4.9.2"
+          }
+        },
+        {
+          "group": "jp.fluct",
+          "module": "FluctSDK",
+          "version": {
+            "requires": "[9.8.7]"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rewardedvideo-mediation-unityads-9.8.7.aar",
+          "url": "rewardedvideo-mediation-unityads-9.8.7.aar",
+          "size": 28462,
+          "sha512": "0508560f8a88b83ed6b1a3db9e6d04ac19fe2754c617a946db99fcec78b459e42391d1c16a80b5a51ee6fa159756c9457257988350e69bc76daf578850414cc7",
+          "sha256": "2c635af0a2bfc73639992b972a1a62432e6322a4e132727a5b81dad366be889d",
+          "sha1": "20a0e1c0078b875d3a509a36d84f1c5184e4a810",
+          "md5": "e20697c50b5d1f8c2ec43238ba527675"
+        }
+      ]
+    }
+  ]
+}
