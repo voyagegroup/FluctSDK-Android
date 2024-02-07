@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.fluct.mediation",
+    "module": "rewardedvideo-mediation-maio",
+    "version": "9.9.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "jp.fluct",
+          "module": "FluctSDK",
+          "version": {
+            "requires": "[9.9.0]"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rewardedvideo-mediation-maio-9.9.0.aar",
+          "url": "rewardedvideo-mediation-maio-9.9.0.aar",
+          "size": 23510,
+          "sha512": "c76f582de055909254d65633aa1049fcb93718f18f053cc4588be41084e033d8cc9175c534d69149ffef49532d5009d64861185dc18ff79c781cebfb2919d8a7",
+          "sha256": "3166f601c0a89f975c17a141ae9ae76d3e52067fa0136aa99261fb5074c32e09",
+          "sha1": "0cfb4eec53aee20b946758268285c052159b96a5",
+          "md5": "863f3483c38a27279549a19bd1fbe7ca"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.maio",
+          "module": "android-sdk",
+          "version": {
+            "requires": "1.1.16"
+          }
+        },
+        {
+          "group": "jp.fluct",
+          "module": "FluctSDK",
+          "version": {
+            "requires": "[9.9.0]"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rewardedvideo-mediation-maio-9.9.0.aar",
+          "url": "rewardedvideo-mediation-maio-9.9.0.aar",
+          "size": 23510,
+          "sha512": "c76f582de055909254d65633aa1049fcb93718f18f053cc4588be41084e033d8cc9175c534d69149ffef49532d5009d64861185dc18ff79c781cebfb2919d8a7",
+          "sha256": "3166f601c0a89f975c17a141ae9ae76d3e52067fa0136aa99261fb5074c32e09",
+          "sha1": "0cfb4eec53aee20b946758268285c052159b96a5",
+          "md5": "863f3483c38a27279549a19bd1fbe7ca"
+        }
+      ]
+    }
+  ]
+}
