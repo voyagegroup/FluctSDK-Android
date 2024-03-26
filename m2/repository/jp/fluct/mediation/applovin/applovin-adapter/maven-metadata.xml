@@ -3,8 +3,8 @@
   <groupId>jp.fluct.mediation.applovin</groupId>
   <artifactId>applovin-adapter</artifactId>
   <versioning>
-    <latest>9.9.3</latest>
-    <release>9.9.3</release>
+    <latest>9.9.4</latest>
+    <release>9.9.4</release>
     <versions>
       <version>8.14.0</version>
       <version>8.14.1</version>
@@ -51,7 +51,8 @@
       <version>9.9.1</version>
       <version>9.9.2</version>
       <version>9.9.3</version>
+      <version>9.9.4</version>
     </versions>
-    <lastUpdated>20240314055651</lastUpdated>
+    <lastUpdated>20240326044310</lastUpdated>
   </versioning>
 </metadata>
