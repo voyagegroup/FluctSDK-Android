@@ -24,7 +24,6 @@ allprojects {
         mavenLocal()
         google()
         mavenCentral()
-        maven { url 'https://fan-adn.github.io/nendSDK-Android-lib/library' }
         maven { url "https://imobile-maio.github.io/maven" }
     }
 }
