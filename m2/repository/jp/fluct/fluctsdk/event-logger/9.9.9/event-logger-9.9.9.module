@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.fluct.fluctsdk",
+    "module": "event-logger",
+    "version": "9.9.9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "event-logger-9.9.9.aar",
+          "url": "event-logger-9.9.9.aar",
+          "size": 12951,
+          "sha512": "6098de794406df4caf457fe8a32eaf7663979f6b2941188c5a61c0df9dc38b3b300201231f7fbd56f1fb917921dd5800d0eb1b4ab3c2aadd9147449d9305f09d",
+          "sha256": "b29b233633804825d009df4fcede144176aae72bef6b06ed7abc9db07445ff0f",
+          "sha1": "e4165f1d27ada2bd0e929b01bef8cad91febf749",
+          "md5": "23543c3f5c5fa909a193c33af7540e32"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "event-logger-9.9.9.aar",
+          "url": "event-logger-9.9.9.aar",
+          "size": 12951,
+          "sha512": "6098de794406df4caf457fe8a32eaf7663979f6b2941188c5a61c0df9dc38b3b300201231f7fbd56f1fb917921dd5800d0eb1b4ab3c2aadd9147449d9305f09d",
+          "sha256": "b29b233633804825d009df4fcede144176aae72bef6b06ed7abc9db07445ff0f",
+          "sha1": "e4165f1d27ada2bd0e929b01bef8cad91febf749",
+          "md5": "23543c3f5c5fa909a193c33af7540e32"
+        }
+      ]
+    }
+  ]
+}
