@@ -1,0 +1,139 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.fluct",
+    "module": "FluctSDK",
+    "version": "9.9.12",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "productionReleaseVariantProductionReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.3.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "FluctSDK-9.9.12.aar",
+          "url": "FluctSDK-9.9.12.aar",
+          "size": 460896,
+          "sha512": "c04f977ba7b5836a7e903715f8c0efb06b0d46d036f51062f7a7c5e0f34dae8596f892e36582002731a9b1ad22e83f17d3e556defec5c2f230fe7245683ac94c",
+          "sha256": "81c6d56a04f8be89ad079c42d5868f74d93b1fea1a777619e0d6d74538310397",
+          "sha1": "3cf7cb17200bb25f45903ac47f559d1230463212",
+          "md5": "56e175c2a441241bbb6f051a6a82d869"
+        }
+      ]
+    },
+    {
+      "name": "productionReleaseVariantProductionReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-base",
+          "version": {
+            "requires": "18.1.0"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-ads-identifier",
+          "version": {
+            "requires": "18.0.1"
+          }
+        },
+        {
+          "group": "androidx.webkit",
+          "module": "webkit",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "com.iab.omid.library",
+          "module": "fluctjp",
+          "version": {
+            "requires": "1.3.19"
+          }
+        },
+        {
+          "group": "jp.fluct.fluctsdk",
+          "module": "event-logger",
+          "version": {
+            "requires": "[9.9.12]"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.3.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "FluctSDK-9.9.12.aar",
+          "url": "FluctSDK-9.9.12.aar",
+          "size": 460896,
+          "sha512": "c04f977ba7b5836a7e903715f8c0efb06b0d46d036f51062f7a7c5e0f34dae8596f892e36582002731a9b1ad22e83f17d3e556defec5c2f230fe7245683ac94c",
+          "sha256": "81c6d56a04f8be89ad079c42d5868f74d93b1fea1a777619e0d6d74538310397",
+          "sha1": "3cf7cb17200bb25f45903ac47f559d1230463212",
+          "md5": "56e175c2a441241bbb6f051a6a82d869"
+        }
+      ]
+    }
+  ]
+}
