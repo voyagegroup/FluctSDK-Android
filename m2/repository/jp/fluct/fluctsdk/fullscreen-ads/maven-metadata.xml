@@ -3,8 +3,8 @@
   <groupId>jp.fluct.fluctsdk</groupId>
   <artifactId>fullscreen-ads</artifactId>
   <versioning>
-    <latest>9.13.1</latest>
-    <release>9.13.1</release>
+    <latest>9.13.2</latest>
+    <release>9.13.2</release>
     <versions>
       <version>7.3.0</version>
       <version>7.3.1</version>
@@ -143,7 +143,8 @@
       <version>9.12.3</version>
       <version>9.13.0</version>
       <version>9.13.1</version>
+      <version>9.13.2</version>
     </versions>
-    <lastUpdated>20250410083329</lastUpdated>
+    <lastUpdated>20250422051106</lastUpdated>
   </versioning>
 </metadata>
