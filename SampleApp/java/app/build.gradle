@@ -1,12 +1,13 @@
 apply plugin: 'com.android.application'
 
 ext {
-    fluctSdkVersion = '9.13.8'
+    fluctSdkVersion = '9.13.9'
 }
 
 android {
-    compileSdkVersion 34
-    buildToolsVersion '34.0.0'
+    namespace 'jp.fluct.sample.samplefluctsdkapp'
+    compileSdkVersion 35
+    buildToolsVersion '35.0.1'
     defaultConfig {
         applicationId "jp.fluct.sample.samplefluctsdkapp"
         minSdkVersion 21
@@ -27,7 +28,7 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
-    lintOptions {
+    lint {
         abortOnError false
     }
 }

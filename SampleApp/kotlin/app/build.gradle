@@ -3,12 +3,14 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
 ext {
-    fluctSdkVersion = '9.13.8'
+    fluctSdkVersion = '9.13.9'
 }
 
 android {
-    compileSdkVersion 34
-    buildToolsVersion '34.0.0'
+    namespace 'jp.fluct.sample.kotlinapp'
+
+    compileSdkVersion 35
+    buildToolsVersion '35.0.1'
 
     defaultConfig {
         applicationId "jp.fluct.sample.kotlin.sampleapp"
@@ -36,7 +38,7 @@ android {
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
-    lintOptions {
+    lint {
         abortOnError false
     }
 }
