@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.fluct.mediation",
+    "module": "rewardedvideo-mediation-pangle",
+    "version": "9.13.9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "jp.fluct",
+          "module": "FluctSDK",
+          "version": {
+            "requires": "[9.13.9]"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rewardedvideo-mediation-pangle-9.13.9.aar",
+          "url": "rewardedvideo-mediation-pangle-9.13.9.aar",
+          "size": 30329,
+          "sha512": "85a1c75e465313ed92ffaede4fa59e0d0b56451b7e1921b1f610ca9a0d001a4b4650038bbb4e288c313d9a303d6e0d29faf752ea86b6ddc2578d81c325d65f2b",
+          "sha256": "c67752761166f53cc4a968cc7063f413da8747376a1d9490d72a3ddcff663433",
+          "sha1": "cfeeaef1d2af7ea7d39f7a583da88d5ac0974530",
+          "md5": "9e08ee4ae7474d635d15234fec2bafc9"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.pangle.global",
+          "module": "pag-sdk",
+          "version": {
+            "requires": "7.5.0.4"
+          }
+        },
+        {
+          "group": "jp.fluct",
+          "module": "FluctSDK",
+          "version": {
+            "requires": "[9.13.9]"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rewardedvideo-mediation-pangle-9.13.9.aar",
+          "url": "rewardedvideo-mediation-pangle-9.13.9.aar",
+          "size": 30329,
+          "sha512": "85a1c75e465313ed92ffaede4fa59e0d0b56451b7e1921b1f610ca9a0d001a4b4650038bbb4e288c313d9a303d6e0d29faf752ea86b6ddc2578d81c325d65f2b",
+          "sha256": "c67752761166f53cc4a968cc7063f413da8747376a1d9490d72a3ddcff663433",
+          "sha1": "cfeeaef1d2af7ea7d39f7a583da88d5ac0974530",
+          "md5": "9e08ee4ae7474d635d15234fec2bafc9"
+        }
+      ]
+    }
+  ]
+}
