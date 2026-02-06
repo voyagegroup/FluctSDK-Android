@@ -3,8 +3,8 @@
   <groupId>jp.fluct</groupId>
   <artifactId>FluctSDK</artifactId>
   <versioning>
-    <latest>9.13.12</latest>
-    <release>9.13.12</release>
+    <latest>9.13.13</latest>
+    <release>9.13.13</release>
     <versions>
       <version>5.8.0</version>
       <version>5.9.0</version>
@@ -174,7 +174,8 @@
       <version>9.13.10</version>
       <version>9.13.11</version>
       <version>9.13.12</version>
+      <version>9.13.13</version>
     </versions>
-    <lastUpdated>20251212082137</lastUpdated>
+    <lastUpdated>20260206080525</lastUpdated>
   </versioning>
 </metadata>
