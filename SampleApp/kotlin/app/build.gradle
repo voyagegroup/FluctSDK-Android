@@ -3,7 +3,7 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
 ext {
-    fluctSdkVersion = '9.14.0'
+    fluctSdkVersion = '9.14.1'
 }
 
 android {
@@ -14,7 +14,7 @@ android {
 
     defaultConfig {
         applicationId "jp.fluct.sample.kotlin.sampleapp"
-        minSdkVersion 21
+        minSdkVersion 23
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
