@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.fluct.fluctsdk",
+    "module": "nativead-core",
+    "version": "9.15.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.3.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nativead-core-9.15.1.aar",
+          "url": "nativead-core-9.15.1.aar",
+          "size": 81884,
+          "sha512": "be7bfb2558e1f9753e694139a37b5ac4073b5a01a3de4b597d809c2b43e7b2b73cee0e914f7cafb687dc31bad9d5421cdc5bf7a7a3310617dd9015e57b22aff2",
+          "sha256": "8da4e39f1ccbffcbaa88cb5997a7864b0864cf549fe00c937f3a0d271c708025",
+          "sha1": "68a3d70a7ac8d3bb4b07763e94a794d86dc8dabd",
+          "md5": "aa82eff2dd958200a7bd0fdf349132d2"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "jp.fluct.fluctsdk",
+          "module": "shared",
+          "version": {
+            "requires": "[9.15.1]"
+          }
+        },
+        {
+          "group": "jp.fluct.fluctsdk",
+          "module": "event-logger",
+          "version": {
+            "requires": "[9.15.1]"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.3.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nativead-core-9.15.1.aar",
+          "url": "nativead-core-9.15.1.aar",
+          "size": 81884,
+          "sha512": "be7bfb2558e1f9753e694139a37b5ac4073b5a01a3de4b597d809c2b43e7b2b73cee0e914f7cafb687dc31bad9d5421cdc5bf7a7a3310617dd9015e57b22aff2",
+          "sha256": "8da4e39f1ccbffcbaa88cb5997a7864b0864cf549fe00c937f3a0d271c708025",
+          "sha1": "68a3d70a7ac8d3bb4b07763e94a794d86dc8dabd",
+          "md5": "aa82eff2dd958200a7bd0fdf349132d2"
+        }
+      ]
+    }
+  ]
+}
