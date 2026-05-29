@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.fluct.fluctsdk",
+    "module": "shared",
+    "version": "9.15.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.3.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "shared-9.15.3.aar",
+          "url": "shared-9.15.3.aar",
+          "size": 80985,
+          "sha512": "547b32975021ef39cf5279fc81199ae6d5f227500866781dead7873e56451487be5ce5d85c5ac00c245da40f7bcbe0eab6757021f03927464cecaaff0b74fb52",
+          "sha256": "fb34121a7f1bdef406cfd21ccbf03b765b8f806ac67615db8eea1d970ef98b04",
+          "sha1": "2c0bccff954b4554adc50e9592aaac34cb41bf39",
+          "md5": "463730b0529bb410a445988b26303e99"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-base",
+          "version": {
+            "requires": "18.1.0"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-ads-identifier",
+          "version": {
+            "requires": "18.0.1"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.3.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "shared-9.15.3.aar",
+          "url": "shared-9.15.3.aar",
+          "size": 80985,
+          "sha512": "547b32975021ef39cf5279fc81199ae6d5f227500866781dead7873e56451487be5ce5d85c5ac00c245da40f7bcbe0eab6757021f03927464cecaaff0b74fb52",
+          "sha256": "fb34121a7f1bdef406cfd21ccbf03b765b8f806ac67615db8eea1d970ef98b04",
+          "sha1": "2c0bccff954b4554adc50e9592aaac34cb41bf39",
+          "md5": "463730b0529bb410a445988b26303e99"
+        }
+      ]
+    }
+  ]
+}

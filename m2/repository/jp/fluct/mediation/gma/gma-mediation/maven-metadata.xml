@@ -3,8 +3,8 @@
   <groupId>jp.fluct.mediation.gma</groupId>
   <artifactId>gma-mediation</artifactId>
   <versioning>
-    <latest>9.15.2</latest>
-    <release>9.15.2</release>
+    <latest>9.15.3</latest>
+    <release>9.15.3</release>
     <versions>
       <version>1.4.0</version>
       <version>1.5.0</version>
@@ -181,7 +181,8 @@
       <version>9.15.0</version>
       <version>9.15.1</version>
       <version>9.15.2</version>
+      <version>9.15.3</version>
     </versions>
-    <lastUpdated>20260526021747</lastUpdated>
+    <lastUpdated>20260529011424</lastUpdated>
   </versioning>
 </metadata>
