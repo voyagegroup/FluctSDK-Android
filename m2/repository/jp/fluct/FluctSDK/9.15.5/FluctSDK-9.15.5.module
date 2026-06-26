@@ -1,0 +1,153 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.fluct",
+    "module": "FluctSDK",
+    "version": "9.15.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "productionReleaseVariantProductionReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "jp.fluct.fluctsdk",
+          "module": "shared",
+          "version": {
+            "requires": "[9.15.5]"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "FluctSDK-9.15.5.aar",
+          "url": "FluctSDK-9.15.5.aar",
+          "size": 458152,
+          "sha512": "85fa863aeae456881a93ab987af0904a5688a8c9732d60c5259a6ff3320ce502fe4181a460aec1d4704f636ca8794e63b77cedbbad0cce64f371fa474abca3dc",
+          "sha256": "47d41eb63ace0411b7c08ab5b760ab13e7620ee1b6c0ed9f2a0ba3a8cb0f2e9f",
+          "sha1": "8a3b8388a34bfee7015bdf60f40b69cdf5123bdc",
+          "md5": "7b25b0c6ea0e59e6b442b11ff0f27e4e"
+        }
+      ]
+    },
+    {
+      "name": "productionReleaseVariantProductionReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-base",
+          "version": {
+            "requires": "18.1.0"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-ads-identifier",
+          "version": {
+            "requires": "18.0.1"
+          }
+        },
+        {
+          "group": "androidx.webkit",
+          "module": "webkit",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "com.iab.omid.library",
+          "module": "fluctjp",
+          "version": {
+            "requires": "1.6.2"
+          }
+        },
+        {
+          "group": "jp.fluct.fluctsdk",
+          "module": "event-logger",
+          "version": {
+            "requires": "[9.15.5]"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "jp.fluct.fluctsdk",
+          "module": "shared",
+          "version": {
+            "requires": "[9.15.5]"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "FluctSDK-9.15.5.aar",
+          "url": "FluctSDK-9.15.5.aar",
+          "size": 458152,
+          "sha512": "85fa863aeae456881a93ab987af0904a5688a8c9732d60c5259a6ff3320ce502fe4181a460aec1d4704f636ca8794e63b77cedbbad0cce64f371fa474abca3dc",
+          "sha256": "47d41eb63ace0411b7c08ab5b760ab13e7620ee1b6c0ed9f2a0ba3a8cb0f2e9f",
+          "sha1": "8a3b8388a34bfee7015bdf60f40b69cdf5123bdc",
+          "md5": "7b25b0c6ea0e59e6b442b11ff0f27e4e"
+        }
+      ]
+    }
+  ]
+}

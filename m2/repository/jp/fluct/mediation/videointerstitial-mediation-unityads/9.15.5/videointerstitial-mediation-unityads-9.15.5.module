@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.fluct.mediation",
+    "module": "videointerstitial-mediation-unityads",
+    "version": "9.15.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "jp.fluct",
+          "module": "FluctSDK",
+          "version": {
+            "requires": "[9.15.5]"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "videointerstitial-mediation-unityads-9.15.5.aar",
+          "url": "videointerstitial-mediation-unityads-9.15.5.aar",
+          "size": 14662,
+          "sha512": "80f50d47768ca5062a1887c8032d2ba7ac55f0e0f3e6d61a4037455153e4ac5d30b044678c0fe2b70326c37e1fdbc098a8f67de288df532a53f34989479b6caa",
+          "sha256": "dbb086a60f7b7739ca529e4c87faaa61e1ce671c8ce7dbba211c85b2559b57e5",
+          "sha1": "d85e179c0daf13ac3a737713770a7885a7b2983b",
+          "md5": "1e90bddaf2ae2657cd7a8af51305df2b"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.unity3d.ads",
+          "module": "unity-ads",
+          "version": {
+            "requires": "4.17.0"
+          }
+        },
+        {
+          "group": "jp.fluct.mediation",
+          "module": "rewardedvideo-mediation-unityads",
+          "version": {
+            "requires": "[9.15.5]"
+          }
+        },
+        {
+          "group": "jp.fluct",
+          "module": "FluctSDK",
+          "version": {
+            "requires": "[9.15.5]"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "videointerstitial-mediation-unityads-9.15.5.aar",
+          "url": "videointerstitial-mediation-unityads-9.15.5.aar",
+          "size": 14662,
+          "sha512": "80f50d47768ca5062a1887c8032d2ba7ac55f0e0f3e6d61a4037455153e4ac5d30b044678c0fe2b70326c37e1fdbc098a8f67de288df532a53f34989479b6caa",
+          "sha256": "dbb086a60f7b7739ca529e4c87faaa61e1ce671c8ce7dbba211c85b2559b57e5",
+          "sha1": "d85e179c0daf13ac3a737713770a7885a7b2983b",
+          "md5": "1e90bddaf2ae2657cd7a8af51305df2b"
+        }
+      ]
+    }
+  ]
+}

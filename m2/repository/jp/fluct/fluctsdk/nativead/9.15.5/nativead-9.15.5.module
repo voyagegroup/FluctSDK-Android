@@ -1,0 +1,74 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.fluct.fluctsdk",
+    "module": "nativead",
+    "version": "9.15.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "nativead-9.15.5.aar",
+          "url": "nativead-9.15.5.aar",
+          "size": 55822,
+          "sha512": "db64da64d92d6a0055d06f4474756f9d1e3614fa3c3c01779658692f9329bc341a3c844ff3c3f5d617b9196692e24ab4ab42dc47bbb8396f696f9fcd2193a914",
+          "sha256": "f2377400a3517fb45349788db313489699b66a455e879987a3975065c0f3db5c",
+          "sha1": "83f2853f186bec8a47e34dcf27209766bf48323a",
+          "md5": "9ae71aa0650f22f0487b1882089e7d26"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "jp.fluct.fluctsdk",
+          "module": "nativead-core",
+          "version": {
+            "requires": "[9.15.5]"
+          }
+        },
+        {
+          "group": "jp.fluct.fluctsdk",
+          "module": "shared",
+          "version": {
+            "requires": "[9.15.5]"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nativead-9.15.5.aar",
+          "url": "nativead-9.15.5.aar",
+          "size": 55822,
+          "sha512": "db64da64d92d6a0055d06f4474756f9d1e3614fa3c3c01779658692f9329bc341a3c844ff3c3f5d617b9196692e24ab4ab42dc47bbb8396f696f9fcd2193a914",
+          "sha256": "f2377400a3517fb45349788db313489699b66a455e879987a3975065c0f3db5c",
+          "sha1": "83f2853f186bec8a47e34dcf27209766bf48323a",
+          "md5": "9ae71aa0650f22f0487b1882089e7d26"
+        }
+      ]
+    }
+  ]
+}
