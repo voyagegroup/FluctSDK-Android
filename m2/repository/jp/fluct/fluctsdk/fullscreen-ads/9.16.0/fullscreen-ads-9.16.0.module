@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.fluct.fluctsdk",
+    "module": "fullscreen-ads",
+    "version": "9.16.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "exoplayerDefaultReleaseVariantExoplayerDefaultReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "jp.fluct",
+          "module": "FluctSDK",
+          "version": {
+            "requires": "[9.16.0]"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.3.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fullscreen-ads-9.16.0.aar",
+          "url": "fullscreen-ads-9.16.0.aar",
+          "size": 146055,
+          "sha512": "fb339dddc9e3f22fb442cfe0cc213becf06c83b30960ad5dec95d4036cee0cddadb1bdbf6b764e60797b7eb443383fafb6971e2bf117c9005b8a91c65cc78b78",
+          "sha256": "ea22c3ec7ca37c65bfcf32bed25be2b4f2b607881a4342d38ddf2d5b398b3b59",
+          "sha1": "1926268a07930ebdc164cc7eac9c36f8f871499a",
+          "md5": "e1f41ec7975e262d58be2725f377191e"
+        }
+      ]
+    },
+    {
+      "name": "exoplayerDefaultReleaseVariantExoplayerDefaultReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.android.exoplayer",
+          "module": "exoplayer-core",
+          "version": {
+            "requires": "2.18.1"
+          }
+        },
+        {
+          "group": "com.google.android.exoplayer",
+          "module": "exoplayer-ui",
+          "version": {
+            "requires": "2.18.1"
+          }
+        },
+        {
+          "group": "jp.fluct.fluctsdk",
+          "module": "shared",
+          "version": {
+            "requires": "[9.16.0]"
+          }
+        },
+        {
+          "group": "com.iab.omid.library",
+          "module": "fluctjp",
+          "version": {
+            "requires": "null"
+          }
+        },
+        {
+          "group": "jp.fluct",
+          "module": "FluctSDK",
+          "version": {
+            "requires": "[9.16.0]"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.3.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fullscreen-ads-9.16.0.aar",
+          "url": "fullscreen-ads-9.16.0.aar",
+          "size": 146055,
+          "sha512": "fb339dddc9e3f22fb442cfe0cc213becf06c83b30960ad5dec95d4036cee0cddadb1bdbf6b764e60797b7eb443383fafb6971e2bf117c9005b8a91c65cc78b78",
+          "sha256": "ea22c3ec7ca37c65bfcf32bed25be2b4f2b607881a4342d38ddf2d5b398b3b59",
+          "sha1": "1926268a07930ebdc164cc7eac9c36f8f871499a",
+          "md5": "e1f41ec7975e262d58be2725f377191e"
+        }
+      ]
+    }
+  ]
+}
