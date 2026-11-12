@@ -3,8 +3,8 @@
   <groupId>jp.fluct.fluctsdk</groupId>
   <artifactId>nativead</artifactId>
   <versioning>
-    <latest>9.17.0</latest>
-    <release>9.17.0</release>
+    <latest>9.17.1</latest>
+    <release>9.17.1</release>
     <versions>
       <version>9.15.0</version>
       <version>9.15.1</version>
@@ -16,7 +16,8 @@
       <version>9.16.1</version>
       <version>9.16.2</version>
       <version>9.17.0</version>
+      <version>9.17.1</version>
     </versions>
-    <lastUpdated>20261102012532</lastUpdated>
+    <lastUpdated>20261112031534</lastUpdated>
   </versioning>
 </metadata>
